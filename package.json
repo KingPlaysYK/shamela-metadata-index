@@ -7,7 +7,10 @@
     "github:create-repo": "node scripts/create-github-repo.mjs",
     "github:create-issues": "node scripts/create-github-issues.mjs",
     "github:export-issues": "node scripts/export-github-issues.mjs",
+    "issues:generate-requested": "node scripts/generate-requested-issues.mjs",
     "inventory:existing": "node scripts/inventory-existing-data.mjs",
+    "resolve:books": "node scripts/resolve-requested-books.mjs",
+    "pipeline:stage": "node scripts/pipeline-stage.mjs",
     "status": "node scripts/status.mjs"
   }
 }

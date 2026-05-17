@@ -105,3 +105,107 @@ Source: `issues/025-build-evaluation-set-and-quality-checks.md`
 ## 26. Package local run commands and documentation
 
 Source: `issues/026-package-local-run-commands-and-documentation.md`
+
+## 27. Download and process all Ibn al-Jawzi books
+
+Source: `issues/027-download-and-process-all-ibn-al-jawzi-books.md`
+
+## 28. Download and process all Ibn Hajar al-Asqalani books
+
+Source: `issues/028-download-and-process-all-ibn-hajar-al-asqalani-books.md`
+
+## 29. Download and process Ibn Qudamah al-Maqdisi books
+
+Source: `issues/029-download-and-process-ibn-qudamah-al-maqdisi-books.md`
+
+## 30. Download and process all Imam al-Dhahabi books
+
+Source: `issues/030-download-and-process-all-imam-al-dhahabi-books.md`
+
+## 31. Download and process all Ibn al-Qayyim books
+
+Source: `issues/031-download-and-process-all-ibn-al-qayyim-books.md`
+
+## 32. Download and process Imam al-Albani books
+
+Source: `issues/032-download-and-process-imam-al-albani-books.md`
+
+## 33. Download and process Shaykh Ibn Uthaymin books
+
+Source: `issues/033-download-and-process-shaykh-ibn-uthaymin-books.md`
+
+## 34. Download and process Imam al-Qurtubi books
+
+Source: `issues/034-download-and-process-imam-al-qurtubi-books.md`
+
+## 35. Download and process Bidayat al-Mujtahid by Ibn Rushd
+
+Source: `issues/035-download-and-process-bidayat-al-mujtahid-by-ibn-rushd.md`
+
+## 36. Download and process Qadi Iyad explanation books
+
+Source: `issues/036-download-and-process-qadi-iyad-explanation-books.md`
+
+## 37. Download and process al-Muhalla by Ibn Hazm
+
+Source: `issues/037-download-and-process-al-muhalla-by-ibn-hazm.md`
+
+## 38. Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi
+
+Source: `issues/038-download-and-process-al-bahr-al-muhit-al-thajjaj-by-muhammad-ibn-ali-al-ithyubi.md`
+
+## 39. Download and process Sharh al-Sunnah by al-Baghawi
+
+Source: `issues/039-download-and-process-sharh-al-sunnah-by-al-baghawi.md`
+
+## 40. Download and process al-Umm by Imam al-Shafi'i
+
+Source: `issues/040-download-and-process-al-umm-by-imam-al-shafii.md`
+
+## 41. Download and process al-Bayan wa al-Tahsil
+
+Source: `issues/041-download-and-process-al-bayan-wa-al-tahsil.md`
+
+## 42. Download and process Bada'i al-Sana'i by al-Kasani
+
+Source: `issues/042-download-and-process-badai-al-sanai-by-al-kasani.md`
+
+## 43. Download and process all Ibn Kathir books
+
+Source: `issues/043-download-and-process-all-ibn-kathir-books.md`
+
+## 44. Download and process all Imam al-Nawawi books
+
+Source: `issues/044-download-and-process-all-imam-al-nawawi-books.md`
+
+## 45. Download and process Tarikh al-Tabari
+
+Source: `issues/045-download-and-process-tarikh-al-tabari.md`
+
+## 46. Download and process al-Kamil fi al-Tarikh by Ibn al-Athir
+
+Source: `issues/046-download-and-process-al-kamil-fi-al-tarikh-by-ibn-al-athir.md`
+
+## 47. Download and process Kitab al-Ibar by Ibn Khaldun
+
+Source: `issues/047-download-and-process-kitab-al-ibar-by-ibn-khaldun.md`
+
+## 48. Download and process Umdat al-Qari by Badr al-Din al-Ayni
+
+Source: `issues/048-download-and-process-umdat-al-qari-by-badr-al-din-al-ayni.md`
+
+## 49. Download and process all Ibn Abd al-Barr books
+
+Source: `issues/049-download-and-process-all-ibn-abd-al-barr-books.md`
+
+## 50. Download and process Iqd al-Farid
+
+Source: `issues/050-download-and-process-iqd-al-farid.md`
+
+## 51. Download and process all Arabic language books
+
+Source: `issues/051-download-and-process-all-arabic-language-books.md`
+
+## 52. Record author madhab and scholarly profile for every book
+
+Source: `issues/052-record-author-madhab-and-scholarly-profile-for-every-book.md`

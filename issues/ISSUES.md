@@ -30,3 +30,29 @@ These issues are ready to create on GitHub once the repository exists.
 | 024 | Add footnote quality rules by type |
 | 025 | Build evaluation set and quality checks |
 | 026 | Package local run commands and documentation |
+| 027 | Download and process all Ibn al-Jawzi books |
+| 028 | Download and process all Ibn Hajar al-Asqalani books |
+| 029 | Download and process Ibn Qudamah al-Maqdisi books |
+| 030 | Download and process all Imam al-Dhahabi books |
+| 031 | Download and process all Ibn al-Qayyim books |
+| 032 | Download and process Imam al-Albani books |
+| 033 | Download and process Shaykh Ibn Uthaymin books |
+| 034 | Download and process Imam al-Qurtubi books |
+| 035 | Download and process Bidayat al-Mujtahid by Ibn Rushd |
+| 036 | Download and process Qadi Iyad explanation books |
+| 037 | Download and process al-Muhalla by Ibn Hazm |
+| 038 | Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi |
+| 039 | Download and process Sharh al-Sunnah by al-Baghawi |
+| 040 | Download and process al-Umm by Imam al-Shafi'i |
+| 041 | Download and process al-Bayan wa al-Tahsil |
+| 042 | Download and process Bada'i al-Sana'i by al-Kasani |
+| 043 | Download and process all Ibn Kathir books |
+| 044 | Download and process all Imam al-Nawawi books |
+| 045 | Download and process Tarikh al-Tabari |
+| 046 | Download and process al-Kamil fi al-Tarikh by Ibn al-Athir |
+| 047 | Download and process Kitab al-Ibar by Ibn Khaldun |
+| 048 | Download and process Umdat al-Qari by Badr al-Din al-Ayni |
+| 049 | Download and process all Ibn Abd al-Barr books |
+| 050 | Download and process Iqd al-Farid |
+| 051 | Download and process all Arabic language books |
+| 052 | Record author madhab and scholarly profile for every book |

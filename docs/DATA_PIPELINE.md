@@ -120,3 +120,21 @@ Expose retrieval to:
 - source modal
 - explain further
 - research mode
+
+## Runnable Scaffolds
+
+These scripts are intentionally conservative. They help prepare and verify the work before expensive downloads or AI runs.
+
+```powershell
+node scripts/status.mjs
+node scripts/inventory-existing-data.mjs
+node scripts/resolve-requested-books.mjs
+node scripts/pipeline-stage.mjs --stage=catalogue
+node scripts/pipeline-stage.mjs --stage=download
+node scripts/pipeline-stage.mjs --stage=baseline
+node scripts/pipeline-stage.mjs --stage=enrich
+node scripts/pipeline-stage.mjs --stage=validate
+node scripts/pipeline-stage.mjs --stage=index
+```
+
+Full long-running download/enrichment/index jobs should be run in batches and logged under `data/logs`.
