@@ -1,0 +1,11 @@
+{
+  "name": "shamela-metadata-index",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "github:create-repo": "node scripts/create-github-repo.mjs",
+    "github:create-issues": "node scripts/create-github-issues.mjs",
+    "status": "node scripts/status.mjs"
+  }
+}
