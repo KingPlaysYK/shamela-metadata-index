@@ -7,6 +7,7 @@
     "github:create-repo": "node scripts/create-github-repo.mjs",
     "github:create-issues": "node scripts/create-github-issues.mjs",
     "github:create-issues:credential": "node scripts/create-github-issues-from-git-credential.mjs",
+    "github:update-issue:credential": "node --use-system-ca scripts/update-github-issue-from-export.mjs",
     "github:export-issues": "node scripts/export-github-issues.mjs",
     "issues:generate-requested": "node scripts/generate-requested-issues.mjs",
     "inventory:existing": "node scripts/inventory-existing-data.mjs",
