@@ -87,6 +87,42 @@ function escapeMd(value) {
   return String(value || "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 }
 
+function asArray(value) {
+  return Array.isArray(value) ? value : [];
+}
+
+async function readExistingScope(filePath) {
+  try {
+    return JSON.parse(await fs.readFile(filePath, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function mergeReview(defaultReview, existingReview) {
+  if (!existingReview) return defaultReview;
+  const merged = {
+    ...defaultReview,
+    ...existingReview
+  };
+  merged.instructions = defaultReview.instructions;
+  merged.blockers = Array.from(new Set([
+    ...asArray(defaultReview.blockers),
+    ...asArray(existingReview.blockers)
+  ]));
+  return merged;
+}
+
+function mergeCandidateReview(candidate, existingCandidate) {
+  if (!existingCandidate) return candidate;
+  return {
+    ...candidate,
+    decision: existingCandidate.decision || candidate.decision,
+    role: existingCandidate.role || candidate.role,
+    review_notes: existingCandidate.review_notes || candidate.review_notes
+  };
+}
+
 const resolution = JSON.parse(await fs.readFile(resolutionPath, "utf8"));
 const plan = JSON.parse(await fs.readFile(planPath, "utf8"));
 const resolutionById = new Map(resolution.map((item) => [item.id, item]));
@@ -106,6 +142,10 @@ const manifest = {
 for (const item of plan) {
   const resolved = resolutionById.get(item.id) || {};
   const template = reviewTemplate(item);
+  const filename = `${item.id}.json`;
+  const scopePath = path.join(scopesDir, filename);
+  const existingScope = await readExistingScope(scopePath);
+  const existingCandidates = new Map(asArray(existingScope?.candidates).map((candidate) => [String(candidate.book_id), candidate]));
   const scopeRecord = {
     id: item.id,
     request: item.request,
@@ -114,7 +154,7 @@ for (const item of plan) {
     status: item.status,
     recommended_action: item.recommended_action,
     edition_status: item.edition_status,
-    review: template,
+    review: mergeReview(template, existingScope?.review),
     candidates: (resolved.top_candidates || []).slice(0, 25).map((candidate) => ({
       book_id: candidate.book_id,
       decision: "undecided",
@@ -132,11 +172,10 @@ for (const item of plan) {
       score: candidate.score,
       reasons: candidate.reasons || [],
       review_notes: ""
-    }))
+    })).map((candidate) => mergeCandidateReview(candidate, existingCandidates.get(String(candidate.book_id))))
   };
 
-  const filename = `${item.id}.json`;
-  await fs.writeFile(path.join(scopesDir, filename), `${JSON.stringify(scopeRecord, null, 2)}\n`, "utf8");
+  await fs.writeFile(scopePath, `${JSON.stringify(scopeRecord, null, 2)}\n`, "utf8");
   manifest.scopes.push({
     id: item.id,
     request: item.request,
@@ -161,6 +200,8 @@ const readme = [
   "This folder is the approval layer between catalogue resolution and large downloads.",
   "",
   "A top catalogue candidate is not automatically canonical. Approve or reject candidates here before running download, metadata enrichment, or indexing jobs.",
+  "",
+  "Regenerating this workspace preserves existing review decisions, candidate roles, and review notes when the same book IDs remain present.",
   "",
   "## Approval Status Summary",
   "",

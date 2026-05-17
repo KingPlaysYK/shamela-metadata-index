@@ -4,6 +4,8 @@ This folder is the approval layer between catalogue resolution and large downloa
 
 A top catalogue candidate is not automatically canonical. Approve or reject candidates here before running download, metadata enrichment, or indexing jobs.
 
+Regenerating this workspace preserves existing review decisions, candidate roles, and review notes when the same book IDs remain present.
+
 ## Approval Status Summary
 
 | Approval status | Count |

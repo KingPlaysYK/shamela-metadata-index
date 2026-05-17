@@ -14,6 +14,7 @@ This audit records the real project state so the repository does not confuse pla
 - Iqd al-Farid issue #50 is scoped to the Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition rather than a generic Iqd al-Farid text.
 - Pipeline scaffolding exists for catalogue, download, baseline metadata, enrichment, validation, and indexing stages.
 - Download curation scaffolding exists so candidate books can be approved, blocked, deferred, or marked fallback before large jobs run.
+- Curation validation and approved-download manifest scaffolding exist so future bulk jobs can be gated on reviewed candidates only.
 
 ## Not Complete Yet
 

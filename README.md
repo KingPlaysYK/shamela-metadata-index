@@ -31,6 +31,8 @@ node scripts/export-github-issues.mjs
 node scripts/resolve-requested-books.mjs
 node scripts/build-download-plan.mjs
 node scripts/build-curation-workspace.mjs
+node scripts/validate-curation.mjs
+node scripts/build-approved-download-manifest.mjs
 ```
 
 Project control docs:

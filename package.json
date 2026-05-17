@@ -14,6 +14,8 @@
     "resolve:books": "node scripts/resolve-requested-books.mjs",
     "plan:downloads": "node scripts/build-download-plan.mjs",
     "curation:build": "node scripts/build-curation-workspace.mjs",
+    "curation:validate": "node scripts/validate-curation.mjs",
+    "downloads:manifest": "node scripts/build-approved-download-manifest.mjs",
     "pipeline:stage": "node scripts/pipeline-stage.mjs",
     "status": "node scripts/status.mjs"
   }

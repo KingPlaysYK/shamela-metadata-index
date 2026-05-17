@@ -131,6 +131,8 @@ node scripts/inventory-existing-data.mjs
 node scripts/resolve-requested-books.mjs
 node scripts/build-download-plan.mjs
 node scripts/build-curation-workspace.mjs
+node scripts/validate-curation.mjs
+node scripts/build-approved-download-manifest.mjs
 node scripts/pipeline-stage.mjs --stage=catalogue
 node scripts/pipeline-stage.mjs --stage=download
 node scripts/pipeline-stage.mjs --stage=baseline
