@@ -13,9 +13,9 @@ function parseCsvLine(line) {
 
   for (let i = 0; i < line.length; i += 1) {
     const char = line[i];
-    if (char === '"') {
-      if (quoted && line[i + 1] === '"') {
-        current += '"';
+    if (char === "\"") {
+      if (quoted && line[i + 1] === "\"") {
+        current += "\"";
         i += 1;
       } else {
         quoted = !quoted;
@@ -43,43 +43,75 @@ function normalizeArabic(value) {
     .replace(/ئ/g, "ي")
     .replace(/[^\p{L}\p{N}\s]/gu, " ")
     .replace(/\s+/g, " ")
-    .trim();
+    .trim()
+    .toLowerCase();
 }
 
-const aliases = {
+function escapeMd(value) {
+  return String(value || "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
+}
+
+const authorAliases = {
   "Ibn al-Jawzi": ["ابن الجوزي", "الجوزي"],
-  "Ibn Hajar al-Asqalani": ["ابن حجر", "العسقلاني"],
-  "Ibn Qudamah al-Maqdisi": ["ابن قدامة", "المقدسي"],
-  "al-Dhahabi": ["الذهبي"],
-  "Ibn Qayyim al-Jawziyyah": ["ابن القيم", "ابن قيم", "الجوزية"],
-  "Muhammad Nasir al-Din al-Albani": ["الألباني", "ناصر الدين الألباني"],
-  "Muhammad ibn Salih al-Uthaymin": ["ابن عثيمين", "العثيمين"],
-  "al-Qurtubi": ["القرطبي"],
-  "Ibn Rushd": ["بداية المجتهد", "ابن رشد"],
+  "Ibn Hajar al-Asqalani": ["ابن حجر", "العسقلاني", "أحمد بن علي بن حجر"],
+  "Ibn Qudamah al-Maqdisi": ["ابن قدامة", "المقدسي", "موفق الدين ابن قدامة"],
+  "al-Dhahabi": ["الذهبي", "شمس الدين الذهبي"],
+  "Ibn Qayyim al-Jawziyyah": ["ابن القيم", "ابن قيم", "الجوزية", "محمد بن أبي بكر"],
+  "Muhammad Nasir al-Din al-Albani": ["الألباني", "ناصر الدين الألباني", "محمد ناصر الدين"],
+  "Muhammad ibn Salih al-Uthaymin": ["ابن عثيمين", "العثيمين", "محمد بن صالح العثيمين"],
+  "al-Qurtubi": ["القرطبي", "محمد بن أحمد القرطبي"],
+  "Ibn Rushd": ["ابن رشد", "الحفيد"],
   "Qadi Iyad": ["القاضي عياض", "عياض"],
-  "Ibn Hazm": ["المحلى", "ابن حزم"],
-  "Muhammad ibn Ali al-Ithyubi": ["الأثيوبي", "البحر المحيط الثجاج"],
-  "al-Baghawi": ["شرح السنة", "البغوي"],
-  "al-Shafi'i": ["الأم", "الشافعي"],
-  "Ibn Rushd al-Jadd / Maliki tradition": ["البيان والتحصيل", "ابن رشد"],
-  "Ala al-Din al-Kasani": ["بدائع الصنائع", "الكاساني"],
-  "Ibn Kathir": ["ابن كثير"],
-  "al-Nawawi": ["النووي"],
-  "al-Tabari": ["تاريخ الطبري", "تاريخ الرسل والملوك", "الطبري"],
-  "Ibn al-Athir": ["الكامل في التاريخ", "ابن الأثير"],
-  "Ibn Khaldun": ["ابن خلدون", "العبر"],
-  "Badr al-Din al-Ayni": ["عمدة القاري", "العيني"],
-  "Ibn Abd al-Barr": ["ابن عبد البر"],
-  "Ibn Abd Rabbih": ["العقد الفريد", "ابن عبد ربه", "أحمد أمين", "أحمد الزين", "إبراهيم الأبياري", "علي أحمد زين", "لجنة التأليف والترجمة والنشر"],
-  "al-Bayhaqi": ["شعب الإيمان", "البيهقي"],
-  "Abu Layth al-Samarqandi": ["تنبيه الغافلين", "السمرقندي"],
-  "Ibn Muflih": ["الآداب الشرعية", "ابن مفلح"],
-  "al-Khatib al-Baghdadi": ["تاريخ بغداد", "الخطيب البغدادي"],
-  "al-Zarkashi": ["البرهان في علوم القرآن", "الزركشي"],
-  "Ibn Hajar al-Asqalani / al-Kashshaf takhrij": ["تخريج أحاديث الكشاف", "الكشاف", "ابن حجر"],
-  "al-Baydawi": ["أنوار التنزيل", "البيضاوي"],
-  "al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah": ["الموسوعة الفقهية الكويتية", "وزارة الأوقاف الكويتية"],
+  "Ibn Hazm": ["ابن حزم", "علي بن أحمد بن حزم"],
+  "Muhammad ibn Ali al-Ithyubi": ["الأثيوبي", "محمد بن علي بن آدم"],
+  "al-Baghawi": ["البغوي", "الحسين بن مسعود"],
+  "al-Shafi'i": ["الشافعي", "محمد بن إدريس"],
+  "Ibn Rushd al-Jadd / Maliki tradition": ["ابن رشد", "الجد", "أبو الوليد"],
+  "Ala al-Din al-Kasani": ["الكاساني", "علاء الدين الكاساني", "أبو بكر بن مسعود"],
+  "Ibn Kathir": ["ابن كثير", "إسماعيل بن عمر"],
+  "al-Nawawi": ["النووي", "يحيى بن شرف"],
+  "al-Tabari": ["الطبري", "ابن جرير", "محمد بن جرير"],
+  "Ibn al-Athir": ["ابن الأثير", "علي بن محمد بن عبد الكريم"],
+  "Ibn Khaldun": ["ابن خلدون", "عبد الرحمن بن محمد"],
+  "Badr al-Din al-Ayni": ["العيني", "بدر الدين العيني", "محمود بن أحمد"],
+  "Ibn Abd al-Barr": ["ابن عبد البر", "يوسف بن عبد الله"],
+  "Ibn Abd Rabbih": ["ابن عبد ربه", "أحمد بن محمد بن عبد ربه"],
+  "al-Bayhaqi": ["البيهقي", "أحمد بن الحسين البيهقي"],
+  "Abu Layth al-Samarqandi": ["السمرقندي", "أبو الليث", "نصر بن محمد"],
+  "Ibn Muflih": ["ابن مفلح", "محمد بن مفلح"],
+  "al-Khatib al-Baghdadi": ["الخطيب البغدادي", "أحمد بن علي البغدادي"],
+  "al-Zarkashi": ["الزركشي", "بدر الدين الزركشي", "محمد بن بهادر"],
+  "Ibn Hajar al-Asqalani / al-Kashshaf takhrij": ["ابن حجر", "العسقلاني"],
+  "al-Baydawi": ["البيضاوي", "ناصر الدين البيضاوي"],
+  "al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah": ["وزارة الأوقاف الكويتية", "الموسوعة الفقهية الكويتية"],
   "multiple": ["اللغة", "النحو", "الصرف", "البلاغة", "المعاجم", "الغريب", "العروض", "الأمثال"]
+};
+
+const titleAliasesById = {
+  "035": ["بداية المجتهد", "بداية المجتهد ونهاية المقتصد"],
+  "037": ["المحلى", "المحلى بالآثار"],
+  "038": ["البحر المحيط الثجاج", "البحر المحيط الثجاج في شرح صحيح الإمام مسلم بن الحجاج"],
+  "039": ["شرح السنة"],
+  "040": ["الأم"],
+  "041": ["البيان والتحصيل"],
+  "042": ["بدائع الصنائع", "بدائع الصنائع في ترتيب الشرائع"],
+  "045": ["تاريخ الطبري", "تاريخ الرسل والملوك"],
+  "046": ["الكامل في التاريخ"],
+  "047": ["العبر", "كتاب العبر", "ديوان المبتدأ والخبر"],
+  "048": ["عمدة القاري", "عمدة القاري شرح صحيح البخاري"],
+  "050": ["العقد الفريد"],
+  "053": ["شعب الإيمان", "الجامع لشعب الإيمان"],
+  "054": ["تنبيه الغافلين"],
+  "055": ["الآداب الشرعية", "الآداب الشرعية والمنح المرعية"],
+  "056": ["تاريخ بغداد", "تاريخ مدينة السلام"],
+  "057": ["البرهان في علوم القرآن"],
+  "058": ["تخريج أحاديث الكشاف", "الكافي الشاف في تخريج أحاديث الكشاف"],
+  "059": ["أنوار التنزيل", "أنوار التنزيل وأسرار التأويل"],
+  "060": ["الموسوعة الفقهية الكويتية"]
+};
+
+const requiredEditionTermsById = {
+  "050": ["أحمد أمين", "أحمد الزين", "إبراهيم الأبياري"]
 };
 
 function rowSearchText(row) {
@@ -89,26 +121,66 @@ function rowSearchText(row) {
     row.nickname,
     row.category,
     row.editor,
-    row.publisher
+    row.publisher,
+    row.edition
   ].join(" "));
 }
 
-function scoreRow(row, item, patterns) {
-  const text = row.search_text;
+function scoreRow(row, item, authorPatterns, titlePatterns) {
+  const reasons = [];
+  const normalizedBookTitle = normalizeArabic(row.book_title);
+  const normalizedAuthor = normalizeArabic([row.author_name, row.nickname].join(" "));
+  const normalizedFullRow = row.search_text;
   let score = 0;
 
-  for (const pattern of patterns) {
-    if (pattern && text.includes(pattern)) score += 5;
+  for (const pattern of titlePatterns) {
+    if (!pattern) continue;
+    if (normalizedBookTitle === pattern) {
+      score += 100;
+      reasons.push(`exact title: ${pattern}`);
+    } else if (normalizedBookTitle.includes(pattern)) {
+      score += 70;
+      reasons.push(`title contains: ${pattern}`);
+    } else if (normalizedFullRow.includes(pattern)) {
+      score += 25;
+      reasons.push(`record contains title term: ${pattern}`);
+    }
+  }
+
+  for (const pattern of authorPatterns) {
+    if (!pattern) continue;
+    if (normalizedAuthor.includes(pattern)) {
+      score += 35;
+      reasons.push(`author contains: ${pattern}`);
+    } else if (normalizedFullRow.includes(pattern)) {
+      score += 10;
+      reasons.push(`record contains author term: ${pattern}`);
+    }
   }
 
   const normalizedTitle = normalizeArabic(item.title);
-  for (const token of normalizedTitle.split(" ").filter((part) => part.length > 2)) {
-    if (text.includes(token)) score += 1;
+  const titleTokens = normalizedTitle.split(" ").filter((part) => part.length > 3);
+  for (const token of titleTokens) {
+    if (normalizedBookTitle.includes(token)) score += 2;
   }
 
-  if (item.scope === "single_work" && score > 0) score += 2;
-  if (row.book_title && normalizeArabic(row.book_title).includes(normalizedTitle)) score += 10;
-  return score;
+  if (item.scope === "single_work" && titlePatterns.length && score > 0) score += 5;
+  if (item.scope === "author_collection" && authorPatterns.some((pattern) => normalizedAuthor.includes(pattern))) score += 10;
+
+  return { score, reasons };
+}
+
+function editionStatus(item, candidate) {
+  const terms = requiredEditionTermsById[item.id];
+  if (!terms?.length || !candidate) return "not_required";
+  const haystack = normalizeArabic([
+    candidate.editor,
+    candidate.publisher,
+    candidate.edition,
+    candidate.title_ar
+  ].join(" "));
+  const missing = terms.filter((term) => !haystack.includes(normalizeArabic(term)));
+  return missing.length ? `missing required edition terms: ${missing.join("، ")}` : "matched_required_terms";
 }
 
 const requested = JSON.parse((await fs.readFile(requestedPath, "utf8")).replace(/^\uFEFF/, ""));
@@ -127,16 +199,23 @@ const rows = dataLines.map((line) => {
 });
 
 const resolved = requested.map((item) => {
-  const patterns = (aliases[item.author] || [item.author, item.title])
+  const authorPatterns = (authorAliases[item.author] || [item.author])
+    .map(normalizeArabic)
+    .filter(Boolean);
+  const titlePatterns = (titleAliasesById[item.id] || [])
     .map(normalizeArabic)
     .filter(Boolean);
 
   const candidates = rows
-    .map((row) => ({ row, score: scoreRow(row, item, patterns) }))
+    .map((row) => {
+      const scored = scoreRow(row, item, authorPatterns, titlePatterns);
+      return { row, ...scored };
+    })
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score || Number(a.row.book_id || 0) - Number(b.row.book_id || 0))
-    .map(({ row, score }) => ({
+    .map(({ row, score, reasons }) => ({
       score,
+      reasons,
       book_id: row.book_id,
       title_ar: row.book_title,
       author_ar: row.author_name,
@@ -150,9 +229,11 @@ const resolved = requested.map((item) => {
       link: row.book_link
     }));
 
+  const top = candidates[0] || null;
   return {
     ...item,
     candidate_count: candidates.length,
+    edition_status: editionStatus(item, top),
     top_candidates: candidates.slice(0, 25),
     candidates: candidates.slice(0, 300)
   };
@@ -167,14 +248,14 @@ const md = [
   "This report resolves the requested book scopes against the available Shamela book-info catalogue copied from the app.",
   "Candidate matches are not final download decisions. They must be reviewed to choose the most complete, least abridged, best-provenance edition.",
   "",
-  "| ID | Request | Candidates | Top matches |",
-  "|---|---|---:|---|",
+  "| ID | Request | Candidates | Edition status | Top matches |",
+  "|---|---|---:|---|---|",
   ...resolved.map((item) => {
     const top = item.top_candidates
       .slice(0, 3)
-      .map((candidate) => `${candidate.title_ar} (${candidate.book_id})`)
+      .map((candidate) => `${escapeMd(candidate.title_ar)} (${candidate.book_id}, score ${candidate.score})`)
       .join("<br>");
-    return `| ${item.id} | ${item.title} | ${item.candidate_count} | ${top || "None found"} |`;
+    return `| ${item.id} | ${escapeMd(item.title)} | ${item.candidate_count} | ${escapeMd(item.edition_status)} | ${top || "None found"} |`;
   }),
   "",
   "Full candidate lists are stored in `reports/requested-book-resolution.json`.",

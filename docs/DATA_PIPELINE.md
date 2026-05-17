@@ -129,6 +129,7 @@ These scripts are intentionally conservative. They help prepare and verify the w
 node scripts/status.mjs
 node scripts/inventory-existing-data.mjs
 node scripts/resolve-requested-books.mjs
+node scripts/build-download-plan.mjs
 node scripts/pipeline-stage.mjs --stage=catalogue
 node scripts/pipeline-stage.mjs --stage=download
 node scripts/pipeline-stage.mjs --stage=baseline

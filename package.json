@@ -12,6 +12,7 @@
     "issues:generate-requested": "node scripts/generate-requested-issues.mjs",
     "inventory:existing": "node scripts/inventory-existing-data.mjs",
     "resolve:books": "node scripts/resolve-requested-books.mjs",
+    "plan:downloads": "node scripts/build-download-plan.mjs",
     "pipeline:stage": "node scripts/pipeline-stage.mjs",
     "status": "node scripts/status.mjs"
   }

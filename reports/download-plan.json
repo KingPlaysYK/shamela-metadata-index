@@ -1,0 +1,921 @@
+[
+  {
+    "id": "027",
+    "request": "Download and process all Ibn al-Jawzi books",
+    "scope": "author_collection",
+    "author": "Ibn al-Jawzi",
+    "candidate_count": 238,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "6349",
+      "title_ar": "إيثار الإنصاف في آثار الخلاف",
+      "author_ar": "سبط ابن الجوزي",
+      "author_death_h": "654",
+      "pages": "410",
+      "volumes": "Null",
+      "edition": "الأولى، 1408 هـ - 1987 م",
+      "publisher": "دار السلام - القاهرة",
+      "editor": "ناصر العلي الناصر الخليفي",
+      "link": "https://shamela.ws/book/6349",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن الجوزي",
+        "author contains: الجوزي"
+      ]
+    }
+  },
+  {
+    "id": "028",
+    "request": "Download and process all Ibn Hajar al-Asqalani books",
+    "scope": "author_collection",
+    "author": "Ibn Hajar al-Asqalani",
+    "candidate_count": 90,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "6662",
+      "title_ar": "تقريظ للحافظ ابن حجر العسقلاني على الرد الوافر لابن ناصر الدين الدمشقي",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "pages": "17",
+      "volumes": "Null",
+      "edition": "الأولى، 1409 هـ - 1988 م",
+      "publisher": "مكتبة ابن تيمية - الكويت",
+      "editor": "محمد بن إبراهيم الشيباني (تقديم وتحقيق وتعليق)",
+      "link": "https://shamela.ws/book/6662",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن حجر",
+        "author contains: العسقلاني"
+      ]
+    }
+  },
+  {
+    "id": "029",
+    "request": "Download and process Ibn Qudamah al-Maqdisi books",
+    "scope": "author_collection",
+    "author": "Ibn Qudamah al-Maqdisi",
+    "candidate_count": 182,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "5554",
+      "title_ar": "حكاية المناظرة في القرآن مع بعض أهل البدعة",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "pages": "62",
+      "volumes": "Null",
+      "edition": "الأولى، 1409",
+      "publisher": "مكتبة الرشد - الرياض",
+      "editor": "عبد الله يوسف الجديع",
+      "link": "https://shamela.ws/book/5554",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ]
+    }
+  },
+  {
+    "id": "030",
+    "request": "Download and process all Imam al-Dhahabi books",
+    "scope": "author_collection",
+    "author": "al-Dhahabi",
+    "candidate_count": 79,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "167",
+      "title_ar": "المستملح من كتاب التكملة",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "pages": "590",
+      "volumes": "Null",
+      "edition": "الأولى، 1429 هـ - 2008 م",
+      "publisher": "دار الغرب الإسلامي، بيروت - لبنان",
+      "editor": "الدكتور بشار عواد معروف (حققه وضبط نصه وعلق عليه)",
+      "link": "https://shamela.ws/book/167",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ]
+    }
+  },
+  {
+    "id": "031",
+    "request": "Download and process all Ibn al-Qayyim books",
+    "scope": "author_collection",
+    "author": "Ibn Qayyim al-Jawziyyah",
+    "candidate_count": 133,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "1477",
+      "title_ar": "الجامع في أمثال القرآن، للعلامة ابن القيم",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "pages": "245",
+      "volumes": "Null",
+      "edition": "الأولى، 1430 هـ - 2009 م",
+      "publisher": "مكتبة ابن تيمية - القاهرة، مصر",
+      "editor": "جمعه ورتبه ووثق نصوصه وحققه: أبو أويس الكردي راجعه وقدم له: الشيخ مصطفى العدوي",
+      "link": "https://shamela.ws/book/1477",
+      "score": 125,
+      "reasons": [
+        "record contains author term: ابن القيم",
+        "author contains: ابن قيم",
+        "author contains: الجوزيه",
+        "author contains: محمد بن ابي بكر"
+      ]
+    }
+  },
+  {
+    "id": "032",
+    "request": "Download and process Imam al-Albani books",
+    "scope": "author_collection",
+    "author": "Muhammad Nasir al-Din al-Albani",
+    "candidate_count": 118,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "1147",
+      "title_ar": "صحيح سنن النسائي، باختصار السند",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "pages": "Null",
+      "volumes": "3 (متسلسلة الترقيم)",
+      "edition": "الأولى، 1409 هـ - 1988 م",
+      "publisher": "مكتب التربية العربي لدول الخليج - الرياض",
+      "editor": "محمد ناصر الدين الألباني",
+      "link": "https://shamela.ws/book/1147",
+      "score": 90,
+      "reasons": [
+        "author contains: الالباني",
+        "record contains author term: ناصر الدين الالباني",
+        "author contains: محمد ناصر الدين"
+      ]
+    }
+  },
+  {
+    "id": "033",
+    "request": "Download and process Shaykh Ibn Uthaymin books",
+    "scope": "author_collection",
+    "author": "Muhammad ibn Salih al-Uthaymin",
+    "candidate_count": 134,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "553",
+      "title_ar": "تفسير القرآن الكريم «soreh alنور»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "pages": "445",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/553",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ]
+    }
+  },
+  {
+    "id": "034",
+    "request": "Download and process Imam al-Qurtubi books",
+    "scope": "author_collection",
+    "author": "al-Qurtubi",
+    "candidate_count": 58,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "33",
+      "title_ar": "الإعراب عن الحيرة والالتباس الموجودين في مذاهب أهل الرأي والقياس.",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1425 هـ - 2005 م",
+      "publisher": "دار أضواء السلف، الرياض - المملكة العربية السعودية",
+      "editor": "الدكتور محمد بن زين العابدين رستم",
+      "link": "https://shamela.ws/book/33",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ]
+    }
+  },
+  {
+    "id": "035",
+    "request": "Download and process Bidayat al-Mujtahid by Ibn Rushd",
+    "scope": "single_work",
+    "author": "Ibn Rushd",
+    "candidate_count": 11,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "21739",
+      "title_ar": "بداية المجتهد ونهاية المقتصد",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "author_death_h": "595",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "بدون طبعة, 1425هـ - 2004 م",
+      "publisher": "دار الحديث - القاهرة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21739",
+      "score": 210,
+      "reasons": [
+        "title contains: بدايه المجتهد",
+        "exact title: بدايه المجتهد ونهايه المقتصد",
+        "author contains: الحفيد"
+      ]
+    }
+  },
+  {
+    "id": "036",
+    "request": "Download and process Qadi Iyad explanation books",
+    "scope": "author_collection",
+    "author": "Qadi Iyad",
+    "candidate_count": 19,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "26463",
+      "title_ar": "الغنية فهرست شيوخ القاضي عياض",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "pages": "231",
+      "volumes": "Null",
+      "edition": "الأولى 1402 هـ - 1982 م",
+      "publisher": "دار الغرب الإسلامي",
+      "editor": "ماهر زهير جرار",
+      "link": "https://shamela.ws/book/26463",
+      "score": 55,
+      "reasons": [
+        "record contains author term: القاضي عياض",
+        "author contains: عياض"
+      ]
+    }
+  },
+  {
+    "id": "037",
+    "request": "Download and process al-Muhalla by Ibn Hazm",
+    "scope": "single_work",
+    "author": "Ibn Hazm",
+    "candidate_count": 245,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "767",
+      "title_ar": "المُحلَّى بالآثار",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "دون تاريخ نشر (!) / 1408 هـ - 1988 م",
+      "publisher": "دار الفكر - بيروت / دار الكتب العلمية - بيروت",
+      "editor": "د. عبد الغفار سليمان البنداري",
+      "link": "https://shamela.ws/book/767",
+      "score": 175,
+      "reasons": [
+        "title contains: المحلي",
+        "exact title: المحلي بالاثار"
+      ]
+    }
+  },
+  {
+    "id": "038",
+    "request": "Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi",
+    "scope": "single_work",
+    "author": "Muhammad ibn Ali al-Ithyubi",
+    "candidate_count": 8,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "148870",
+      "title_ar": "البحر المحيط الثجاج في شرح صحيح الإمام مسلم بن الحجاج",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "pages": "Null",
+      "volumes": "47 (45 والفهارس)",
+      "edition": "الأولى، (1426 - 1436 هـ)",
+      "publisher": "دار ابن الجوزي - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/148870",
+      "score": 210,
+      "reasons": [
+        "title contains: البحر المحيط الثجاج",
+        "exact title: البحر المحيط الثجاج في شرح صحيح الامام مسلم بن الحجاج",
+        "author contains: محمد بن علي بن ادم"
+      ]
+    }
+  },
+  {
+    "id": "039",
+    "request": "Download and process Sharh al-Sunnah by al-Baghawi",
+    "scope": "single_work",
+    "author": "al-Baghawi",
+    "candidate_count": 24,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "7891",
+      "title_ar": "شرح السنة",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "pages": "Null",
+      "volumes": "15",
+      "edition": "الثانية، 1403 هـ - 1983 م",
+      "publisher": "المكتب الإسلامي - دمشق، بيروت",
+      "editor": "شعيب الأرنؤوط [ت ١٤٣٨ هـ]- محمد زهير الشاويش [ت ١٤٣٤ هـ]",
+      "link": "https://shamela.ws/book/7891",
+      "score": 175,
+      "reasons": [
+        "exact title: شرح السنه",
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ]
+    }
+  },
+  {
+    "id": "040",
+    "request": "Download and process al-Umm by Imam al-Shafi'i",
+    "scope": "single_work",
+    "author": "al-Shafi'i",
+    "candidate_count": 1111,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "1655",
+      "title_ar": "الأم",
+      "author_ar": "الشافعي أبو عبد الله محمد بن إدريس بن العباس بن عثمان بن شافع بن عبد المطلب بن عبد مناف المطلبي القرشي المكي",
+      "author_death_h": "204",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الثانية 1403 هـ - 1983 م (وأعادوا تصويرها 1410 هـ -1990 م)",
+      "publisher": "دار الفكر - بيروت",
+      "editor": "جماعة من العلماء (تصحيح طبعة بولاق)",
+      "link": "https://shamela.ws/book/1655",
+      "score": 175,
+      "reasons": [
+        "exact title: الام",
+        "author contains: الشافعي",
+        "author contains: محمد بن ادريس"
+      ]
+    }
+  },
+  {
+    "id": "041",
+    "request": "Download and process al-Bayan wa al-Tahsil",
+    "scope": "single_work",
+    "author": "Ibn Rushd al-Jadd / Maliki tradition",
+    "candidate_count": 125,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "21751",
+      "title_ar": "البيان والتحصيل والشرح والتوجيه والتعليل لمسائل المستخرجة",
+      "author_ar": "أبو الوليد محمد بن أحمد بن رشد القرطبي",
+      "author_death_h": "520",
+      "pages": "Null",
+      "volumes": "20",
+      "edition": "الثانية، 1408 هـ - 1988 م",
+      "publisher": "دار الغرب الإسلامي، بيروت - لبنان",
+      "editor": "د محمد حجي وآخرون",
+      "link": "https://shamela.ws/book/21751",
+      "score": 110,
+      "reasons": [
+        "title contains: البيان والتحصيل",
+        "author contains: ابو الوليد"
+      ]
+    }
+  },
+  {
+    "id": "042",
+    "request": "Download and process Bada'i al-Sana'i by al-Kasani",
+    "scope": "single_work",
+    "author": "Ala al-Din al-Kasani",
+    "candidate_count": 1,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "8183",
+      "title_ar": "بدائع الصنائع في ترتيب الشرائع",
+      "author_ar": "علاء الدين أبو بكر بن مسعود الكاساني الحنفي الملقب بـ (بملك العلماء)",
+      "author_death_h": "587",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى 1327 - 1328 هـ",
+      "publisher": "مطبعة شركة المطبوعات العلمية بمصر / مطبعة الجمالية بمصر / دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8183",
+      "score": 245,
+      "reasons": [
+        "title contains: بدايع الصنايع",
+        "exact title: بدايع الصنايع في ترتيب الشرايع",
+        "author contains: الكاساني",
+        "author contains: ابو بكر بن مسعود"
+      ]
+    }
+  },
+  {
+    "id": "043",
+    "request": "Download and process all Ibn Kathir books",
+    "scope": "author_collection",
+    "author": "Ibn Kathir",
+    "candidate_count": 67,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "9241",
+      "title_ar": "الفصول في سيرة الرسول -صلى الله عليه وسلم-",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "pages": "344",
+      "volumes": "Null",
+      "edition": "الثالثة، 1402 - 1403 هـ [وصُوِّر طبعة رابعة، 1405 هـ - 1985 م، عن دار ابن كثير (دمشق، بيروت)]",
+      "publisher": "(مؤسسة علوم القرآن - دمشق)، (مكتبة دار التراث - المدينة المنورة)",
+      "editor": "تحقيق وتعليق: محمد العيد الخطراوي [ت ١٤٣٣ هـ]، محيي الدين مستو [ت ١٤٤٢ هـ]",
+      "link": "https://shamela.ws/book/9241",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن كثير",
+        "author contains: اسماعيل بن عمر"
+      ]
+    }
+  },
+  {
+    "id": "044",
+    "request": "Download and process all Imam al-Nawawi books",
+    "scope": "author_collection",
+    "author": "al-Nawawi",
+    "candidate_count": 39,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "497",
+      "title_ar": "فَتَّاوَى الإِمامِ النَّوَوَيِ المُسمَّاةِ: \"بالمَسَائِل المنْثورَةِ\"",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "pages": "280",
+      "volumes": "Null",
+      "edition": "السَادسَة، 1417 هـ - 1996 م",
+      "publisher": "دَارُ البشائرِ الإسلاميَّة للطبَاعَة وَالنشرَ والتوزيع، بَيروت - لبنان",
+      "editor": "محمَّد الحجَّار",
+      "link": "https://shamela.ws/book/497",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ]
+    }
+  },
+  {
+    "id": "045",
+    "request": "Download and process Tarikh al-Tabari",
+    "scope": "single_work",
+    "author": "al-Tabari",
+    "candidate_count": 27,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "9783",
+      "title_ar": "تاريخ الطبري = تاريخ الرسل والملوك",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "pages": "Null",
+      "volumes": "11",
+      "edition": "الثانية 1387 هـ - 1967 م",
+      "publisher": "دار المعارف بمصر",
+      "editor": "محمد أبو الفضل إبراهيم [ت ١٤٠١ هـ]",
+      "link": "https://shamela.ws/book/9783",
+      "score": 215,
+      "reasons": [
+        "title contains: تاريخ الطبري",
+        "title contains: تاريخ الرسل والملوك",
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ]
+    }
+  },
+  {
+    "id": "046",
+    "request": "Download and process al-Kamil fi al-Tarikh by Ibn al-Athir",
+    "scope": "single_work",
+    "author": "Ibn al-Athir",
+    "candidate_count": 20,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "21712",
+      "title_ar": "الكامل في التاريخ",
+      "author_ar": "عز الدين بن الأثير أبو الحسن علي بن محمد الجزري",
+      "author_death_h": "630",
+      "pages": "Null",
+      "volumes": "10",
+      "edition": "الأولى، 1417هـ / 1997م",
+      "publisher": "دار الكتاب العربي، بيروت - لبنان",
+      "editor": "تحقيق: عمر عبد السلام تدمري",
+      "link": "https://shamela.ws/book/21712",
+      "score": 105,
+      "reasons": [
+        "exact title: الكامل في التاريخ"
+      ]
+    }
+  },
+  {
+    "id": "047",
+    "request": "Download and process Kitab al-Ibar by Ibn Khaldun",
+    "scope": "single_work",
+    "author": "Ibn Khaldun",
+    "candidate_count": 86,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "12320",
+      "title_ar": "[العِبَر و] ديوان المبتدأ والخبر في تاريخ العرب والبربر ومن عاصرهم من ذوي الشأن الأكبر",
+      "author_ar": "عبد الرحمن بن بن خلدون",
+      "author_death_h": "808",
+      "pages": "Null",
+      "volumes": "8 (الثامن فهارس)",
+      "edition": "الأولى، 1401 هـ - 1981 م (وأعادوا طباعتها بالتصوير مِرار)",
+      "publisher": "دار الفكر، بيروت",
+      "editor": "ضبط المتن ووضع الحواشي والفهارس: أ. خليل شحادة; مراجعة: د. سهيل زكار",
+      "link": "https://shamela.ws/book/12320",
+      "score": 145,
+      "reasons": [
+        "title contains: العبر",
+        "title contains: ديوان المبتدا والخبر"
+      ]
+    }
+  },
+  {
+    "id": "048",
+    "request": "Download and process Umdat al-Qari by Badr al-Din al-Ayni",
+    "scope": "single_work",
+    "author": "Badr al-Din al-Ayni",
+    "candidate_count": 23,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "5756",
+      "title_ar": "عمدة القاري شرح صحيح البخاري",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "pages": "Null",
+      "volumes": "25 (في 12 مجلدا)",
+      "edition": "Null",
+      "publisher": "وصوَّرتها دور أخرى: مثل (دار إحياء التراث العربي، ودار الفكر) - بيروت",
+      "editor": "شركة من العلماء بمساعدة إدارة الطباعة المنيرية، لصاحبها ومديرها محمد منير عبده أغا الدمشقي",
+      "link": "https://shamela.ws/book/5756",
+      "score": 280,
+      "reasons": [
+        "title contains: عمده القاري",
+        "exact title: عمده القاري شرح صحيح البخاري",
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ]
+    }
+  },
+  {
+    "id": "049",
+    "request": "Download and process all Ibn Abd al-Barr books",
+    "scope": "author_collection",
+    "author": "Ibn Abd al-Barr",
+    "candidate_count": 5,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "2",
+      "title_ar": "النوازل في الرضاع",
+      "author_ar": "عبد الله بن يوسف بن عبد الله الأحمد",
+      "author_death_h": "Null",
+      "pages": "601",
+      "volumes": "Null",
+      "edition": "العام الجامعي: 1437 - 1438 هـ",
+      "publisher": "Null",
+      "editor": "إشراف: د. عبد العزيز بن عبد الله البخيت، الأستاذ المساعد في قسم الفقه المقارن بالمعهد العالي للقضاء",
+      "link": "https://shamela.ws/book/2",
+      "score": 45,
+      "reasons": [
+        "author contains: يوسف بن عبد الله"
+      ]
+    }
+  },
+  {
+    "id": "050",
+    "request": "Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition",
+    "scope": "single_work",
+    "author": "Ibn Abd Rabbih",
+    "candidate_count": 2,
+    "status": "blocked_exact_edition_not_confirmed",
+    "recommended_action": "Do not download as canonical. Locate the requested edition or mark this candidate as fallback-only.",
+    "edition_status": "missing required edition terms: أحمد أمين، أحمد الزين، إبراهيم الأبياري",
+    "top_candidate": {
+      "book_id": "23789",
+      "title_ar": "العقد الفريد",
+      "author_ar": "أبو عمر شهاب الدين أحمد بن محمد بن عبد ربه ابن حبيب ابن حدير بن سالم المعروف بابن عبد ربه الأندلسي",
+      "author_death_h": "328",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى، 1404 هـ",
+      "publisher": "دار الكتب العلمية - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/23789",
+      "score": 175,
+      "reasons": [
+        "exact title: العقد الفريد",
+        "author contains: ابن عبد ربه",
+        "author contains: احمد بن محمد بن عبد ربه"
+      ]
+    }
+  },
+  {
+    "id": "051",
+    "request": "Download and process all Arabic language books",
+    "scope": "field_collection",
+    "author": "multiple",
+    "candidate_count": 576,
+    "status": "requires_collection_curation",
+    "recommended_action": "Curate the candidate list into included/excluded books before download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "18280",
+      "title_ar": "شرح كتاب الحدود في النحو",
+      "author_ar": "عبد الله بن أحمد الفاكهي النحوي المكي",
+      "author_death_h": "972",
+      "pages": "318",
+      "volumes": "Null",
+      "edition": "الثانية، 1414 هـ - 1993 م",
+      "publisher": "مكتبة وهبة - القاهرة",
+      "editor": "د. المتولي رمضان أحمد الدميري، المدرس في كلية اللغة العربية بالمنصورة - جامعة الأزهر، والأستاذ المساعد في كلية التربية بالمدينة المنورة جامعة الملك عبد العزيز",
+      "link": "https://shamela.ws/book/18280",
+      "score": 55,
+      "reasons": [
+        "record contains author term: اللغه",
+        "author contains: النحو",
+        "record contains author term: الصرف"
+      ]
+    }
+  },
+  {
+    "id": "052",
+    "request": "Record author madhab and scholarly profile for every book",
+    "scope": "cross_cutting",
+    "author": "all",
+    "candidate_count": 0,
+    "status": "cross_cutting_metadata_rule",
+    "recommended_action": "Apply this rule to every selected book record; no standalone download is required.",
+    "edition_status": "not_required",
+    "top_candidate": null
+  },
+  {
+    "id": "053",
+    "request": "Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi",
+    "scope": "single_work",
+    "author": "al-Bayhaqi",
+    "candidate_count": 45,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "748",
+      "title_ar": "شعب الإيمان",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "pages": "Null",
+      "volumes": "9 (الأخير فهارس)",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "دار الكتب العلمية، بيروت- لبنان",
+      "editor": "أبو هاجر محمد السعيد بن بسيوني زغلول",
+      "link": "https://shamela.ws/book/748",
+      "score": 140,
+      "reasons": [
+        "exact title: شعب الايمان",
+        "author contains: البيهقي"
+      ]
+    }
+  },
+  {
+    "id": "054",
+    "request": "Download and process Tanbih al-Ghafileen by Abu Layth al-Samarqandi",
+    "scope": "single_work",
+    "author": "Abu Layth al-Samarqandi",
+    "candidate_count": 13,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "10488",
+      "title_ar": "تنبيه الغافلين بأحاديث سيد الأنبياء والمرسلين للسمرقندي",
+      "author_ar": "أبو الليث نصر بن محمد بن أحمد بن إبراهيم السمرقندي",
+      "author_death_h": "373",
+      "pages": "626",
+      "volumes": "Null",
+      "edition": "الثالثة، 1421 هـ - 2000 م",
+      "publisher": "دار ابن كثير، دمشق - بيروت",
+      "editor": "حققه وعلق عليه: يوسف علي بديوي",
+      "link": "https://shamela.ws/book/10488",
+      "score": 180,
+      "reasons": [
+        "title contains: تنبيه الغافلين",
+        "author contains: السمرقندي",
+        "author contains: ابو الليث",
+        "author contains: نصر بن محمد"
+      ]
+    }
+  },
+  {
+    "id": "055",
+    "request": "Download and process al-Adab al-Shar'iyyah by Ibn Muflih",
+    "scope": "single_work",
+    "author": "Ibn Muflih",
+    "candidate_count": 9,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "21582",
+      "title_ar": "الآداب الشرعية والمنح المرعية",
+      "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
+      "author_death_h": "763",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "Null",
+      "publisher": "عالم الكتب",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21582",
+      "score": 210,
+      "reasons": [
+        "title contains: الاداب الشرعيه",
+        "exact title: الاداب الشرعيه والمنح المرعيه",
+        "author contains: محمد بن مفلح"
+      ]
+    }
+  },
+  {
+    "id": "056",
+    "request": "Download and process Tarikh Baghdad by al-Khatib al-Baghdadi",
+    "scope": "single_work",
+    "author": "al-Khatib al-Baghdadi",
+    "candidate_count": 38,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "736",
+      "title_ar": "[تاريخ بغداد] (تاريخ مدينة السلام وأخبار محدثيها وذكر قطانها العلماء من غير أهلها ووارديها)",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "pages": "Null",
+      "volumes": "17 (16 والفهارس)",
+      "edition": "الأولى، 1422 هـ - 2002 م",
+      "publisher": "دار الغرب الإسلامي - بيروت",
+      "editor": "حققه وضبط نصه وعلق عليه: د بشار عواد معروف",
+      "link": "https://shamela.ws/book/736",
+      "score": 180,
+      "reasons": [
+        "title contains: تاريخ بغداد",
+        "title contains: تاريخ مدينه السلام",
+        "author contains: الخطيب البغدادي"
+      ]
+    }
+  },
+  {
+    "id": "057",
+    "request": "Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi",
+    "scope": "single_work",
+    "author": "al-Zarkashi",
+    "candidate_count": 16,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "11436",
+      "title_ar": "البرهان في علوم القرآن",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1376 هـ - 1957 م",
+      "publisher": "دار إحياء الكتب العربية عيسى البابى الحلبي وشركائه (ثم صوَّرته دار المعرفة، بيروت، لبنان - وبنفس ترقيم الصفحات)",
+      "editor": "محمد أبو الفضل إبراهيم [ت ١٤٠١ هـ]",
+      "link": "https://shamela.ws/book/11436",
+      "score": 140,
+      "reasons": [
+        "exact title: البرهان في علوم القران",
+        "author contains: الزركشي"
+      ]
+    }
+  },
+  {
+    "id": "058",
+    "request": "Download and process Takhrij Ahadith al-Kashshaf by Ibn Hajar",
+    "scope": "single_work",
+    "author": "Ibn Hajar al-Asqalani / al-Kashshaf takhrij",
+    "candidate_count": 90,
+    "status": "ambiguous_candidate",
+    "recommended_action": "Review candidates manually; the resolver cannot safely select a canonical text.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "6662",
+      "title_ar": "تقريظ للحافظ ابن حجر العسقلاني على الرد الوافر لابن ناصر الدين الدمشقي",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "pages": "17",
+      "volumes": "Null",
+      "edition": "الأولى، 1409 هـ - 1988 م",
+      "publisher": "مكتبة ابن تيمية - الكويت",
+      "editor": "محمد بن إبراهيم الشيباني (تقديم وتحقيق وتعليق)",
+      "link": "https://shamela.ws/book/6662",
+      "score": 50,
+      "reasons": [
+        "record contains author term: ابن حجر",
+        "author contains: العسقلاني"
+      ]
+    }
+  },
+  {
+    "id": "059",
+    "request": "Download and process Anwar al-Tanzil by al-Baydawi",
+    "scope": "single_work",
+    "author": "al-Baydawi",
+    "candidate_count": 8,
+    "status": "ready_for_manual_review",
+    "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "23588",
+      "title_ar": "أنوار التنزيل وأسرار التأويل",
+      "author_ar": "ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي",
+      "author_death_h": "685",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "الأولى - 1418 هـ",
+      "publisher": "دار إحياء التراث العربي - بيروت",
+      "editor": "محمد عبد الرحمن المرعشلي",
+      "link": "https://shamela.ws/book/23588",
+      "score": 210,
+      "reasons": [
+        "title contains: انوار التنزيل",
+        "exact title: انوار التنزيل واسرار التاويل",
+        "author contains: البيضاوي"
+      ]
+    }
+  },
+  {
+    "id": "060",
+    "request": "Final rich metadata and indexing for al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah",
+    "scope": "single_work_final_stage",
+    "author": "al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah",
+    "candidate_count": 6,
+    "status": "deferred_final_stage_review",
+    "recommended_action": "Review the top candidate now, but run download/enrichment only after the prior requested batches are complete.",
+    "edition_status": "not_required",
+    "top_candidate": {
+      "book_id": "11430",
+      "title_ar": "الموسوعة الفقهية الكويتية",
+      "author_ar": "مجموعة من العلماء",
+      "author_death_h": "Null",
+      "pages": "Null",
+      "volumes": "45",
+      "edition": "(من 1404 - 1427 هـ)",
+      "publisher": "دارالسلاسل - الكويت / مطابع دار الصفوة - مصر / طبع الوزارة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11430",
+      "score": 110,
+      "reasons": [
+        "exact title: الموسوعه الفقهيه الكويتيه",
+        "record contains author term: الموسوعه الفقهيه الكويتيه"
+      ]
+    }
+  }
+]
