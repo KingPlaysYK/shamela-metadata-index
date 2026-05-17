@@ -94,7 +94,10 @@ const resolutionById = new Map(resolution.map((item) => [item.id, item]));
 await fs.mkdir(scopesDir, { recursive: true });
 
 const manifest = {
-  generated_at: new Date().toISOString(),
+  generated_from: [
+    "reports/requested-book-resolution.json",
+    "reports/download-plan.json"
+  ],
   purpose: "Human-readable and machine-readable curation layer before downloads, enrichment, and indexing.",
   rule: "No candidate is canonical until approval_status is reviewed and canonical_book_id or include_book_ids are set.",
   scopes: []
