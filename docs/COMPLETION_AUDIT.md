@@ -13,6 +13,7 @@ This audit records the real project state so the repository does not confuse pla
 - Requested book scope includes the later additions: al-Bayhaqi, Abu Layth al-Samarqandi, Ibn Muflih, al-Khatib al-Baghdadi, al-Zarkashi, Ibn Hajar's Takhrij Ahadith al-Kashshaf, al-Baydawi, and al-Mawsu'ah al-Fiqhiyyah al-Kuwaitiyyah.
 - Iqd al-Farid issue #50 is scoped to the Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition rather than a generic Iqd al-Farid text.
 - Pipeline scaffolding exists for catalogue, download, baseline metadata, enrichment, validation, and indexing stages.
+- Download curation scaffolding exists so candidate books can be approved, blocked, deferred, or marked fallback before large jobs run.
 
 ## Not Complete Yet
 
@@ -53,4 +54,3 @@ The project is not considered complete for a book until the following are true:
 - Every cited source can open to the relevant text or page.
 - Non-numeric volume values such as `مقدمة` are displayed as section labels, not volume numbers.
 - Footnote retrieval searches original normalized Arabic, not translated English.
-

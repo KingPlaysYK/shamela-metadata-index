@@ -1,0 +1,523 @@
+{
+  "id": "037",
+  "request": "Download and process al-Muhalla by Ibn Hazm",
+  "scope": "single_work",
+  "author": "Ibn Hazm",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "767",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المُحلَّى بالآثار",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "دون تاريخ نشر (!) / 1408 هـ - 1988 م",
+      "publisher": "دار الفكر - بيروت / دار الكتب العلمية - بيروت",
+      "editor": "د. عبد الغفار سليمان البنداري",
+      "link": "https://shamela.ws/book/767",
+      "score": 175,
+      "reasons": [
+        "title contains: المحلي",
+        "exact title: المحلي بالاثار"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21608",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حاشية العطار على شرح الجلال المحلي على جمع الجوامع",
+      "author_ar": "حسن بن محمد بن محمود العطار الشافعي",
+      "author_death_h": "1250",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "بدون طبعة وبدون تاريخ",
+      "publisher": "دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21608",
+      "score": 75,
+      "reasons": [
+        "title contains: المحلي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11577",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مزيد النعمة لجمع أقوال الأئمة",
+      "author_ar": "حسين بن محمد المحلي الشافعي المصري",
+      "author_death_h": "1170",
+      "category": "الفقه العام",
+      "pages": "331",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "عبد الكريم بن صنيتان العمري",
+      "link": "https://shamela.ws/book/11577",
+      "score": 30,
+      "reasons": [
+        "record contains title term: المحلي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12876",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير الجلالين",
+      "author_ar": "جلال الدين محمد بن أحمد المحلي وجلال الدين عبد الرحمن بن أبي بكر السيوطي",
+      "author_death_h": "864",
+      "category": "التفسير",
+      "pages": "827",
+      "volumes": "Null",
+      "edition": "الأولى",
+      "publisher": "دار الحديث - القاهرة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/12876",
+      "score": 30,
+      "reasons": [
+        "record contains title term: المحلي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21547",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح الورقات في أصول الفقه",
+      "author_ar": "جلال الدين محمد بن أحمد المحلي وجلال الدين عبد الرحمن بن أبي بكر السيوطي",
+      "author_death_h": "864",
+      "category": "أصول الفقه",
+      "pages": "249",
+      "volumes": "Null",
+      "edition": "الأولى، 1420 هـ - 1999 م",
+      "publisher": "جامعة القدس، فلسطين",
+      "editor": "الدكتور حسام الدين بن موسى عفانة",
+      "link": "https://shamela.ws/book/21547",
+      "score": 30,
+      "reasons": [
+        "record contains title term: المحلي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "استنباطات الشيخ عبد الرحمن السعدي من القرآن الكريم عرض ودراسة.",
+      "author_ar": "سيف بن منصر بن علي الحارثي",
+      "author_death_h": "Null",
+      "category": "التفسير",
+      "pages": "906",
+      "volumes": "Null",
+      "edition": "الأولى، 1437 هـ - 2016 م",
+      "publisher": "دار قناديل العلم للنشر والتوزيع - دار ابن حزم",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/14",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "116",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ابن حزم وموقفه من الإلهيات عرض ونقد",
+      "author_ar": "أحمد بن ناصر الحمد",
+      "author_death_h": "Null",
+      "category": "العقيدة",
+      "pages": "598",
+      "volumes": "Null",
+      "edition": "الأولى، 1406 هـ",
+      "publisher": "مركز البحث العلمي وإحياء التراث الإسلامي كلية الشريعة والدراسات الإسلامية، جامعة أم القرى - المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/116",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح عمدة الفقه [آثار شيخ الإسلام ابن تيمية وما لحقها من أعمال (٢٥)]",
+      "author_ar": "تقي الدين أبو العباس أحمد بن عبد الحليم بن عبد السلام بن عبد الله بن أبي القاسم بن محمد ابن تيمية الحراني الحنبلي الدمشقي",
+      "author_death_h": "728",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "الثالثة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "محمد أجمل الإصلاحي, علي بن محمد العمران, محمد عزير شمس",
+      "link": "https://shamela.ws/book/151",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "184",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الصواعق المرسلة على الجهمية والمعطلة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٣)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الفرق والردود",
+      "pages": "Null",
+      "volumes": "2 (متسلسلة الترقيم)",
+      "edition": "الأولى (لدار ابن حزم)، 1442 هـ - 2020",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "تحقيق: حسين بن عكاشة بن رمضان. تخريج: حسين بن حسن باقر - كريم محمد عيد. راجعه: محمد أجمل الإصلاحي - سعود بن عبد العزيز العريفي",
+      "link": "https://shamela.ws/book/184",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "197",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "زاد المعاد في هدي خير العباد [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٠)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "7 (6 والفهارس)",
+      "edition": "الثالثة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: تحقيق (محمد أجمل الإصلاحي)، تخريج (سراج منير محمد منير)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس) جـ ٢: تحقيق (محمد عزير شمس)، تخريج (جعفر حسن السيد)، مراجعة (سليمان بن عبد الله العمير، جديع بن جديع الجديع) جـ ٣: تحقيق (نبيل بن نصار السندي)، مراجعة (سليمان بن عبد الله العمير، أحمد بن فارس السلوم) جـ ٤: تحقيق (محمد أجمل الإصلاحي)، تخريج (مصطفى بن سعيد إيتيم)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن حسن قائد) جـ ٥: تحقيق (علي بن محمد العمران، محمد عزير شمس)، تخريج (إبراهيم بن محمد شلبي)، مراجعة (سليمان بن عبد الله العمير، عبد الله بن علي الشهراني) جـ ٦: تحقيق (محمد عزير شمس)، تخريج (حسين بن حسن باقر)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس)",
+      "link": "https://shamela.ws/book/197",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "199",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مدارج السالكين في منازل السائرين [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣١)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الثانية، 1441 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: تحقيق (محمد أجمل الإصلاحي)، تخريج (سراج منير محمد منير)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس) جـ ٢: تحقيق (نبيل بن نصار السندي)، مراجعة (سليمان بن عبد الله العمير، محمد أجمل الإصلاحي) جـ ٣: تحقيق (محمد عزير شمس)، مراجعة (سليمان بن عبد الله العمير، محمد أجمل الإصلاحي) جـ ٤: تحقيق (علي بن محمد العمران، محمد عزير شمس، نبيل بن نصار السندي، محمد أجمل الإصلاحي)، مراجعة (سليمان بن عبد الله العمير، محمد أجمل الإصلاحي) جـ ٥: تحقيق (علي بن محمد العمران، محمد عزير شمس)، تخريج (إبراهيم بن محمد شلبي)، مراجعة (سليمان بن عبد الله العمير، عبد الله بن علي الشهراني) جـ ٦: تحقيق (محمد عزير شمس)، تخريج (حسين بن حسن باقر)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس)",
+      "link": "https://shamela.ws/book/199",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "201",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب سنن أبي داود وإيضاح علله ومشكلاته [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٩)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الثانية، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: علي بن محمد العمران، راجعه (جديع بن جديع الجديع - عبد الرحمن بن صالح السديس); جـ ٢، ٣: نبيل بن نصار السندي، راجعه (محمد أجمل الإصلاحي - عمر بن sَعدِي)",
+      "link": "https://shamela.ws/book/201",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "205",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٢)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1441 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "تحقيق: زاهر بن سالم بَلفقيه. راجعه: سليمان بن عبد الله العمير - أحمد حاج عثمان",
+      "link": "https://shamela.ws/book/205",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "212",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفوائد [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٨)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "300",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "محمد عزير شمس; راجعه: جديع بن محمد الجديع - محمد أجمل الإصلاحي - علي بن محمد العمران",
+      "link": "https://shamela.ws/book/212",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "218",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحكام أهل الذمة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٤)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "مسائل فقهية",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1442 هـ - 2021 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: تحقيق (محمد عزير شمس)، تخريج (نبيل بن نصار السندي) جـ ٢: تحقيق (نبيل بن نصار السندي); راجعه: محمد أجمل الإصلاحي - سليمان بن عبد الله العمير",
+      "link": "https://shamela.ws/book/218",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "221",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مؤلفات ابن قيم الجوزية - نسخها الخطية وطبعاتها [بذيل «الجامع لسيرة الإمام ابن قيم الجوزية خلال ستة قرون» - آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٥)]",
+      "author_ar": "محمد عزير شمس و علي بن محمد العمران",
+      "author_death_h": "Null",
+      "category": "فهارس الكتب والأدلة",
+      "pages": "151",
+      "volumes": "Null",
+      "edition": "الأولى، 1442 هـ - 2021 م",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/221",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "229",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحفة المودود بأحكام المولود [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٢)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "مسائل فقهية",
+      "pages": "562",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "عثمان بن جمعة ضميرية; راجعه: خلدون بن محمد الأحدب - محمد أجمل الإصلاحي - سليمان بن عبد الله العمير",
+      "link": "https://shamela.ws/book/229",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "234",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الجامع لسيرة الإمام ابن قيم الجوزية خلال ستة قرون [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٥)]",
+      "author_ar": "علي بن محمد بن حسين العمران",
+      "author_death_h": "Null",
+      "category": "التراجم والطبقات",
+      "pages": "140",
+      "volumes": "Null",
+      "edition": "الأولى، 1442 هـ - 2021 م",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/234",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "251",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "طريق الهجرتين وباب السعادتين",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "2 (متسلسلة الترقيم)",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "حققه: محمد أجمل الإصلاحي; خرج أحاديثه: زائد بن أحمد النشيري; راجعه: سعود بن عبد العزيز العريفي - علي بن محمد العمران",
+      "link": "https://shamela.ws/book/251",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "252",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عدة الصابرين وذخيرة الشاكرين [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٥)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "549",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "إسماعيل بن غازي مرحبا; راجعه: سليمان بن عبد الله العمير - محمد أجمل الإصلاحي - علي بن محمد العمران",
+      "link": "https://shamela.ws/book/252",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "253",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الصلاة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٩)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "مسائل فقهية",
+      "pages": "550",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "عدنان بن صفاخان البخاري; راجعه: سليمان بن عبد الله العمير - محمد أجمل الإصلاحي - علي بن محمد العمران",
+      "link": "https://shamela.ws/book/253",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "257",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رفع اليدين في الصلاة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٠)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "مسائل فقهية",
+      "pages": "384",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "علي بن محمد العمران; راجعه: سليمان بن عبد الله العمير - محمد أجمل الإصلاحي",
+      "link": "https://shamela.ws/book/257",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "266",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "آداب البحث والمناظرة [آثار الشيخ العلامة محمد الأمين الشنقيطي (٧)]",
+      "author_ar": "محمد الأمين بن محمد المختار الجكني الشنقيطي",
+      "author_death_h": "1393",
+      "category": "المنطق",
+      "pages": "379",
+      "volumes": "Null",
+      "edition": "الخامسة، 1441 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "سعود بن عبد العزيز العريفي",
+      "link": "https://shamela.ws/book/266",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "281",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "دفع إيهام الاضطراب عن آيات الكتاب [آثار الشيخ العلامة محمد الأمين الشنقيطي (٣)]",
+      "author_ar": "محمد الأمين بن محمد المختار الجكني الشنقيطي",
+      "author_death_h": "1393",
+      "category": "التفسير",
+      "pages": "387",
+      "volumes": "Null",
+      "edition": "الخامسة، 1441 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/281",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "282",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مذكرة أصول الفقه على روضة الناظر [آثار الشيخ العلامة محمد الأمين الشنقيطي (٦)]",
+      "author_ar": "محمد الأمين بن محمد المختار الجكني الشنقيطي",
+      "author_death_h": "1393",
+      "category": "أصول الفقه",
+      "pages": "531",
+      "volumes": "Null",
+      "edition": "الخامسة، 1441 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/282",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن حزم"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

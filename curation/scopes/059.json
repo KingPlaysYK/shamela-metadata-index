@@ -1,0 +1,184 @@
+{
+  "id": "059",
+  "request": "Download and process Anwar al-Tanzil by al-Baydawi",
+  "scope": "single_work",
+  "author": "al-Baydawi",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "23588",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أنوار التنزيل وأسرار التأويل",
+      "author_ar": "ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي",
+      "author_death_h": "685",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "الأولى - 1418 هـ",
+      "publisher": "دار إحياء التراث العربي - بيروت",
+      "editor": "محمد عبد الرحمن المرعشلي",
+      "link": "https://shamela.ws/book/23588",
+      "score": 210,
+      "reasons": [
+        "title contains: انوار التنزيل",
+        "exact title: انوار التنزيل واسرار التاويل",
+        "author contains: البيضاوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13614",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحفة الأبرار شرح مصابيح السنة",
+      "author_ar": "ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي",
+      "author_death_h": "685",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "1433 هـ - 2012م",
+      "publisher": "وزارة الأوقاف والشؤون الإسلامية بالكويت",
+      "editor": "لجنة مختصة بإشراف نور الدين طالب",
+      "link": "https://shamela.ws/book/13614",
+      "score": 40,
+      "reasons": [
+        "author contains: البيضاوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1535",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حَاشِيةُ الشِّهَابِ عَلَى تفْسيرِ البَيضَاوِي، الْمُسَمَّاة: عِنَايةُ القَاضِى وكِفَايةُ الرَّاضِى عَلَى تفْسيرِ البَيضَاوي",
+      "author_ar": "شهاب الدين أحمد بن محمد بن عمر الخفاجي المصري الحنفي",
+      "author_death_h": "1069",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "Null",
+      "publisher": "دار صادر - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1535",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البيضاوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1550",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الاعتقاد القادري",
+      "author_ar": "أبو أحمد محمد بن علي بن محمد الكرجي القصاب",
+      "author_death_h": "324",
+      "category": "العقيدة",
+      "pages": "9",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "أعد النسخة الإلكترونية: أبو يعلى البيضاوي (نقلا عن المنتظم لابن الجوزي ط دار الفكر)",
+      "link": "https://shamela.ws/book/1550",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البيضاوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8635",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفتح السماوي بتخريج أحاديث القاضي البيضاوي",
+      "author_ar": "زين الدين محمد عبد الرؤوف بن علي زين العابدين الحدادي",
+      "author_death_h": "1031",
+      "category": "التخريج والأطراف",
+      "pages": "Null",
+      "volumes": "3 (متسلسلة الترقيم)",
+      "edition": "Null",
+      "publisher": "دار العاصمة - الرياض",
+      "editor": "أحمد مجتبى",
+      "link": "https://shamela.ws/book/8635",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البيضاوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11727",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإبهاج في شرح المنهاج (على منهاج الوصول إلي علم الأصول للقاضي البيضاوي المتوفي سنه ٦٨٥ هـ)",
+      "author_ar": "تاج الدين عبد الوهاب بن تقي الدين السبكي",
+      "author_death_h": "771",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1404 هـ - 1984 م",
+      "publisher": "دار الكتب العلمية - بيروت",
+      "editor": "جماعة من العلماء بإشراف الناشر",
+      "link": "https://shamela.ws/book/11727",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البيضاوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "29882",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نواهد الأبكار وشوارد الأفكار = حاشية السيوطي على تفسير البيضاوي",
+      "author_ar": "عبد الرحمن بن أبي بكر جلال الدين السيوطي",
+      "author_death_h": "911",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "عام النشر: 1424 هـ - 2005 م",
+      "publisher": "جامعة أم القرى - كلية الدعوة وأصول الدين المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/29882",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البيضاوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "147104",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإبهاج في شرح المنهاج (شرح على منهاج الوصول إلى علم الأصول للقاضي البيضاوي المتوفى سنة ٦٨٥ هـ)",
+      "author_ar": "تاج الدين عبد الوهاب بن تقي الدين السبكي",
+      "author_death_h": "771",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1424 هـ - 2004 م",
+      "publisher": "دار البحوث للدراسات الإسلامية وإحياء التراث",
+      "editor": "الدكتور أحمد جمال الزمزمي - الدكتور نور الدين عبد الجبار صغيري",
+      "link": "https://shamela.ws/book/147104",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البيضاوي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

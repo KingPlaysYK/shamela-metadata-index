@@ -1,0 +1,20 @@
+{
+  "id": "052",
+  "request": "Record author madhab and scholarly profile for every book",
+  "scope": "cross_cutting",
+  "author": "all",
+  "status": "cross_cutting_metadata_rule",
+  "recommended_action": "Apply this rule to every selected book record; no standalone download is required.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "rule",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Apply this metadata rule to every selected book.",
+      "No standalone text download is required."
+    ]
+  },
+  "candidates": []
+}

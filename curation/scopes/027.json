@@ -1,0 +1,532 @@
+{
+  "id": "027",
+  "request": "Download and process all Ibn al-Jawzi books",
+  "scope": "author_collection",
+  "author": "Ibn al-Jawzi",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "6349",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إيثار الإنصاف في آثار الخلاف",
+      "author_ar": "سبط ابن الجوزي",
+      "author_death_h": "654",
+      "category": "أصول الفقه",
+      "pages": "410",
+      "volumes": "Null",
+      "edition": "الأولى، 1408 هـ - 1987 م",
+      "publisher": "دار السلام - القاهرة",
+      "editor": "ناصر العلي الناصر الخليفي",
+      "link": "https://shamela.ws/book/6349",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23644",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مرآة الزمان في تواريخ الأعيان",
+      "author_ar": "سبط ابن الجوزي",
+      "author_death_h": "654",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "23 (22 والفهارس)",
+      "edition": "الأولى، 1434 هـ - 2013 م",
+      "publisher": "دار الرسالة العالمية، دمشق - سوريا",
+      "editor": "تحقيق وتعليق: [بأول كل جزء تفصيل أسماء محققيه] محمد بركات، كامل محمد الخراط، عمار ريحاوي، محمد رضوان عرقسوسي، أنور طالب، فادي المغربي، رضوان مامو، محمد معتز كريم الدين، زاهر إسحاق، محمد أنس الخن، إبراهيم الزيبق",
+      "link": "https://shamela.ws/book/23644",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8160",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الياقوتة - مواعظ ابن الجوزي",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "118",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8160",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9379",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البر والصلة لابن الجوزي",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "263",
+      "volumes": "Null",
+      "edition": "الأولى، 1413 هـ - 1993 م",
+      "publisher": "مؤسسة الكتب الثقافية، بيروت - لبنان",
+      "editor": "تحقيق وتعليق وتقديم: عادل عبد الموجود، علي معوض",
+      "link": "https://shamela.ws/book/9379",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9619",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مشيخة ابن الجوزي",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "كتب السنة",
+      "pages": "202",
+      "volumes": "Null",
+      "edition": "الثالثة، 2006 م",
+      "publisher": "دار الغرب الإسلامي، بيروت",
+      "editor": "محمد محفوظ [ت ١٤٠٨ هـ]",
+      "link": "https://shamela.ws/book/9619",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10437",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مثير الغرام الساكن إلى أشرف الأماكن لابن الجوزي",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "البلدان والرحلات",
+      "pages": "521",
+      "volumes": "Null",
+      "edition": "الأولى، 1415 هـ - 1995 م",
+      "publisher": "دار الحديث، القاهرة",
+      "editor": "د/ مصطفى محمد حسين الذهبي (قدم له وحققه وفهرسه)",
+      "link": "https://shamela.ws/book/10437",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17798",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إعلام الموقعين عن رب العالمين",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1423 هـ",
+      "publisher": "دار ابن الجوزي للنشر والتوزيع، المملكة العربية السعودية",
+      "editor": "أبو عبيدة مشهور بن حسن آل سلمان, أبو عمر أحمد عبد الله أحمد",
+      "link": "https://shamela.ws/book/17798",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26351",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التبصرة لابن الجوزي",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الأولى، 1406 هـ - 1986 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/26351",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن الجوزي",
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "22",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أعمار الأعيان",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "التراجم والطبقات",
+      "pages": "200",
+      "volumes": "Null",
+      "edition": "الأولى، 1414 هـ - 1994 م",
+      "publisher": "مكتبة الخانجي، القاهرة",
+      "editor": "د محمود محمد الطناحي",
+      "link": "https://shamela.ws/book/22",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "134",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إغاثة اللهفان في حكم طلاق الغضبان - ت الحفيان",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "مسائل فقهية",
+      "pages": "113",
+      "volumes": "Null",
+      "edition": "الأولى، 1424 - 2004",
+      "publisher": "مؤسسة الرسالة، بيروت - لبنان",
+      "editor": "حققه وخرج أحاديثه: عمر سليمان الحفيان",
+      "link": "https://shamela.ws/book/134",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "158",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الجواب الكافي لمن سأل عن الدواء الشافي أو الداء والدواء",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "243",
+      "volumes": "Null",
+      "edition": "الأولى، 1418هـ - 1997م",
+      "publisher": "دار المعرفة - المغرب",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/158",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "180",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنثور",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "13",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/180",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "184",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الصواعق المرسلة على الجهمية والمعطلة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٣)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الفرق والردود",
+      "pages": "Null",
+      "volumes": "2 (متسلسلة الترقيم)",
+      "edition": "الأولى (لدار ابن حزم)، 1442 هـ - 2020",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "تحقيق: حسين بن عكاشة بن رمضان. تخريج: حسين بن حسن باقر - كريم محمد عيد. راجعه: محمد أجمل الإصلاحي - سعود بن عبد العزيز العريفي",
+      "link": "https://shamela.ws/book/184",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "197",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "زاد المعاد في هدي خير العباد [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٠)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "7 (6 والفهارس)",
+      "edition": "الثالثة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: تحقيق (محمد أجمل الإصلاحي)، تخريج (سراج منير محمد منير)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس) جـ ٢: تحقيق (محمد عزير شمس)، تخريج (جعفر حسن السيد)، مراجعة (سليمان بن عبد الله العمير، جديع بن جديع الجديع) جـ ٣: تحقيق (نبيل بن نصار السندي)، مراجعة (سليمان بن عبد الله العمير، أحمد بن فارس السلوم) جـ ٤: تحقيق (محمد أجمل الإصلاحي)، تخريج (مصطفى بن سعيد إيتيم)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن حسن قائد) جـ ٥: تحقيق (علي بن محمد العمران، محمد عزير شمس)، تخريج (إبراهيم بن محمد شلبي)، مراجعة (سليمان بن عبد الله العمير، عبد الله بن علي الشهراني) جـ ٦: تحقيق (محمد عزير شمس)، تخريج (حسين بن حسن باقر)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس)",
+      "link": "https://shamela.ws/book/197",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "199",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مدارج السالكين في منازل السائرين [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣١)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الثانية، 1441 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: تحقيق (محمد أجمل الإصلاحي)، تخريج (سراج منير محمد منير)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس) جـ ٢: تحقيق (نبيل بن نصار السندي)، مراجعة (سليمان بن عبد الله العمير، محمد أجمل الإصلاحي) جـ ٣: تحقيق (محمد عزير شمس)، مراجعة (سليمان بن عبد الله العمير، محمد أجمل الإصلاحي) جـ ٤: تحقيق (علي بن محمد العمران، محمد عزير شمس، نبيل بن نصار السندي، محمد أجمل الإصلاحي)، مراجعة (سليمان بن عبد الله العمير، محمد أجمل الإصلاحي) جـ ٥: تحقيق (علي بن محمد العمران، محمد عزير شمس)، تخريج (إبراهيم بن محمد شلبي)، مراجعة (سليمان بن عبد الله العمير، عبد الله بن علي الشهراني) جـ ٦: تحقيق (محمد عزير شمس)، تخريج (حسين بن حسن باقر)، مراجعة (سليمان بن عبد الله العمير، عبد الرحمن بن صالح السديس)",
+      "link": "https://shamela.ws/book/199",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "201",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب سنن أبي داود وإيضاح علله ومشكلاته [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٩)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الثانية، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: علي بن محمد العمران، راجعه (جديع بن جديع الجديع - عبد الرحمن بن صالح السديس); جـ ٢، ٣: نبيل بن نصار السندي، راجعه (محمد أجمل الإصلاحي - عمر بن sَعدِي)",
+      "link": "https://shamela.ws/book/201",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "205",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٢)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1441 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "تحقيق: زاهر بن سالم بَلفقيه. راجعه: سليمان بن عبد الله العمير - أحمد حاج عثمان",
+      "link": "https://shamela.ws/book/205",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "212",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفوائد [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٨)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "300",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "محمد عزير شمس; راجعه: جديع بن محمد الجديع - محمد أجمل الإصلاحي - علي بن محمد العمران",
+      "link": "https://shamela.ws/book/212",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "216",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الوابل الصيب من الكلم الطيب",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "153",
+      "volumes": "Null",
+      "edition": "الثالثة، 1999 م",
+      "publisher": "دار الحديث - القاهرة",
+      "editor": "تحقيق: سيد إبراهيم",
+      "link": "https://shamela.ws/book/216",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "218",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحكام أهل الذمة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٤)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "مسائل فقهية",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1442 هـ - 2021 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "جـ ١: تحقيق (محمد عزير شمس)، تخريج (نبيل بن نصار السندي) جـ ٢: تحقيق (نبيل بن نصار السندي); راجعه: محمد أجمل الإصلاحي - سليمان بن عبد الله العمير",
+      "link": "https://shamela.ws/book/218",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "229",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحفة المودود بأحكام المولود [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٢)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "مسائل فقهية",
+      "pages": "562",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "عثمان بن جمعة ضميرية; راجعه: خلدون بن محمد الأحدب - محمد أجمل الإصلاحي - سليمان بن عبد الله العمير",
+      "link": "https://shamela.ws/book/229",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "243",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "اللطائف",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "33",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/243",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "244",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "بر الوالدين",
+      "author_ar": "جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد الجوزي",
+      "author_death_h": "597",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "12",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/244",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "251",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "طريق الهجرتين وباب السعادتين",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "2 (متسلسلة الترقيم)",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "حققه: محمد أجمل الإصلاحي; خرج أحاديثه: زائد بن أحمد النشيري; راجعه: سعود بن عبد العزيز العريفي - علي بن محمد العمران",
+      "link": "https://shamela.ws/book/251",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "252",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عدة الصابرين وذخيرة الشاكرين [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٥)]",
+      "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
+      "author_death_h": "751",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "549",
+      "volumes": "Null",
+      "edition": "الرابعة، 1440 هـ - 2019 م (الأولى لدار ابن حزم)",
+      "publisher": "دار عطاءات العلم (الرياض) - دار ابن حزم (بيروت)",
+      "editor": "إسماعيل بن غازي مرحبا; راجعه: سليمان بن عبد الله العمير - محمد أجمل الإصلاحي - علي بن محمد العمران",
+      "link": "https://shamela.ws/book/252",
+      "score": 45,
+      "reasons": [
+        "author contains: الجوزي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

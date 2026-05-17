@@ -28,6 +28,9 @@ Useful commands:
 node scripts/status.mjs
 node scripts/inventory-existing-data.mjs
 node scripts/export-github-issues.mjs
+node scripts/resolve-requested-books.mjs
+node scripts/build-download-plan.mjs
+node scripts/build-curation-workspace.mjs
 ```
 
 Project control docs:

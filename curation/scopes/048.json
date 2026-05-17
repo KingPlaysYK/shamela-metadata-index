@@ -1,0 +1,502 @@
+{
+  "id": "048",
+  "request": "Download and process Umdat al-Qari by Badr al-Din al-Ayni",
+  "scope": "single_work",
+  "author": "Badr al-Din al-Ayni",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "5756",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عمدة القاري شرح صحيح البخاري",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "25 (في 12 مجلدا)",
+      "edition": "Null",
+      "publisher": "وصوَّرتها دور أخرى: مثل (دار إحياء التراث العربي، ودار الفكر) - بيروت",
+      "editor": "شركة من العلماء بمساعدة إدارة الطباعة المنيرية، لصاحبها ومديرها محمد منير عبده أغا الدمشقي",
+      "link": "https://shamela.ws/book/5756",
+      "score": 280,
+      "reasons": [
+        "title contains: عمده القاري",
+        "exact title: عمده القاري شرح صحيح البخاري",
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "380",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عِقْد الجُمَان في تاريخ أهل الزمان - العصر الأيوبي [٥٦٥ - ٦٢٨ هـ]",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "1431 هـ - 2010 م",
+      "publisher": "مطبعة دار الكتب والوثائق القومية - القاهرة",
+      "editor": "تحقيق ودراسة: د محمود رزق محمود (جامعة المنيا) [ت ١٤٤٠ هـ]",
+      "link": "https://shamela.ws/book/380",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "427",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البناية شرح الهداية",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "الفقه الحنفي",
+      "pages": "Null",
+      "volumes": "13",
+      "edition": "الأولى، 1420 هـ - 2000 م",
+      "publisher": "دار الكتب العلمية - بيروت، لبنان",
+      "editor": "أيمن صالح شعبان",
+      "link": "https://shamela.ws/book/427",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1056",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عِقْد الجُمَان في تاريخ أهل الزمان - عصر سلاطين المماليك [٦٤٨ - ٧١٢ هـ]",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "1431 هـ - 2010 م",
+      "publisher": "مطبعة دار الكتب والوثائق القومية - القاهرة",
+      "editor": "حققه ووضع حواشيه: د محمد محمد أمين (أستاذ تاريخ العصور الوسطى، كلية الآداب - جامعة القاهرة)",
+      "link": "https://shamela.ws/book/1056",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8540",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح سنن أبي داود",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "7 (6 ومجلد فهارس)",
+      "edition": "الأولى، 1420 هـ -1999 م",
+      "publisher": "مكتبة الرشد - الرياض",
+      "editor": "أبو المنذر خالد بن إبراهيم المصري",
+      "link": "https://shamela.ws/book/8540",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10452",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مغاني الأخيار في شرح أسامي رجال معاني الآثار",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1427 هـ - 2006 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "محمد حسن محمد حسن إسماعيل (تحقيق)",
+      "link": "https://shamela.ws/book/10452",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13667",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نخب الأفكار في تنقيح مباني الأخبار في شرح معاني الآثار",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "19 (16 و 3 أجزاء فهارس)",
+      "edition": "الأولى، 1429 هـ - 2008 م",
+      "publisher": "وزارة الأوقاف والشؤون الإسلامية - قطر",
+      "editor": "أبو تميم ياسر بن إبراهيم",
+      "link": "https://shamela.ws/book/13667",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13784",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "منحة السلوك في شرح تحفة الملوك",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "الفقه الحنفي",
+      "pages": "491",
+      "volumes": "Null",
+      "edition": "الأولى، 1428 هـ - 2007 م",
+      "publisher": "وزارة الأوقاف والشؤون الإسلامية - قطر",
+      "editor": "د. أحمد عبد الرزاق الكبيسي",
+      "link": "https://shamela.ws/book/13784",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "16714",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المقاصد النحوية في شرح شواهد شروح الألفية المشهور بـ «شرح الشواهد الكبرى»",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "author_death_h": "855",
+      "category": "الأدب",
+      "pages": "Null",
+      "volumes": "4 (متسلسلة الترقيم)",
+      "edition": "الأولى، 1431 هـ - 2010 م",
+      "publisher": "دار السلام للطباعة والنشر والتوزيع والترجمة، القاهرة - مصر",
+      "editor": "• أ. د. علي محمد فاخر (الأستاذ بكلية اللغة العربية بالمنصورة - جامعة الأزهر) • أ. د. أحمد محمد توفيق السوداني (الأستاذ المساعد بكلية الدراسات الإسلامية والعربية بنين بالشرقية - جامعة الأزهر) • د. عبد العزيز محمد فاخر (الأستاذ المساعد بكلية اللغة العربية بجامعة الملك فيصل بتشاد)",
+      "link": "https://shamela.ws/book/16714",
+      "score": 110,
+      "reasons": [
+        "author contains: العيني",
+        "author contains: بدر الدين العيني",
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6298",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تخريج الفروع على الأصول",
+      "author_ar": "أبو المناقب شهاب الدين محمود بن أحمد الزنجاني",
+      "author_death_h": "656",
+      "category": "علوم الفقه والقواعد الفقهية",
+      "pages": "393",
+      "volumes": "Null",
+      "edition": "الثانية، 1398 هـ - 1978 م",
+      "publisher": "مؤسسة الرسالة - بيروت",
+      "editor": "د. محمد أديب صالح [ت ١٤٣٨ هـ]",
+      "link": "https://shamela.ws/book/6298",
+      "score": 40,
+      "reasons": [
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9403",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "العناية شرح الهداية",
+      "author_ar": "محمد بن محمود بن أحمد البابرتى الحنفي",
+      "author_death_h": "786",
+      "category": "الفقه الحنفي",
+      "pages": "Null",
+      "volumes": "10",
+      "edition": "الأولى، 1389 هـ - 1970 م",
+      "publisher": "شركة مكتبة ومطبعة مصفى البابي الحلبي وأولاده بمصر / دار الفكر، بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/9403",
+      "score": 40,
+      "reasons": [
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10875",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المحيط البرهاني في الفقه النعماني: فقه الإمام أبي حنيفة رضي الله عنه",
+      "author_ar": "برهان الدين أبو المعالي محمود بن أحمد بن عبد العزيز بن عمر بن مازة البخاري الحنفي",
+      "author_death_h": "616",
+      "category": "الفقه الحنفي",
+      "pages": "Null",
+      "volumes": "9",
+      "edition": "الأولى، 1424 هـ - 2004 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "عبد الكريم سامي الجندي",
+      "link": "https://shamela.ws/book/10875",
+      "score": 40,
+      "reasons": [
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17881",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الردود والنقود شرح مختصر ابن الحاجب",
+      "author_ar": "محمد بن محمود بن أحمد البابرتى الحنفي",
+      "author_death_h": "786",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1426 هـ - 2005 م",
+      "publisher": "مكتبة الرشد ناشرون",
+      "editor": "جـ ١ (ضيف الله بن صالح بن عون العمرى)، جـ ٢ (ترحيب بن ربيعان الدوسري)",
+      "link": "https://shamela.ws/book/17881",
+      "score": 40,
+      "reasons": [
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "37568",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حياة التابعين",
+      "author_ar": "ياسر بن أحمد بن محمود بن أحمد بن أبي الحمد الكويس الحمداني",
+      "author_death_h": "Null",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "2294",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/37568",
+      "score": 40,
+      "reasons": [
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "37569",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جواهر من أقوال الرسول",
+      "author_ar": "ياسر بن أحمد بن محمود بن أحمد بن أبي الحمد الكويس الحمداني",
+      "author_death_h": "Null",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "2015",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دَارِ الحَرَمَين - مِصْر، ٢٠٠٨م",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/37569",
+      "score": 40,
+      "reasons": [
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "38154",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "موسوعة الرقائق والأدب",
+      "author_ar": "ياسر بن أحمد بن محمود بن أحمد بن أبي الحمد الكويس الحمداني",
+      "author_death_h": "Null",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "8447",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/38154",
+      "score": 40,
+      "reasons": [
+        "author contains: محمود بن احمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "96618",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح ألفية العراقي في علوم الحديث",
+      "author_ar": "عبد الرحمن بن أبي بكر بن محمد زين الدين المعروف بابن العيني الحنفي",
+      "author_death_h": "893",
+      "category": "علوم الحديث",
+      "pages": "383",
+      "volumes": "Null",
+      "edition": "الأولى، 1432 هـ - 2011 م",
+      "publisher": "مركز النعمان للبحوث والدراسات الإسلامية وتحقيق التراث والترجمة، اليمن",
+      "editor": "د. شادي بن محمد بن سالم آل نعمان",
+      "link": "https://shamela.ws/book/96618",
+      "score": 40,
+      "reasons": [
+        "author contains: العيني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "96930",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إقَامَةُ الدَّليل عَلى عُلو رتبَة إرْوَاءِ الغَليل وَالرَّد عَلى مُستَدَرك التعليل",
+      "author_ar": "أبو عبد الله أحمد بن إبراهيم بن أبي العينين",
+      "author_death_h": "Null",
+      "category": "التخريج والأطراف",
+      "pages": "392",
+      "volumes": "Null",
+      "edition": "الأولى، 1432 هـ - 2011 م",
+      "publisher": "مكتبة ابن عباس للنشر والتوزيع، مصر",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/96930",
+      "score": 40,
+      "reasons": [
+        "author contains: العيني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1158",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإعلام بسنته عليه السلام شرح سنن ابن ماجة الإمام",
+      "author_ar": "علاء الدين مغلطاي البكجري الحنفي",
+      "author_death_h": "689",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "الأولى والثانية في نفس العام: 1427 هـ - 2007 م",
+      "publisher": "دار ابن عباس، الدقهلية - مصر",
+      "editor": "أبو عبد الله أحمد بن إبراهيم بن أبي العينين",
+      "link": "https://shamela.ws/book/1158",
+      "score": 15,
+      "reasons": [
+        "record contains author term: العيني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1613",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "قرة العينين برفع اليدين في الصلاة",
+      "author_ar": "محمد بن إسماعيل البخاري",
+      "author_death_h": "194",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الأولى، 1404 هـ - 1983 م",
+      "publisher": "دار الأرقم للنشر والتوزيع، الكويت",
+      "editor": "أحمد الشريف",
+      "link": "https://shamela.ws/book/1613",
+      "score": 15,
+      "reasons": [
+        "record contains author term: العيني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8632",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كتاب الضعفاء",
+      "author_ar": "محمد بن إسماعيل البخاري",
+      "author_death_h": "194",
+      "category": "التراجم والطبقات",
+      "pages": "144",
+      "volumes": "Null",
+      "edition": "الأولى 1426هـ/2005مـ",
+      "publisher": "مكتبة ابن عباس",
+      "editor": "أبو عبد الله أحمد بن إبراهيم بن أبي العينين",
+      "link": "https://shamela.ws/book/8632",
+      "score": 15,
+      "reasons": [
+        "record contains author term: العيني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9943",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جلاء العينين في محاكمة الأحمدين",
+      "author_ar": "نعمان بن محمود بن عبد الله أبو البركات خير الدين الآلوسي",
+      "author_death_h": "1317",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "عام النشر: 1401 هـ - 1981 م",
+      "publisher": "مطبعة المدني",
+      "editor": "قدم له: علي السيد صبح المدني - رحمه الله -",
+      "link": "https://shamela.ws/book/9943",
+      "score": 15,
+      "reasons": [
+        "record contains author term: العيني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13771",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "انتقاض الاعتراض في الرد على العيني في شرح البخاري",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1413 هـ - 1993 م",
+      "publisher": "مكتبة الرشد، الرياض - المملكة العربية السعودية",
+      "editor": "حمدي بن عبد المجيد السلفي [ت ١٤٣٣ هـ]- صبحي بن جاسم السامرائي [ت ١٤٣٤ هـ]",
+      "link": "https://shamela.ws/book/13771",
+      "score": 15,
+      "reasons": [
+        "record contains author term: العيني"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

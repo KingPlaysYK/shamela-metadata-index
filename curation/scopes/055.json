@@ -1,0 +1,204 @@
+{
+  "id": "055",
+  "request": "Download and process al-Adab al-Shar'iyyah by Ibn Muflih",
+  "scope": "single_work",
+  "author": "Ibn Muflih",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "21582",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الآداب الشرعية والمنح المرعية",
+      "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
+      "author_death_h": "763",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "Null",
+      "publisher": "عالم الكتب",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21582",
+      "score": 210,
+      "reasons": [
+        "title contains: الاداب الشرعيه",
+        "exact title: الاداب الشرعيه والمنح المرعيه",
+        "author contains: محمد بن مفلح"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "54",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الألفية في الآداب الشرعية [المشهورة بـ «منظومة الآداب»]",
+      "author_ar": "شمس الدين محمد بن عبد القوي المرداوي الحنبلي",
+      "author_death_h": "630",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "100",
+      "volumes": "Null",
+      "edition": "الثانية، 1421 هـ - 2000 م",
+      "publisher": "دار البشائر الإسلامية - بيروت",
+      "editor": "اعتنى بها وضبطها: محمد بن ناصر العجمي",
+      "link": "https://shamela.ws/book/54",
+      "score": 75,
+      "reasons": [
+        "title contains: الاداب الشرعيه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "27194",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح المنظومة الميمية في الآداب الشرعية",
+      "author_ar": "عبد الكريم بن عبد الله بن عبد الرحمن بن حمد الخضير",
+      "author_death_h": "Null",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "Null",
+      "publisher": "دروس مفرغة من موقع الشيخ الخضير",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/27194",
+      "score": 75,
+      "reasons": [
+        "title contains: الاداب الشرعيه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1262",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المبدع شرح المقنع (مقابل على نسخة بخط المصنف، وعشر نسخ أخرى)",
+      "author_ar": "برهان الدين إبراهيم بن محمد بن مفلح المقدسي الصالحي الحنبلي",
+      "author_death_h": "Null",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "10",
+      "edition": "الأولى، 1442 هـ - 2021 م",
+      "publisher": "ركائز للنشر والتوزيع - الكويت",
+      "editor": "أ د خالد بن علي المشيقح، د عبد العزيز بن عدنان العيدان، د أنس بن عادل اليتامي",
+      "link": "https://shamela.ws/book/1262",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن مفلح"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5890",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المقصد الأرشد في ذكر أصحاب الإمام أحمد",
+      "author_ar": "برهان الدين إبراهيم بن محمد بن مفلح المقدسي الصالحي الحنبلي",
+      "author_death_h": "Null",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1410 هـ - 1990 م",
+      "publisher": "مكتبة الرشد - الرياض - السعودية",
+      "editor": "د عبد الرحمن بن سليمان العثيمين [ت ١٤٣٦ هـ]",
+      "link": "https://shamela.ws/book/5890",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن مفلح"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6094",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النكت والفوائد السنية على مشكل المحرر لمجد الدين ابن تيمية",
+      "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
+      "author_death_h": "763",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1404",
+      "publisher": "مكتبة المعارف - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6094",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن مفلح"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12052",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفروع",
+      "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
+      "author_death_h": "763",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "الأولى، 1424 هـ - 2003 م",
+      "publisher": "(مؤسسة الرسالة - بيروت)، (دار المؤيد - الرياض)",
+      "editor": "عبد الله بن عبد المحسن التركي",
+      "link": "https://shamela.ws/book/12052",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن مفلح"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21619",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المبدع في شرح المقنع",
+      "author_ar": "برهان الدين إبراهيم بن محمد بن مفلح المقدسي الصالحي الحنبلي",
+      "author_death_h": "Null",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى، 1418 هـ - 1997 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21619",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن مفلح"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "122256",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أصول الفقه",
+      "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
+      "author_death_h": "763",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1420 هـ - 1999 م",
+      "publisher": "مكتبة العبيكان، الرياض - السعودية",
+      "editor": "د فهد بن محمد السَّدَحَان",
+      "link": "https://shamela.ws/book/122256",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن مفلح"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

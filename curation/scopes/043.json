@@ -1,0 +1,527 @@
+{
+  "id": "043",
+  "request": "Download and process all Ibn Kathir books",
+  "scope": "author_collection",
+  "author": "Ibn Kathir",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "9241",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفصول في سيرة الرسول -صلى الله عليه وسلم-",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "السيرة النبوية",
+      "pages": "344",
+      "volumes": "Null",
+      "edition": "الثالثة، 1402 - 1403 هـ [وصُوِّر طبعة رابعة، 1405 هـ - 1985 م، عن دار ابن كثير (دمشق، بيروت)]",
+      "publisher": "(مؤسسة علوم القرآن - دمشق)، (مكتبة دار التراث - المدينة المنورة)",
+      "editor": "تحقيق وتعليق: محمد العيد الخطراوي [ت ١٤٣٣ هـ]، محيي الدين مستو [ت ١٤٤٢ هـ]",
+      "link": "https://shamela.ws/book/9241",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن كثير",
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "30097",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البداية والنهاية",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "20 (17 والفهارس)",
+      "edition": "الثالثة، 1434 هـ - 2013 م",
+      "publisher": "دار ابن كثير، دمشق - بيروت",
+      "editor": "حققه وخرج أحاديثه وعلق عليه: د. محيي الدين ديب مستو رحمه الله (جـ ١، ٦)، د. علي أبو زيد أبو زيد (جـ ٢)، مأمون محمد سعيد صاغرجي (جـ ٣، ١٠)، محمود عبد القادر الأرناؤوط رحمه الله (جـ ٤)، د. رياض عبد الحميد مراد (جـ ٥، ٧ بالاشتراك، ١٤، ١٥ بالاشتراك)، محمد حسان عبيد (جـ ٧ بالاشتراك، ١٥ بالاشتراك)، أكرم عبد اللطيف البوشي (جـ ٨)، محمد حسان عبيد (جـ ٩)، ياسين محمد السواس (جـ ١١)، إبراهيم عمر الزيبق (جـ ١٢)، صلاح محمد الخيمي رحمه اللَّه (جـ ١٣)، حسن إسماعيل مروة (جـ ١٦)، الشيخ عبد القادر الأرناؤوط رحمه اللَّه (جـ ١٧); راجعه: الشيخ عبد القادر الأرناؤوط [ت ١٤٢٥ هـ]- د بشار عواد معروف",
+      "link": "https://shamela.ws/book/30097",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن كثير",
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "30098",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البداية والنهاية",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "20 (17 والفهارس)",
+      "edition": "السادسة، 1442 هـ - 2021 م",
+      "publisher": "دار ابن كثير، دمشق - بيروت",
+      "editor": "حققه وخرج أحاديثه وعلق عليه: جماعة من المحققين بحسب الأجزاء; راجعه: عبد القادر الأرناؤوط [ت ١٤٢٥ هـ]- بشار عواد معروف",
+      "link": "https://shamela.ws/book/30098",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن كثير",
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "260",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إرشاد الفقيه إلى معرفة أدلة التنبيه",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التخريج والأطراف",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1416 هـ - 1996 م",
+      "publisher": "مؤسسة الرسالة للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "بهجة يوسف حمد أبو الطيب",
+      "link": "https://shamela.ws/book/260",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "930",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "السيرة النبوية",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "1395 هـ - 1976 م",
+      "publisher": "عيسى البابي الحلبي، القاهرة; وصَوّرتْها: دار المعرفة للطباعة والنشر والتوزيع بيروت - لبنان",
+      "editor": "تحقيق: د. مصطفى عبد الواحد",
+      "link": "https://shamela.ws/book/930",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "932",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "قصص الأنبياء",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "الأولى، 1388 هـ - 1968 م",
+      "publisher": "مطبعة دار التأليف - القاهرة",
+      "editor": "تحقيق: د. مصطفى عبد الواحد",
+      "link": "https://shamela.ws/book/932",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1174",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جزء في بيع أمهات الأولاد",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "مسائل فقهية",
+      "pages": "176",
+      "volumes": "Null",
+      "edition": "الأولى، 1427 هـ - 2006 م",
+      "publisher": "مؤسسة الرسالة، بيروت - لبنان",
+      "editor": "عمر بن سليمان الحفيان",
+      "link": "https://shamela.ws/book/1174",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1503",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن العظيم",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1431 هـ",
+      "publisher": "دار ابن الجوزي للنشر والتوزيع - السعودية",
+      "editor": "حكمت بن بشير بن ياسين (اختصر عمل الشيخ أبي إسحاق الحويني من أول الكتاب إلى الآية ١٤١ من سورة البقرة (وهو جـ ١ هذه الطبعة) ثم أكمل تحقيق الكتاب)",
+      "link": "https://shamela.ws/book/1503",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1509",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن العظيم",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "15 (14 والفهارس)",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "(مؤسسة قرطبة، مكتبة أولاد الشيخ)، الجيزة - مصر [وأعادتْ طبعها دار عالم الكتب بالرياض بنفس ترقيم الصفحات]",
+      "editor": "تحقيق: مصطفى السيد محمد - محمد السيد رشاد - محمد فضل العجماوي - علي أحمد عبد الباقي - حسن عباس قطب",
+      "link": "https://shamela.ws/book/1509",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "4445",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البداية والنهاية",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "21 (20 والفهارس)",
+      "edition": "الأولى، (1417 - 1420 هـ)",
+      "publisher": "دار هجر للطباعة والنشر والتوزيع والإعلان",
+      "editor": "تحقيق: د. عبد الله بن عبد المحسن التركي بالتعاون مع: مركز البحوث والدارسات العربية والإسلامية بدار هجر",
+      "link": "https://shamela.ws/book/4445",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6244",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الآداب والأحكام المتعلقة بدخول الحمام",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "مسائل فقهية",
+      "pages": "99",
+      "volumes": "Null",
+      "edition": "الأولى، 1418هـ -1997م",
+      "publisher": "دار الوطن للنشر - الرياض",
+      "editor": "سامي بن محمد بن جاد الله",
+      "link": "https://shamela.ws/book/6244",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8376",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البداية والنهاية",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "15 (14 والفهارس)",
+      "edition": "الأولى، 1408 - 1988 م",
+      "publisher": "دار إحياء التراث العربي، بيروت - لبنان",
+      "editor": "حققه ودقق أصوله وعلق حواشيه: علي شيري",
+      "link": "https://shamela.ws/book/8376",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8473",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن العظيم",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الثانية، 1420 هـ - 1999 م",
+      "publisher": "دار طيبة للنشر والتوزيع، الرياض - السعودية",
+      "editor": "سامي بن محمد السلامة (تم فيها استدراك السقط الحاصل بالمجلد الأول من طبعة الشعب)",
+      "link": "https://shamela.ws/book/8473",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9978",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحفة الطالب بمعرفة أحاديث مختصر ابن الحاجب",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التخريج والأطراف",
+      "pages": "503",
+      "volumes": "Null",
+      "edition": "الطبعة الثانية 1416هـ - 1996م",
+      "publisher": "دار ابن حزم",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/9978",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11818",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النهاية في الفتن والملاحم",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "1408 هـ - 1988 م",
+      "publisher": "دار الجيل، بيروت - لبنان",
+      "editor": "محمد أحمد عبد العزيز",
+      "link": "https://shamela.ws/book/11818",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12860",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "طبقات الشافعيين",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التراجم والطبقات",
+      "pages": "955",
+      "volumes": "Null",
+      "edition": "1413 هـ - 1993 م",
+      "publisher": "مكتبة الثقافة الدينية",
+      "editor": "د أحمد عمر هاشم، د محمد زينهم محمد عزب (تحقيق)",
+      "link": "https://shamela.ws/book/12860",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "16555",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مسند الفاروق أمير المؤمنين أبي حفص عمر بن الخطاب رضي الله عنه وأقواله على أبواب العلم",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1430 هـ - 2009 م",
+      "publisher": "دار الفلاح، الفيوم - مصر",
+      "editor": "إمام بن علي بن إمام",
+      "link": "https://shamela.ws/book/16555",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21571",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "اختصار علوم الحديث",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "علوم الحديث",
+      "pages": "248",
+      "volumes": "Null",
+      "edition": "الثانية",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "أحمد محمد شاكر",
+      "link": "https://shamela.ws/book/21571",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21809",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جامع المسانيد والسُّنَن الهادي لأقوم سَنَن",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "10",
+      "edition": "الثانية، 1419 هـ - 1998 م",
+      "publisher": "دار خضر للطباعة والنشر والتوزيع بيروت - لبنان، طبع على نفقة المحقق ويطلب من مكتبة النهضة الحديثة - مكة المكرمة",
+      "editor": "د عبد الملك بن عبد الله الدهيش",
+      "link": "https://shamela.ws/book/21809",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "22800",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فضائل القرآن",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "320",
+      "volumes": "Null",
+      "edition": "الطبعة الأولى - 1416 هـ",
+      "publisher": "مكتبة ابن تيمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/22800",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23604",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن العظيم",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "9 (8 والفهارس)",
+      "edition": "الأولى، 1419 هـ - 1998 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "وضع حواشيه وعلق عليه: محمد حسين شمس الدين",
+      "link": "https://shamela.ws/book/23604",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23678",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معجزات النبي صلى الله عليه وسلم (من كتاب البداية والنهاية)",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "السيرة النبوية",
+      "pages": "488",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "المكتبة التوفيقية",
+      "editor": "تحقيق وتعليق: السيد إبراهيم أمين محمد.",
+      "link": "https://shamela.ws/book/23678",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23708",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البداية والنهاية",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "14",
+      "edition": "الأولى، 1348 - 1358 هـ",
+      "publisher": "مطبعة السعادة - القاهرة (الجزء الأول فقط، طبع مطبعة كردسان العلمية بمصر، لصاحبها فرج الله الكردي)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/23708",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26039",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مسند أمير المؤمنين أبي حفص عمر بن الخطاب رضي الله عنه وأقواله على أبواب العلم",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1411هـ - 1991م",
+      "publisher": "دار الوفاء - المنصورة",
+      "editor": "عبد المعطي قلعجي",
+      "link": "https://shamela.ws/book/26039",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "30016",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مسند الإمام أبي بكر الصديق وأيامه وأحكامه (يُطبع لأول مرة عن مخطوطة عمانية وحيدة ونادرة في العالم)",
+      "author_ar": "أبو الفداء إسماعيل بن عمر بن كثير القرشي الدمشقي",
+      "author_death_h": "774",
+      "category": "كتب السنة",
+      "pages": "712",
+      "volumes": "Null",
+      "edition": "الأولى، 1440 هـ - 2019 م",
+      "publisher": "مكتبة الوراق - سلطنة عُمان",
+      "editor": "غالية بنت سالم بن علي آل سعيد",
+      "link": "https://shamela.ws/book/30016",
+      "score": 45,
+      "reasons": [
+        "author contains: اسماعيل بن عمر"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "050",
+  "request": "Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition",
+  "scope": "single_work",
+  "author": "Ibn Abd Rabbih",
+  "status": "blocked_exact_edition_not_confirmed",
+  "recommended_action": "Do not download as canonical. Locate the requested edition or mark this candidate as fallback-only.",
+  "edition_status": "missing required edition terms: أحمد أمين، أحمد الزين، إبراهيم الأبياري",
+  "review": {
+    "approval_status": "blocked",
+    "canonical_book_id": null,
+    "fallback_book_ids": [
+      "23789"
+    ],
+    "blockers": [
+      "missing required edition terms: أحمد أمين، أحمد الزين، إبراهيم الأبياري"
+    ],
+    "instructions": [
+      "Do not process the fallback as the canonical edition.",
+      "Acquire or verify the requested edition before download, enrichment, or indexing.",
+      "Fallback candidates can be used only for context and must be labelled as fallback."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "23789",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "العقد الفريد",
+      "author_ar": "أبو عمر شهاب الدين أحمد بن محمد بن عبد ربه ابن حبيب ابن حدير بن سالم المعروف بابن عبد ربه الأندلسي",
+      "author_death_h": "328",
+      "category": "الأدب",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى، 1404 هـ",
+      "publisher": "دار الكتب العلمية - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/23789",
+      "score": 175,
+      "reasons": [
+        "exact title: العقد الفريد",
+        "author contains: ابن عبد ربه",
+        "author contains: احمد بن محمد بن عبد ربه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6945",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "طبائع النساء وما جاء فيها من عجائب وأخبار وأسرار",
+      "author_ar": "أبو عمر شهاب الدين أحمد بن محمد بن عبد ربه ابن حبيب ابن حدير بن سالم المعروف بابن عبد ربه الأندلسي",
+      "author_death_h": "328",
+      "category": "الأدب",
+      "pages": "246",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "مكتبة القرآن - القاهرة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6945",
+      "score": 75,
+      "reasons": [
+        "author contains: ابن عبد ربه",
+        "author contains: احمد بن محمد بن عبد ربه"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

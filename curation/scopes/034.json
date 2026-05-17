@@ -1,0 +1,524 @@
+{
+  "id": "034",
+  "request": "Download and process Imam al-Qurtubi books",
+  "scope": "author_collection",
+  "author": "al-Qurtubi",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "33",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإعراب عن الحيرة والالتباس الموجودين في مذاهب أهل الرأي والقياس.",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1425 هـ - 2005 م",
+      "publisher": "دار أضواء السلف، الرياض - المملكة العربية السعودية",
+      "editor": "الدكتور محمد بن زين العابدين رستم",
+      "link": "https://shamela.ws/book/33",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "706",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإشارات في أصول المالكية (مطبوع بهامش حاشية محمد الهدة السوسي على قرة العين شرح ورقات إمام الحرمين الجويني)",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "أصول الفقه",
+      "pages": "162",
+      "volumes": "Null",
+      "edition": "الثالثة، 1351 هـ",
+      "publisher": "المطبعة التونسية، نهج سوق البلاط- تونس",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/706",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "767",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المُحلَّى بالآثار",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "دون تاريخ نشر (!) / 1408 هـ - 1988 م",
+      "publisher": "دار الفكر - بيروت / دار الكتب العلمية - بيروت",
+      "editor": "د. عبد الغفار سليمان البنداري",
+      "link": "https://shamela.ws/book/767",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1028",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التقريب لحد المنطق والمدخل إليه بالألفاظ العامية والأمثلة الفقهية",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "المنطق",
+      "pages": "213",
+      "volumes": "Null",
+      "edition": "الأولى، 1900",
+      "publisher": "دار مكتبة الحياة - بيروت",
+      "editor": "إحسان عباس",
+      "link": "https://shamela.ws/book/1028",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1036",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جوامع السيرة وخمس رسائل أخرى",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "السيرة النبوية",
+      "pages": "381",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار المعارف - مصر، ١٩٥٠ م",
+      "editor": "تحقيق: د إحسان عباس [ت ١٤٢٤ هـ]، د ناصر الدين الأسد [ت ١٤٣٦ هـ]; مراجعة: أحمد محمد شاكر [ت ١٣٧٧ هـ]",
+      "link": "https://shamela.ws/book/1036",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1038",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رسائل ابن حزم الأندلسي",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "الجوامع",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الجزء: 1 - الطبعة: 1، 1980 الجزء: 2 - الطبعة: 2، 1987 الجزء: 3 - الطبعة: 1، 1981 الجزء: 4 - الطبعة: 1، 1983",
+      "publisher": "المؤسسة العربية للدراسات والنشر",
+      "editor": "إحسان عباس",
+      "link": "https://shamela.ws/book/1038",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1168",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأحكام",
+      "author_ar": "عبد الملك بن حبيب بن حبيب بن سليمان بن هارون السلمي الإلبيري القرطبي أبو مروان",
+      "author_death_h": "238",
+      "category": "الفقه المالكي",
+      "pages": "248",
+      "volumes": "Null",
+      "edition": "الأولى، 1435 هـ - 2014 هـ",
+      "publisher": "وزارة الأوقاف والشؤون الإسلامية - دولة قطر",
+      "editor": "الدكتور أحمد بن عبد الكريم نجيب",
+      "link": "https://shamela.ws/book/1168",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1271",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الكشف عن وجوه القراءات السبع وعللها وحججها",
+      "author_ar": "أبو محمد مكي بن أبي طالب حموش بن محمد بن مختار القيسي القيرواني ثم الأندلسي القرطبي المالكي",
+      "author_death_h": "437",
+      "category": "التجويد والقراءات",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1401 هـ‍ - 1981 م",
+      "publisher": "مؤسسة الرسالة - بيروت",
+      "editor": "د محيي الدين رمضان",
+      "link": "https://shamela.ws/book/1271",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1449",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإنجاد في أبواب الجهاد وتفصيل فرائضه وسننه وذكر جمل من آدابه ولواحق أحكامه",
+      "author_ar": "محمد بن عيسى بن محمد بن أصبغ أبو عبد الله بن المناصف الأزدي القرطبي",
+      "author_death_h": "620",
+      "category": "الفقه العام",
+      "pages": "685",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار الإمام مالك، مؤسسة الريان",
+      "editor": "مشهور بن حسن آل سلمان ومحمد بن زكريا أبو غازي",
+      "link": "https://shamela.ws/book/1449",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "2216",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الناسخ والمنسوخ في القرآن الكريم",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "67",
+      "volumes": "Null",
+      "edition": "الأولى، 1406 هـ - 1986 م",
+      "publisher": "دار الكتب العلمية - بيروت، لبنان",
+      "editor": "د. عبد الغفار سليمان البنداري",
+      "link": "https://shamela.ws/book/2216",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5538",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مشكل إعراب القرآن",
+      "author_ar": "أبو محمد مكي بن أبي طالب حموش بن محمد بن مختار القيسي القيرواني ثم الأندلسي القرطبي المالكي",
+      "author_death_h": "437",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1405",
+      "publisher": "مؤسسة الرسالة - بيروت",
+      "editor": "د. حاتم صالح الضامن [ت ١٤٣٤ هـ]",
+      "link": "https://shamela.ws/book/5538",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5851",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أبو الوليد سليمان بن خلف الباجي وكتابه التعديل والتجريح لمن خرج له البخاري في الجامع الصحيح",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "3 (متسلسلة الترقيم)",
+      "edition": "الأولى، 1406 هـ - 1986 م",
+      "publisher": "دار اللواء للنشر والتوزيع - الرياض",
+      "editor": "د أبو لبابة حسين",
+      "link": "https://shamela.ws/book/5851",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6321",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النبذة الكافية في أحكام أصول الدين",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "أصول الفقه",
+      "pages": "75",
+      "volumes": "Null",
+      "edition": "الأولى، 1405 هـ - 1985 م",
+      "publisher": "دار الكتب العلمية - بيروت",
+      "editor": "محمد أحمد عبد العزيز",
+      "link": "https://shamela.ws/book/6321",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6517",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإعلام بما في دين النصارى من الفساد والأوهام وإظهار محاسن الإسلام",
+      "author_ar": "أبو عبد الله محمد بن أحمد بن أبي بكر بن فرح الأنصاري الخزرجي شمس الدين القرطبي",
+      "author_death_h": "671",
+      "category": "الفرق والردود",
+      "pages": "498",
+      "volumes": "Null",
+      "edition": "سنة النشر: Null",
+      "publisher": "دار التراث العربي - القاهرة",
+      "editor": "د. أحمد حجازي السقا",
+      "link": "https://shamela.ws/book/6517",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6521",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفصل في الملل والأهواء والنحل",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "الفرق والردود",
+      "pages": "Null",
+      "volumes": "5 × 3",
+      "edition": "Null",
+      "publisher": "مكتبة الخانجي - القاهرة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6521",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6542",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرد على من ذهب إلى تصحيح علم الغيب من جهة الخط",
+      "author_ar": "أبو الوليد محمد بن أحمد بن رشد القرطبي",
+      "author_death_h": "520",
+      "category": "العقيدة",
+      "pages": "52",
+      "volumes": "Null",
+      "edition": "الأولى، 1413",
+      "publisher": "دار ابن حزم - بيروت",
+      "editor": "مشهور حسن سلمان",
+      "link": "https://shamela.ws/book/6542",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6684",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنتقى شرح الموطإ",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1332 هـ (ثم صورتها دار الكتاب الإسلامي، القاهرة - الطبعة: الثانية، بدون تاريخ)",
+      "publisher": "مطبعة السعادة - بجوار محافظة مصر",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6684",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6865",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النصيحة الولدية/ وصية أبي الوليد الباجي لولديه",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "39",
+      "volumes": "Null",
+      "edition": "الأولى، 1417هـ",
+      "publisher": "دار الوطن - الرياض",
+      "editor": "إبراهيم باجس عبد المجيد",
+      "link": "https://shamela.ws/book/6865",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6874",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأخلاق والسير في مداواة النفوس",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "95",
+      "volumes": "Null",
+      "edition": "الثانية، 1399هـ - 1979م",
+      "publisher": "دار الآفاق الجديدة - بيروت",
+      "editor": "بلا",
+      "link": "https://shamela.ws/book/6874",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8208",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البدع والنهي عنها",
+      "author_ar": "محمد بن وضاح القرطبي",
+      "author_death_h": "Null",
+      "category": "كتب السنة",
+      "pages": "191",
+      "volumes": "Null",
+      "edition": "الأولى، 1416 هـ",
+      "publisher": "مكتبة ابن تيمية، القاهرة- مصر، مكتبة العلم، جدة - السعودية",
+      "editor": "عمرو عبد المنعم سليم",
+      "link": "https://shamela.ws/book/8208",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8676",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإبانة عن معاني القراءات",
+      "author_ar": "أبو محمد مكي بن أبي طالب حموش بن محمد بن مختار القيسي القيرواني ثم الأندلسي القرطبي المالكي",
+      "author_death_h": "437",
+      "category": "التجويد والقراءات",
+      "pages": "157",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار نهضة مصر للطبع والنشر",
+      "editor": "الدكتور عبد الفتاح إسماعيل شلبي",
+      "link": "https://shamela.ws/book/8676",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9728",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جوامع السيرة النبوية",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "السيرة النبوية",
+      "pages": "212",
+      "volumes": "Null",
+      "edition": "الأولى، 1403 هـ - 1983 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/9728",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9769",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أقضية رسول الله صلى الله عليه وآله وسلم",
+      "author_ar": "محمد بن الفرج القرطبي المالكي أبو عبد الله ابن الطلاع ويقال الطلاعي",
+      "author_death_h": "497",
+      "category": "السياسة الشرعية والقضاء",
+      "pages": "144",
+      "volumes": "Null",
+      "edition": "1426 هـ",
+      "publisher": "دار الكتاب العربي - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/9769",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9793",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جمهرة أنساب العرب",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "الأنساب",
+      "pages": "512",
+      "volumes": "Null",
+      "edition": "1962 م (وصَوّرته دار الكتب العلمية 1983 م - 1403 هـ مع العبث بحواشي المحقق!!)",
+      "publisher": "دار المعارف - مصر",
+      "editor": "عبد السلام محمد هارون (تحقيق وتعليق)",
+      "link": "https://shamela.ws/book/9793",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10432",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإحكام في أصول الأحكام",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "author_death_h": "456",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "Null",
+      "publisher": "دار الآفاق الجديدة، بيروت",
+      "editor": "الشيخ أحمد محمد شاكر",
+      "link": "https://shamela.ws/book/10432",
+      "score": 45,
+      "reasons": [
+        "author contains: القرطبي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

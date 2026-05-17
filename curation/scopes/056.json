@@ -1,0 +1,527 @@
+{
+  "id": "056",
+  "request": "Download and process Tarikh Baghdad by al-Khatib al-Baghdadi",
+  "scope": "single_work",
+  "author": "al-Khatib al-Baghdadi",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "736",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "[تاريخ بغداد] (تاريخ مدينة السلام وأخبار محدثيها وذكر قطانها العلماء من غير أهلها ووارديها)",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "17 (16 والفهارس)",
+      "edition": "الأولى، 1422 هـ - 2002 م",
+      "publisher": "دار الغرب الإسلامي - بيروت",
+      "editor": "حققه وضبط نصه وعلق عليه: د بشار عواد معروف",
+      "link": "https://shamela.ws/book/736",
+      "score": 180,
+      "reasons": [
+        "title contains: تاريخ بغداد",
+        "title contains: تاريخ مدينه السلام",
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23764",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تاريخ بغداد (أو مدينة السلام)",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "24 (14 ثم ذيول وفهارس)",
+      "edition": "(الأولى، 1417 هـ - 1997 م)، (الثانية، 1425 هـ - 2004 م)",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "دراسة وتحقيق: مصطفى عبد القادر عطا",
+      "link": "https://shamela.ws/book/23764",
+      "score": 110,
+      "reasons": [
+        "title contains: تاريخ بغداد",
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "747",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرد على الخطيب البغدادي [وهو «السهم المصيب في الرد على الخطيب» ردَّ فيه على ما جاء في تاريخ بغداد من التعرض لأبي حنيفة]",
+      "author_ar": "الملك المعظم عيسى الأيوبي",
+      "author_death_h": "624",
+      "category": "التراجم والطبقات",
+      "pages": "148",
+      "volumes": "Null",
+      "edition": "(الأولى، 1417 هـ - 1997 م)، (الثانية، 1425 هـ - 2004 م)",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "مصطفى عبد القادر عطا (دراسة وتحقيق)",
+      "link": "https://shamela.ws/book/747",
+      "score": 85,
+      "reasons": [
+        "title contains: تاريخ بغداد",
+        "record contains author term: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "809",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "منهج الخطيب البغدادي في نقد الحديث - من خلال كتابه تاريخ بغداد",
+      "author_ar": "محمد محب الدين أبو زيد",
+      "author_death_h": "Null",
+      "category": "علوم الحديث",
+      "pages": "524",
+      "volumes": "Null",
+      "edition": "الأولى، 1441 هـ - 2020 م",
+      "publisher": "(المكتبة العمرية - دار الذخائر)، القاهرة",
+      "editor": "د عبد المجيد محمود [ت ١٤٤٣ هـ] (إشراف)",
+      "link": "https://shamela.ws/book/809",
+      "score": 85,
+      "reasons": [
+        "title contains: تاريخ بغداد",
+        "record contains author term: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "183",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "زوائد تاريخ بغداد على الكتب الستة",
+      "author_ar": "خلدون بن محمد سليم الأحدب",
+      "author_death_h": "Null",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "10 (الأخير فهارس)",
+      "edition": "الأولى، 1996 م",
+      "publisher": "دار القلم للطباعة والنشر والتوزيع، دمشق",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/183",
+      "score": 75,
+      "reasons": [
+        "title contains: تاريخ بغداد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "729",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ذيل تاريخ بغداد [التاريخ المجدد لمدينة السلام وأخبار فضائلها الأعلام، ومن وردها من الأعلام]",
+      "author_ar": "محب الدين أبو عبد الله محمد بن محمود بن الحسن بن هبة الله بن محاسن المعروف بابن النجار البغدادي",
+      "author_death_h": "643",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "5 (جـ 16 - 20 من تاريخ بغداد وذيوله ط العلمية)",
+      "edition": "Null",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "مصطفى عبد القادر عطا (دراسة وتحقيق)",
+      "link": "https://shamela.ws/book/729",
+      "score": 75,
+      "reasons": [
+        "title contains: تاريخ بغداد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "745",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المستفاد من «ذيل تاريخ بغداد، لابن النجار»",
+      "author_ar": "أبو الحسين أحمد بن أيبك بن عبد الله الحسامي المعروف بابن الدمياطي",
+      "author_death_h": "749",
+      "category": "التراجم والطبقات",
+      "pages": "205",
+      "volumes": "Null",
+      "edition": "(الأولى، 1417 هـ - 1997 م)، (الثانية، 1425 هـ - 2004 م)",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "مصطفى عبد القادر عطا (دراسة وتحقيق)",
+      "link": "https://shamela.ws/book/745",
+      "score": 75,
+      "reasons": [
+        "title contains: تاريخ بغداد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1454",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرحلة في طلب الحديث",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "74",
+      "volumes": "Null",
+      "edition": "الأولى، 1432 هـ - 2011 م",
+      "publisher": "مكتبة ابن تيمية، القاهرة - مصر",
+      "editor": "أبو أويس الكردي",
+      "link": "https://shamela.ws/book/1454",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1603",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المؤتنف تكملة المؤتلف والمختلف",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1444 هـ - 2023 م",
+      "publisher": "المكتبة العمرية، دار الذخائر - القاهرة",
+      "editor": "أبو عاصم الشوامي",
+      "link": "https://shamela.ws/book/1603",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1932",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جزء فيه طرق حديث ابن عمر في ترائي الهلال",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "كتب السنة",
+      "pages": "30",
+      "volumes": "Null",
+      "edition": "الأولى، 1418هـ، 1998م",
+      "publisher": "دار الضياء - طنطا",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1932",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5428",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التطفيل وحكايات الطفيليين وأخبارهم ونوادر كلامهم وأشعارهم",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "الأدب",
+      "pages": "174",
+      "volumes": "Null",
+      "edition": "الأولى، 1420 هـ - 1999 م",
+      "publisher": "دار ابن حزم، الجفان والجابي للطباعة والنشر",
+      "editor": "بسام عبد الوهاب الجابي [ت ١٤٣٨ هـ] (بعناية)",
+      "link": "https://shamela.ws/book/5428",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5646",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نصيحة أهل الحديث",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "47",
+      "volumes": "Null",
+      "edition": "الأولى، 1408",
+      "publisher": "مكتبة المنار - الزرقاء",
+      "editor": "عبد الكريم أحمد الوريكات",
+      "link": "https://shamela.ws/book/5646",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5673",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حديث الستة من التابعين وذكر طرقه واختلاف وجوهه",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "كتب السنة",
+      "pages": "60",
+      "volumes": "Null",
+      "edition": "الأولى، 1412",
+      "publisher": "دار فواز - الإحساء",
+      "editor": "محمد رزق طرهوني",
+      "link": "https://shamela.ws/book/5673",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5777",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "غنية الملتمس ايضاح الملتبس",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "التراجم والطبقات",
+      "pages": "460",
+      "volumes": "Null",
+      "edition": "الأولى، 1422هـ - 2001م",
+      "publisher": "مكتبة الرشد - السعودية/ الرياض",
+      "editor": "د. يحيى بن عبد الله البكري الشهري",
+      "link": "https://shamela.ws/book/5777",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5815",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأسماء المبهمة في الأنباء المحكمة",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الثالثة، 1417 هـ - 1997م",
+      "publisher": "مكتبة الخانجي - القاهرة / مصر",
+      "editor": "د. عز الدين علي السيد",
+      "link": "https://shamela.ws/book/5815",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6003",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تالي تلخيص المتشابه",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1417",
+      "publisher": "دار الصميعي - الرياض",
+      "editor": "مشهور بن حسن آل سلمان , أحمد الشقيرات",
+      "link": "https://shamela.ws/book/6003",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6025",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "موضح أوهام الجمع والتفريق",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1407",
+      "publisher": "دار المعرفة - بيروت",
+      "editor": "د. عبد المعطي أمين قلعجي",
+      "link": "https://shamela.ws/book/6025",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6353",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مسألة الاحتجاج بالشافعي",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "أصول الفقه",
+      "pages": "79",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "المكتبة الأثرية - باكستان",
+      "editor": "خليل إبراهيم ملا خاطر [ت ١٤٤٥ هـ]",
+      "link": "https://shamela.ws/book/6353",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7640",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "السابق واللاحق في تباعد ما بين وفاة راويين عن شيخ واحد",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "347",
+      "volumes": "Null",
+      "edition": "الثانية، 1421 هـ - 2000 م",
+      "publisher": "دار الصميعي، الرياض - السعودية",
+      "editor": "د محمد بن مطر الزهراني [ت ١٤٢٧ هـ]",
+      "link": "https://shamela.ws/book/7640",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9076",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المتفق والمفترق",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1417 هـ - 1997 م",
+      "publisher": "دار القادري للطباعة والنشر والتوزيع، دمشق",
+      "editor": "دراسة وتحقيق: الدكتور محمد صادق آيدن الحامدي",
+      "link": "https://shamela.ws/book/9076",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10842",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفصل للوصل المدرج في النقل",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1418 هـ - 1997 م",
+      "publisher": "دار الهجرة",
+      "editor": "محمد بن مطر [بن عثمان] الزهراني",
+      "link": "https://shamela.ws/book/10842",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12985",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "اقتضاء العلم العمل",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "114",
+      "volumes": "Null",
+      "edition": "الخامسة، 1404 هـ - 1984 م",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "محمد ناصر الدين الألباني",
+      "link": "https://shamela.ws/book/12985",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13012",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الجامع لأخلاق الراوي وآداب السامع",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "Null",
+      "publisher": "مكتبة المعارف - الرياض",
+      "editor": "د. محمود الطحان [ت ١٤٤٤ هـ]",
+      "link": "https://shamela.ws/book/13012",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13020",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرحلة في طلب الحديث",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "علوم الحديث",
+      "pages": "179",
+      "volumes": "Null",
+      "edition": "الأولى، 1395 هـ‍ - 1975 م",
+      "publisher": "أمين دمج (ثم صورته دار الكتب العلمية، بيروت)",
+      "editor": "نور الدين عتر",
+      "link": "https://shamela.ws/book/13020",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13048",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفقيه و المتفقه",
+      "author_ar": "أبو بكر أحمد بن علي بن ثابت بن أحمد بن مهدي الخطيب البغدادي",
+      "author_death_h": "463",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1421 ه",
+      "publisher": "دار ابن الجوزي - السعودية",
+      "editor": "أبو عبد الرحمن عادل بن يوسف الغرازي",
+      "link": "https://shamela.ws/book/13048",
+      "score": 40,
+      "reasons": [
+        "author contains: الخطيب البغدادي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

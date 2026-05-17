@@ -1,0 +1,549 @@
+{
+  "id": "044",
+  "request": "Download and process all Imam al-Nawawi books",
+  "scope": "author_collection",
+  "author": "al-Nawawi",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "497",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فَتَّاوَى الإِمامِ النَّوَوَيِ المُسمَّاةِ: \"بالمَسَائِل المنْثورَةِ\"",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الفقه الشافعي",
+      "pages": "280",
+      "volumes": "Null",
+      "edition": "السَادسَة، 1417 هـ - 1996 م",
+      "publisher": "دَارُ البشائرِ الإسلاميَّة للطبَاعَة وَالنشرَ والتوزيع، بَيروت - لبنان",
+      "editor": "محمَّد الحجَّار",
+      "link": "https://shamela.ws/book/497",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "499",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "روضة الطالبين وعمدة المفتين",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الفقه الشافعي",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "الثالثة، 1412 هـ / 1991 م",
+      "publisher": "المكتب الإسلامي، بيروت- دمشق- عمان",
+      "editor": "زهير الشاويش [ت ١٤٣٤ هـ] (إشراف)",
+      "link": "https://shamela.ws/book/499",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "512",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رياض الصالحين",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "كتب السنة",
+      "pages": "639",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "محمد ناصر الدين الألباني",
+      "link": "https://shamela.ws/book/512",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1711",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنهاج شرح صحيح مسلم بن الحجاج",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "18 (في 9 مجلدات)",
+      "edition": "الثانية، 1392",
+      "publisher": "دار إحياء التراث العربي - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1711",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1956",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأذكار",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "413",
+      "volumes": "Null",
+      "edition": "طبعة جديدة منقحة، 1414 هـ - 1994 م",
+      "publisher": "دار الفكر للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "تحقيق: عبد القادر الأرنؤوط [ت ١٤٢٥ هـ]",
+      "link": "https://shamela.ws/book/1956",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1969",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التبيان في آداب حملة القرآن",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "230",
+      "volumes": "Null",
+      "edition": "الثالثة مزيدة ومنقحة، 1414 هـ - 1994 م",
+      "publisher": "دار ابن حزم للطباعة والنشر والتوزيع - بيروت - لبنان - ص ب: ٦٣٦٦ / ١٤ - تلفون: ٨٣١٣٣١",
+      "editor": "محمد الحجار",
+      "link": "https://shamela.ws/book/1969",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "2186",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المجموع شرح المهذب",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الفقه الشافعي",
+      "pages": "Null",
+      "volumes": "9",
+      "edition": "1344 - 1347 هـ",
+      "publisher": "(إدارة الطباعة المنيرية، مطبعة التضامن الأخوي) - القاهرة / دار الفكر بيروت",
+      "editor": "لجنة من العلماء",
+      "link": "https://shamela.ws/book/2186",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "2348",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رياض الصالحين",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الأولى، 1428 هـ - 2007 م",
+      "publisher": "دار ابن كثير للطباعة والنشر والتوزيع، دمشق - بيروت",
+      "editor": "الدكتور ماهر ياسين الفحل رئيس قسم الحديث - كلية العلوم الإسلامية - جامعة الأنبار",
+      "link": "https://shamela.ws/book/2348",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5064",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإيجاز في شرح سنن أبي داود السجستاني رحمه الله تعالى",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "شروح الحديث",
+      "pages": "403",
+      "volumes": "Null",
+      "edition": "الأولى، 1428 هـ - 2007 م",
+      "publisher": "الدار الأثرية، عمان - الأردن",
+      "editor": "أبو عبيدة مشهور بن حسن آل سلمان",
+      "link": "https://shamela.ws/book/5064",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5586",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التقريب والتيسير لمعرفة سنن البشير النذير في أصول الحديث",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "علوم الحديث",
+      "pages": "123",
+      "volumes": "Null",
+      "edition": "الأولى، 1405 هـ - 1985 م",
+      "publisher": "دار الكتاب العربي، بيروت",
+      "editor": "محمد عثمان الخشت",
+      "link": "https://shamela.ws/book/5586",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5920",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "خلاصة الأحكام في مهمات السنن وقواعد الإسلام",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الاولى ، 1418هـ - 1997م",
+      "publisher": "مؤسسة الرسالة - لبنان - بيروت",
+      "editor": "حسين إسماعيل الجمل",
+      "link": "https://shamela.ws/book/5920",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6134",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "دقائق المنهاج",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الفقه الشافعي",
+      "pages": "78",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار ابن حزم - بيروت",
+      "editor": "إياد أحمد الغوج",
+      "link": "https://shamela.ws/book/6134",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6285",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأصول والضوابط",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "أصول الفقه",
+      "pages": "47",
+      "volumes": "Null",
+      "edition": "الأولى، 1406 هـ - 1986 م",
+      "publisher": "دار البشائر الإسلامية - بيروت",
+      "editor": "د. محمد حسن هيتو",
+      "link": "https://shamela.ws/book/6285",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6345",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "آداب الفتوى والمفتي والمستفتي",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "أصول الفقه",
+      "pages": "86",
+      "volumes": "Null",
+      "edition": "الأولى، 1408 هـ - 1988 م",
+      "publisher": "دار الفكر، دمشق - سوريا",
+      "editor": "بسام عبد الوهاب الجابي [ت ١٤٣٨ هـ]",
+      "link": "https://shamela.ws/book/6345",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7043",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحرير ألفاظ التنبيه",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الغريب والمعاجم",
+      "pages": "344",
+      "volumes": "Null",
+      "edition": "الأولى، 1408",
+      "publisher": "دار القلم - دمشق",
+      "editor": "عبد الغني الدقر",
+      "link": "https://shamela.ws/book/7043",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9702",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب الأسماء واللغات",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "Null",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "شركة العلماء بمساعدة إدارة الطباعة المنيرية (عنيت بنشره وتصحيحه والتعليق عليه ومقابلة أصوله)",
+      "link": "https://shamela.ws/book/9702",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10639",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حلية الأبرار وشعار الأخيار في تلخيص الدعوات والأذكار المستحبة في الليل والنهار المعروف بـ: الأذكار النواوية",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "430",
+      "volumes": "Null",
+      "edition": "الطبعة الأولى 1425 هـ- 2004 م",
+      "publisher": "الجفان والجابي للطباعة والنشر - دار ابن حزم للطباعة والنشر",
+      "editor": "بعناية: بَسّام عبد الوهّاب الجابي [ت ١٤٣٨ هـ]",
+      "link": "https://shamela.ws/book/10639",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11137",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جزء فيه ذكر اعتقاد السلف في الحروف والأصوات",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "العقيدة",
+      "pages": "78",
+      "volumes": "Null",
+      "edition": "الأولى",
+      "publisher": "مكتبة الأنصار للنشر والتوزيع",
+      "editor": "أحمد بن على الدمياطي",
+      "link": "https://shamela.ws/book/11137",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12014",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رياض الصالحين",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "527",
+      "volumes": "Null",
+      "edition": "الثالثة، 1419 هـ/1998 م",
+      "publisher": "مؤسسة الرسالة، بيروت، لبنان",
+      "editor": "شعيب الأرنؤوط [ت ١٤٣٨ هـ]",
+      "link": "https://shamela.ws/book/12014",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12096",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "منهاج الطالبين وعمدة المفتين في الفقه",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الفقه الشافعي",
+      "pages": "370",
+      "volumes": "Null",
+      "edition": "الأولى، 1425هـ/2005م",
+      "publisher": "دار الفكر",
+      "editor": "عوض قاسم أحمد عوض",
+      "link": "https://shamela.ws/book/12096",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12719",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "بستان العارفين",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "80",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار الريان للتراث",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/12719",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12836",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأربعون النووية",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "115",
+      "volumes": "Null",
+      "edition": "الأولى، 1430 هـ - 2009 م",
+      "publisher": "دار المنهاج للنشر والتوزيع، لبنان - بيروت",
+      "editor": "عُنِيَ بِهِ: قصي محمد نورس الحلاق، أنور بن أبي بكر الشيخي",
+      "link": "https://shamela.ws/book/12836",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13566",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأذكار النووية أو «حلية الأبرار وشعار الأخيار في تلخيص الدعوات والأذكار المستحبة في الليل والنهار»",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "638",
+      "volumes": "Null",
+      "edition": "الثانية،1410 هـ - 1990 م",
+      "publisher": "دار ابن كثير، دمشق - بيروت",
+      "editor": "محيي الدين مستو [ت ١٤٤٢ هـ]",
+      "link": "https://shamela.ws/book/13566",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "96232",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإيضاح في مناسك الحج والعمرة",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "الفقه العام",
+      "pages": "522",
+      "volumes": "Null",
+      "edition": "الثانية، 1414 هـ - 1994 م",
+      "publisher": "دار البشائر الإسلامية، بيروت - المكتبة الأمدادية، مكة المكرمة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/96232",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "127654",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إرشاد طلاب الحقائق إلى معرفة سنن خير الخلائق - صلى الله عليه وسلم -",
+      "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
+      "author_death_h": "676",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1408 هـ - 1987 م",
+      "publisher": "مكتبة الإيمان، المدينة المنورة - المملكة العربية السعودية",
+      "editor": "عبد الباري فتح الله السلفي",
+      "link": "https://shamela.ws/book/127654",
+      "score": 80,
+      "reasons": [
+        "author contains: النووي",
+        "author contains: يحيي بن شرف"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

@@ -9,6 +9,7 @@ Goal: know which requested books already exist in the local/HF/Shamela catalogue
 ```powershell
 node scripts/resolve-requested-books.mjs
 node scripts/build-download-plan.mjs
+node scripts/build-curation-workspace.mjs
 ```
 
 Output to inspect:
@@ -17,8 +18,12 @@ Output to inspect:
 - `reports/requested-book-resolution.md`
 - `reports/download-plan.json`
 - `reports/download-plan.md`
+- `curation/download-curation.json`
+- `curation/scopes/{id}.json`
 
 Special watch item: Iqd al-Farid must be the Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition. A generic Shamela edition should be treated as fallback context only, not the canonical target.
+
+The curation workspace is the approval layer. Do not run large downloads from top candidates alone; approve candidates in `curation/scopes/` first.
 
 ## 2. Download In Batches
 

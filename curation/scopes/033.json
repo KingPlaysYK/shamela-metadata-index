@@ -1,0 +1,548 @@
+{
+  "id": "033",
+  "request": "Download and process Shaykh Ibn Uthaymin books",
+  "scope": "author_collection",
+  "author": "Muhammad ibn Salih al-Uthaymin",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "553",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alنور»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "445",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/553",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "554",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alفرقان»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "351",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/554",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "555",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alشعراء»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "314",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/555",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1537",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alنمل»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "542",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ - 2015 م",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1537",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7678",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "دروس الشيخ محمد بن صالح العثيمين",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "الجوامع",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "Null",
+      "publisher": "موقع الشبكة الإسلامية http://www.islamweb.net (دروس صوتية قام بتفريغها)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/7678",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11529",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحكام الأضحية والذكاة (مطبوع ضمن كتاب الصيد الثمين في رسائل ابن عثيمين)",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "مسائل فقهية",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الأولى، 1412 هـ - 1992 م",
+      "publisher": "دار الثقة للنشر والتوزيع، مكة المكرمة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11529",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن عثيمين",
+        "author contains: العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12293",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مجموع فتاوى ورسائل فضيلة الشيخ محمد بن صالح العثيمين",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "الفتاوى",
+      "pages": "Null",
+      "volumes": "35",
+      "edition": "الأولى، 1407 - 1438 هـ",
+      "publisher": "دار الوطن - دار الثريا",
+      "editor": "جمع وترتيب: فهد بن ناصر بن إبراهيم السليمان",
+      "link": "https://shamela.ws/book/12293",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14242",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الكنز الثمين في سؤالات ابن سنيد لابن عثيمين",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "الفتاوى",
+      "pages": "188",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "إعداد: فهد بن عبد الله بن إبراهيم السنيد",
+      "link": "https://shamela.ws/book/14242",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن عثيمين",
+        "author contains: العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21579",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "زاد الداعية إلى الله (مطبوع ضمن كتاب الصيد الثمين في رسائل ابن عثيمين)",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "كتب عامة",
+      "pages": "24",
+      "volumes": "Null",
+      "edition": "الأولى، 1412 هـ - 1992 م",
+      "publisher": "دار الثقة للنشر والتوزيع، مكة المكرمة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21579",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن عثيمين",
+        "author contains: العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21587",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نبذة في العقيدة الإسلامية (مطبوع ضمن كتاب الصيد الثمين في رسائل ابن عثيمين)",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "العقيدة",
+      "pages": "67",
+      "volumes": "Null",
+      "edition": "الأولى، 1412 هـ - 1992 م",
+      "publisher": "دار الثقة للنشر والتوزيع، مكة المكرمة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21587",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن عثيمين",
+        "author contains: العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21805",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alقصص»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "407",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21805",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21807",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alعنكبوت»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "426",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21807",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21808",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «سورة الروم»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "339",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21808",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "96875",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تعليقات ابن عثيمين على الكافي لابن قدامة (إلى أول كتاب الوقف وهو آخر ما شرح الشيخ رحمه الله)",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/96875",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن عثيمين",
+        "author contains: العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "132428",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh لقمان»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "213",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/132428",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "132429",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alسجدة»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "132",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/132429",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "150303",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «سورة الأحزاب»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "545",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/150303",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "150304",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh سبأ»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "321",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/150304",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151156",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh فاطر»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "325",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/151156",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151160",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «سورة الزمر»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "519",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/151160",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151161",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh غافر»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "558",
+      "volumes": "Null",
+      "edition": "الأولى، 1437 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/151161",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151162",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh فصلت»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "342",
+      "volumes": "Null",
+      "edition": "الأولى، 1437 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/151162",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151163",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «soreh alشورى»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "363",
+      "volumes": "Null",
+      "edition": "الأولى، 1437 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/151163",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151164",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير القرآن الكريم «سورة الزخرف»",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "التفسير",
+      "pages": "173",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ",
+      "publisher": "مؤسسة الشيخ محمد بن صالح العثيمين الخيرية، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/151164",
+      "score": 55,
+      "reasons": [
+        "author contains: العثيمين",
+        "record contains author term: محمد بن صالح العثيمين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "299",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رسالة في الوضوء والغسل والصلاة",
+      "author_ar": "محمد بن صالح بن محمد العثيمين",
+      "author_death_h": "1421",
+      "category": "مسائل فقهية",
+      "pages": "16",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار الوطن للنشر",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/299",
+      "score": 45,
+      "reasons": [
+        "author contains: العثيمين"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

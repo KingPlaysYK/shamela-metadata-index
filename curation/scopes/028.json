@@ -1,0 +1,528 @@
+{
+  "id": "028",
+  "request": "Download and process all Ibn Hajar al-Asqalani books",
+  "scope": "author_collection",
+  "author": "Ibn Hajar al-Asqalani",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "6662",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تقريظ للحافظ ابن حجر العسقلاني على الرد الوافر لابن ناصر الدين الدمشقي",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "17",
+      "volumes": "Null",
+      "edition": "الأولى، 1409 هـ - 1988 م",
+      "publisher": "مكتبة ابن تيمية - الكويت",
+      "editor": "محمد بن إبراهيم الشيباني (تقديم وتحقيق وتعليق)",
+      "link": "https://shamela.ws/book/6662",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن حجر",
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11118",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنتخب من أمالي ابن حجر من تخريج مختصر ابن الحاجب - مخطوط",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التخريج والأطراف",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11118",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن حجر",
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21489",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأحاديث العشرة العشارية الاختيارية لابن حجر",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "كتب السنة",
+      "pages": "47",
+      "volumes": "Null",
+      "edition": "الأولى، 1424 هـ - 2003 م",
+      "publisher": "دار البشائر الإسلامية، بيروت - لبنان",
+      "editor": "فراس محمد وليد ويس",
+      "link": "https://shamela.ws/book/21489",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن حجر",
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "96277",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مَسَائل أجَابَ عَنها الحَافظُ ابن حَجر العَسقَلاني",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "شروح الحديث",
+      "pages": "45",
+      "volumes": "Null",
+      "edition": "الأولى، 1428 هـ - 2007 م",
+      "publisher": "دار الإمام أحمد للنشر والتوزيع والصوتيات، القاهرة - مصر",
+      "editor": "أبو عبد الرحمن عبد المجيد جمعة الجزائري",
+      "link": "https://shamela.ws/book/96277",
+      "score": 55,
+      "reasons": [
+        "record contains author term: ابن حجر",
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "154",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الغرائب الملتقطة من مسند الفردوس المسمى «زهر الفردوس»",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى، 1439 هـ - 2018 م",
+      "publisher": "جمعية دار البر، دبي - الإمارات العربية المتحدة",
+      "editor": "تحقيق جـ ١: الدكتور العربي الدائز الفرياطي; تحقيق جـ ٢: الدكتور محمد مرتضى سليمان يونس; تحقيق جـ ٣: الدكتور خيري حسيني جميل; تحقيق جـ ٤: الدكتور إيروان سفيان; تحقيق جـ ٥: الدكتور أبو بكر أحمد جالو; تحقيق جـ ٦: الدكتور فيصل محمد علي العقيلي; تحقيق جـ ٧: الدكتور وسيم عصام شبلي; تحقيق جـ ٨: الدكتور حسن علي ورسمه",
+      "link": "https://shamela.ws/book/154",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "166",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفضل المأثور من سيرة السلطان الملك المنصور",
+      "author_ar": "شافع بن علي الكاتب العسقلاني المصري",
+      "author_death_h": "730",
+      "category": "التاريخ",
+      "pages": "211",
+      "volumes": "Null",
+      "edition": "الأولى، 1418 هـ - 1998 م",
+      "publisher": "المكتبة العصرية للطباعة والنشر، بيروت - لبنان",
+      "editor": "الأستاذ الدكتور عمر عبد السلام تدمري",
+      "link": "https://shamela.ws/book/166",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "316",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نزهة النظر في توضيح نخبة الفكر في مصطلح أهل الأثر",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "علوم الحديث",
+      "pages": "293",
+      "volumes": "Null",
+      "edition": "الأولى، 1442 هـ -2021 م",
+      "publisher": "Null",
+      "editor": "د عبد المحسن بن محمد القاسم",
+      "link": "https://shamela.ws/book/316",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "347",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تغليق التعليق على صحيح البخاري",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التخريج والأطراف",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "الأولى، 1405",
+      "publisher": "المكتب الإسلامي , دار عمار - بيروت , عمان - الأردن",
+      "editor": "سعيد عبد الرحمن موسى القزقي [ت ١٤٤١ هـ]",
+      "link": "https://shamela.ws/book/347",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "616",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نخبة الفكر في مصطلح أَهل الأثر",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "علوم الحديث",
+      "pages": "81",
+      "volumes": "Null",
+      "edition": "الثانية، 1441 هـ - 2020 م",
+      "publisher": "Null",
+      "editor": "د عبد المحسن بن محمد القاسم",
+      "link": "https://shamela.ws/book/616",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "799",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مختصر زوائد مسند البزار على الكتب الستة ومسند أحمد",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1412 هـ - 1992 م",
+      "publisher": "مؤسسة الكتب الثقافية، بيروت - لبنان",
+      "editor": "صبري بن عبد الخالق أبو ذر",
+      "link": "https://shamela.ws/book/799",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1186",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تعريف اهل التقديس بمراتب الموصوفين بالتدليس",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "71",
+      "volumes": "Null",
+      "edition": "الأولى، 1403 - 1983",
+      "publisher": "مكتبة المنار - عمان",
+      "editor": "د. عاصم بن عبدالله القريوتي",
+      "link": "https://shamela.ws/book/1186",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1224",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "هدي الساري مقدمة فتح الباري",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "شروح الحديث",
+      "pages": "493",
+      "volumes": "Null",
+      "edition": "«السلفية الأولى» 1380 هـ ثم صورتها: عدة دور مثل دار المعرفة وغيرها",
+      "publisher": "المكتبة السلفية - مصر",
+      "editor": "محب الدين الخطيب [ت ١٣٨٩ هـ] (قام بإخراجه وتصحيح تجاربه)",
+      "link": "https://shamela.ws/book/1224",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1278",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب التهذيب",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "15 بالإضافة لجزء المقدمة",
+      "edition": "الثانية، 1443 هـ - 2021 م",
+      "publisher": "جمعية دار البر - الإمارات العربية المتحدة، دبي",
+      "editor": "(١٥) رسالة ماجستير، كلية الحديث الشريف بالجامعة الإسلامية بالمدينة المنورة، ١٤٣١ هـ (أصل التحقيق)",
+      "link": "https://shamela.ws/book/1278",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1290",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب التهذيب",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "6",
+      "edition": "الأولى، 1417 هـ - 1996 م",
+      "publisher": "دار المعرفة - بيروت",
+      "editor": "خليل مأمون شيحا، عمر السلامي، علي بن مسعود",
+      "link": "https://shamela.ws/book/1290",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1293",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب التهذيب",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1435 هـ - 2014 م",
+      "publisher": "مؤسسة الرسالة - بيروت",
+      "editor": "إبراهيم الزيبق، عادل مرشد (باعتناء)",
+      "link": "https://shamela.ws/book/1293",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1565",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نزهة النظر في توضيح نخبة الفكر في مصطلح أهل الأثر",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "علوم الحديث",
+      "pages": "175",
+      "volumes": "Null",
+      "edition": "الثالثة، 1421 هـ - 2000 م",
+      "publisher": "مطبعة الصباح، دمشق - سوريا",
+      "editor": "نور الدين عتر",
+      "link": "https://shamela.ws/book/1565",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1581",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التلخيص الحبير في تخريج أحاديث الرافعي الكبير",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التخريج والأطراف",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الطبعة الأولى 1419هـ. 1989م.",
+      "publisher": "دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1581",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1673",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فتح الباري بشرح البخاري",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "13 (بالإضافة للمقدمة هدي الساري في جزء منفصل يكمّل 14)",
+      "edition": "«السلفية الأولى»، 1380 - 1390 هـ ثم صورتها: عدة دور مثل دار المعرفة، وغيرها",
+      "publisher": "المكتبة السلفية - مصر",
+      "editor": "محمد فؤاد عبد الباقي [ت ١٣٨٨ هـ] (رقم كتبه وأبوابه وأحاديثه); محب الدين الخطيب [ت ١٣٨٩ هـ] (قام بإخراجه وتصحيح تجاربه)",
+      "link": "https://shamela.ws/book/1673",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1893",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تعجيل المنفعة بزوائد رجال الأئمة الأربعة",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى ـ 1996م",
+      "publisher": "دار البشائر ـ بيروت",
+      "editor": "د. إكرام الله إمداد الحق",
+      "link": "https://shamela.ws/book/1893",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "2102",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "العجاب في بيان الأسباب",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "Null",
+      "publisher": "دار ابن الجوزي",
+      "editor": "عبد الحكيم محمد الأنيس",
+      "link": "https://shamela.ws/book/2102",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "3310",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب التهذيب",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "الأولى، 1325 - 1327 هـ",
+      "publisher": "مطبعة دائرة المعارف النظامية، حيدرآباد الدكن - الهند",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/3310",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "4092",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تبصير المنتبه بتحرير المشتبه",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "4 (متسلسلة الترقيم)",
+      "edition": "Null",
+      "publisher": "المكتبة العلمية، بيروت - لبنان",
+      "editor": "محمد علي النجار [ت ١٣٨٥ هـ] (تحقيق), علي محمد البجاوي [ت ١٣٩٩ هـ] (مراجعة)",
+      "link": "https://shamela.ws/book/4092",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5702",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأمالي المطلقة",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "كتب السنة",
+      "pages": "258",
+      "volumes": "Null",
+      "edition": "الأولى، 1416 هـ -1995 م",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "حمدي بن عبد المجيد بن إسماعيل السلفي [ت ١٤٣٣ هـ]",
+      "link": "https://shamela.ws/book/5702",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5719",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإمتاع بالأربعين المتباينة السماع / ويليه أسئلة من خط الشيخ العسقلاني",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "كتب السنة",
+      "pages": "129",
+      "volumes": "Null",
+      "edition": "الأولى، 1418هـ - 1997م",
+      "publisher": "دار الكتب العلمية - بيروت - لبنان",
+      "editor": "أبو عبد الله محمد حسن محمد حسن إسماعيل الشافعي",
+      "link": "https://shamela.ws/book/5719",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5729",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأمالي الحلبية",
+      "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
+      "author_death_h": "852",
+      "category": "كتب السنة",
+      "pages": "53",
+      "volumes": "Null",
+      "edition": "الأولى، 1996م",
+      "publisher": "مؤسسة الريان - بيروت",
+      "editor": "عواد خلف",
+      "link": "https://shamela.ws/book/5729",
+      "score": 45,
+      "reasons": [
+        "author contains: العسقلاني"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

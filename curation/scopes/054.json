@@ -1,0 +1,289 @@
+{
+  "id": "054",
+  "request": "Download and process Tanbih al-Ghafileen by Abu Layth al-Samarqandi",
+  "scope": "single_work",
+  "author": "Abu Layth al-Samarqandi",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "10488",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تنبيه الغافلين بأحاديث سيد الأنبياء والمرسلين للسمرقندي",
+      "author_ar": "أبو الليث نصر بن محمد بن أحمد بن إبراهيم السمرقندي",
+      "author_death_h": "373",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "626",
+      "volumes": "Null",
+      "edition": "الثالثة، 1421 هـ - 2000 م",
+      "publisher": "دار ابن كثير، دمشق - بيروت",
+      "editor": "حققه وعلق عليه: يوسف علي بديوي",
+      "link": "https://shamela.ws/book/10488",
+      "score": 180,
+      "reasons": [
+        "title contains: تنبيه الغافلين",
+        "author contains: السمرقندي",
+        "author contains: ابو الليث",
+        "author contains: نصر بن محمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14335",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عُيُون الْمَسَائِل",
+      "author_ar": "أبو الليث نصر بن محمد بن أحمد بن إبراهيم السمرقندي",
+      "author_death_h": "373",
+      "category": "الفقه الحنفي",
+      "pages": "486",
+      "volumes": "Null",
+      "edition": "1386هـ",
+      "publisher": "مطبعة أسعد، بَغْدَاد",
+      "editor": "د. صلاح الدِّين الناهي",
+      "link": "https://shamela.ws/book/14335",
+      "score": 110,
+      "reasons": [
+        "author contains: السمرقندي",
+        "author contains: ابو الليث",
+        "author contains: نصر بن محمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23594",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "بحر العلوم",
+      "author_ar": "أبو الليث نصر بن محمد بن أحمد بن إبراهيم السمرقندي",
+      "author_death_h": "373",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/23594",
+      "score": 110,
+      "reasons": [
+        "author contains: السمرقندي",
+        "author contains: ابو الليث",
+        "author contains: نصر بن محمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10929",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تنبيه الغافلين وإرشاد الجاهلين عما يقع لهم من الخطأ حال تلاوتهم لكتاب الله المبين",
+      "author_ar": "علي بن محمد بن سالم أبو الحسن النوري الصفاقسي",
+      "author_death_h": "1118",
+      "category": "التجويد والقراءات",
+      "pages": "151",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "مؤسسات عبد الكريم بن عبد الله",
+      "editor": "محمد الشاذلي النيفر (ت ١٤١٧ هـ)",
+      "link": "https://shamela.ws/book/10929",
+      "score": 75,
+      "reasons": [
+        "title contains: تنبيه الغافلين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "35453",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تنبيه الغافلين عن أعمال الجاهلين وتحذير السالكين من أفعال الجاهلين",
+      "author_ar": "محيي الدين أبو زكريا أحمد بن إبراهيم ابن النحاس الدمشقي",
+      "author_death_h": "814",
+      "category": "السياسة الشرعية والقضاء",
+      "pages": "537",
+      "volumes": "Null",
+      "edition": "الأولى، 1407 هـ - 1987 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "حققه وعلق عليه: عماد الدين عباس سعيد; إشراف: المكتب السلفي لتحقيق التراث",
+      "link": "https://shamela.ws/book/35453",
+      "score": 75,
+      "reasons": [
+        "title contains: تنبيه الغافلين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "4003",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فوائد ابن نصر عن مشايخه",
+      "author_ar": "أبو القاسم عبد الرحمن بن عمر بن نصر بن محمد الشيباني السامري ثم الدمشقي البزاز",
+      "author_death_h": "410",
+      "category": "كتب السنة",
+      "pages": "112",
+      "volumes": "Null",
+      "edition": "الأولى 1428 هـ - 2007 م",
+      "publisher": "مكتبة دار النصيحة - دار المدينة النبوية",
+      "editor": "أبو عبد الله حمزة الجزائري",
+      "link": "https://shamela.ws/book/4003",
+      "score": 40,
+      "reasons": [
+        "author contains: نصر بن محمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5555",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كتاب الشمعة المضية بنشر قراءات السبعة المرضية",
+      "author_ar": "أبو السعد زين الدين منصور بن أبي النصر بن محمد الطبلاوي سبط ناصر الدين محمد بن سالم",
+      "author_death_h": "1014",
+      "category": "التجويد والقراءات",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1423هـ - 2003م",
+      "publisher": "مكتبة الرشد - السعودية / الرياض",
+      "editor": "د. علي سيد أحمد جعفر",
+      "link": "https://shamela.ws/book/5555",
+      "score": 40,
+      "reasons": [
+        "author contains: نصر بن محمد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7691",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحفة الفقهاء",
+      "author_ar": "علاء الدين شمس النظر أبو بكر محمد بن أحمد السمرقندي",
+      "author_death_h": "539",
+      "category": "الفقه الحنفي",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "الثانية، 1414 هـ - 1994 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/7691",
+      "score": 40,
+      "reasons": [
+        "author contains: السمرقندي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8267",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "من الفوائد المنتقاة الحسان العوالي",
+      "author_ar": "عثمان بن محمد بن أحمد بن محمد بن هارون بن وردان السمرقندي أبو عمرو المصري الحذاء",
+      "author_death_h": "345",
+      "category": "كتب السنة",
+      "pages": "231",
+      "volumes": "Null",
+      "edition": "الأولى، 1418 هـ - 1997 م",
+      "publisher": "مكتبة ابن تيمية، القاهرة - مصر، مكتبة الخراز، جدة",
+      "editor": "أبو إسحق الحويني الأثري",
+      "link": "https://shamela.ws/book/8267",
+      "score": 40,
+      "reasons": [
+        "author contains: السمرقندي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "19237",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ميزان الأصول في نتائج العقول",
+      "author_ar": "علاء الدين شمس النظر أبو بكر محمد بن أحمد السمرقندي",
+      "author_death_h": "539",
+      "category": "أصول الفقه",
+      "pages": "789",
+      "volumes": "Null",
+      "edition": "الأولى، 1404 هـ - 1984 م",
+      "publisher": "مطابع الدوحة الحديثة، قطر",
+      "editor": "الدكتور محمد زكي عبد البر",
+      "link": "https://shamela.ws/book/19237",
+      "score": 40,
+      "reasons": [
+        "author contains: السمرقندي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26378",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "موجبات الجنة",
+      "author_ar": "معمر بن عبد الواحد بن رجاء بن عبد الواحد بن محمد بن الفاخر أبو أحمد القرشي العبشمي السمرقندي الأصبهاني",
+      "author_death_h": "564",
+      "category": "كتب السنة",
+      "pages": "282",
+      "volumes": "Null",
+      "edition": "الأولى، 1423 هـ - 2002 م",
+      "publisher": "مكتبة عباد الرحمن",
+      "editor": "ناصر بن أحمد بن النجار الدمياطي",
+      "link": "https://shamela.ws/book/26378",
+      "score": 40,
+      "reasons": [
+        "author contains: السمرقندي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26481",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ما قرب سنده من حديثٍ للإمام أبي القاسم إسماعيل بن أحمد السمرقندي",
+      "author_ar": "أبو القاسم إسماعيل بن أحمد بن عمر بن أبي الأشعث السمرقندي الدمشقي المولد البغدادي الوطن",
+      "author_death_h": "536",
+      "category": "كتب السنة",
+      "pages": "95",
+      "volumes": "Null",
+      "edition": "الأولى 1414 هـ - 1994 م",
+      "publisher": "مكتبة السنة",
+      "editor": "عطاء الله بن عبد الغفار بن فيض أبو مطيع السندي",
+      "link": "https://shamela.ws/book/26481",
+      "score": 40,
+      "reasons": [
+        "author contains: السمرقندي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "29902",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أمالي أبي القاسم السمرقندي",
+      "author_ar": "أبو القاسم إسماعيل بن أحمد بن عمر بن أبي الأشعث السمرقندي الدمشقي المولد البغدادي الوطن",
+      "author_death_h": "536",
+      "category": "كتب السنة",
+      "pages": "22",
+      "volumes": "Null",
+      "edition": "الأولى، 2004",
+      "publisher": "مخطوط نُشر في برنامج جوامع الكلم المجاني التابع لموقع الشبكة الإسلامية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/29902",
+      "score": 40,
+      "reasons": [
+        "author contains: السمرقندي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

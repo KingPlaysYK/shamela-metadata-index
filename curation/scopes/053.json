@@ -1,0 +1,526 @@
+{
+  "id": "053",
+  "request": "Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi",
+  "scope": "single_work",
+  "author": "al-Bayhaqi",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "748",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شعب الإيمان",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "9 (الأخير فهارس)",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "دار الكتب العلمية، بيروت- لبنان",
+      "editor": "أبو هاجر محمد السعيد بن بسيوني زغلول",
+      "link": "https://shamela.ws/book/748",
+      "score": 140,
+      "reasons": [
+        "exact title: شعب الايمان",
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10660",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شعب الإيمان",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "14 (الأخير فهارس)",
+      "edition": "الأولى، 1423 هـ - 2003 م",
+      "publisher": "مكتبة الرشد للنشر والتوزيع بالرياض بالتعاون مع الدار السلفية ببومباي بالهند",
+      "editor": "د عبد العلي عبد الحميد حامد [ت ١٤٤٣ هـ]",
+      "link": "https://shamela.ws/book/10660",
+      "score": 140,
+      "reasons": [
+        "exact title: شعب الايمان",
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1128",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ري الظمآن بمجالس «شعب الإيمان، للحافظ أبي بكر أحمد بن الحسين البيهقي»",
+      "author_ar": "أبو حمزة غازي بن سالم أفلح",
+      "author_death_h": "Null",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1444 هـ - 2022 م",
+      "publisher": "مكتبة دروس الدار، الشارقة - الإمارات",
+      "editor": "تقديم: عزيز بن فرحان العنزي، رشاد بن حمود الحزمي، عبد العزيز بن يحيى البرعي، محمد بن عبد الله باموسى، نعمان بن عبد الكريم الوتر",
+      "link": "https://shamela.ws/book/1128",
+      "score": 95,
+      "reasons": [
+        "title contains: شعب الايمان",
+        "record contains author term: البيهقي",
+        "record contains author term: احمد بن الحسين البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6850",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مختصر شعب الإيمان للبيهقي",
+      "author_ar": "عمر بن عبد الرحمن بن عمر بن أحمد إمام الدين أبو القاسم الكرخي التميمي القزويني الشافعي",
+      "author_death_h": "699",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "144",
+      "volumes": "Null",
+      "edition": "الثانية، 1405",
+      "publisher": "دار ابن كثير - دمشق",
+      "editor": "عبد القادر الأرناؤوط [ت ١٤٢٥ هـ]",
+      "link": "https://shamela.ws/book/6850",
+      "score": 75,
+      "reasons": [
+        "title contains: شعب الايمان"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17795",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عقد الجمان في بيان شعب الإيمان - لقاء العشر الأواخر بالمسجد الحرام (١٣)",
+      "author_ar": "محمد بن محمد بن عبد الرزاق الحسيني أبو الفيض الملقب بمرتضى الزبيدي",
+      "author_death_h": "1205",
+      "category": "العقيدة",
+      "pages": "51",
+      "volumes": "Null",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "دار البشائر الإسلامية للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "اعتنى به: نظام محمد صالح يعقوبي",
+      "link": "https://shamela.ws/book/17795",
+      "score": 75,
+      "reasons": [
+        "title contains: شعب الايمان"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "18567",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنهاج في شعب الإيمان",
+      "author_ar": "الحسين بن الحسن بن محمد بن حليم البخاري الجرجاني أبو عبد الله الحليمي",
+      "author_death_h": "403",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1399 هـ - 1979 م",
+      "publisher": "دار الفكر",
+      "editor": "حلمي محمد فودة",
+      "link": "https://shamela.ws/book/18567",
+      "score": 75,
+      "reasons": [
+        "title contains: شعب الايمان"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "92",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحكام القرآن",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "427",
+      "volumes": "Null",
+      "edition": "الأولى، 1439 هـ - 2018 م",
+      "publisher": "دار الذخائر",
+      "editor": "أبو عاصم الشوامي",
+      "link": "https://shamela.ws/book/92",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "273",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تتمة صوان الحكمة",
+      "author_ar": "أبو الحسن ظهير الدين علي بن زيد بن محمد بن الحسين البيهقي الشهير بابن فندمه",
+      "author_death_h": "565",
+      "category": "التراجم والطبقات",
+      "pages": "35",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/273",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "355",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "لباب الأنساب والألقاب والأعقاب",
+      "author_ar": "أبو الحسن ظهير الدين علي بن زيد بن محمد بن الحسين البيهقي الشهير بابن فندمه",
+      "author_death_h": "565",
+      "category": "الأنساب",
+      "pages": "120",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/355",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "564",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المحاسن والمساوئ",
+      "author_ar": "إبراهيم بن محمد البيهقي",
+      "author_death_h": "320",
+      "category": "الأدب",
+      "pages": "254",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/564",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1378",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كتاب القراءة خلف الإمام",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "223",
+      "volumes": "Null",
+      "edition": "الأولى، 1405",
+      "publisher": "دار الكتب العلمية - بيروت",
+      "editor": "محمد السعيد بن بسيوني زغلول",
+      "link": "https://shamela.ws/book/1378",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "2863",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معرفة السنن والآثار",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "15",
+      "edition": "الأولى، 1412هـ - 1991م",
+      "publisher": "جامعة الدراسات الإسلامية (كراتشي - باكستان)، دار قتيبة (دمشق -بيروت)، دار الوعي (حلب - دمشق)، دار الوفاء (المنصورة - القاهرة)",
+      "editor": "عبد المعطي أمين قلعجي",
+      "link": "https://shamela.ws/book/2863",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "3328",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحكام القرآن للشافعي - جمع البيهقي",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "Null",
+      "volumes": "2 (في مجلد واحد)",
+      "edition": "الثانية، 1414 هـ - 1994 م",
+      "publisher": "مكتبة الخانجي - القاهرة",
+      "editor": "كتب هوامشه: عبد الغني عبد الخالق [ت ١٤٠٣ هـ]. قدم له: محمد زاهد الكوثري [ت ١٣٧١ هـ]",
+      "link": "https://shamela.ws/book/3328",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7478",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "دلائل النبوة ومعرفة أحوال صاحب الشريعة",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1405 هـ - 1985 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "وثق أصوله وخرج حديثه وعلق عليه: د عبد المعطي قلعجي",
+      "link": "https://shamela.ws/book/7478",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7531",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حديث أَحْمَد بن عبد الله بن خالد الجويباري في مسائل عبد الله بن سلام",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "240",
+      "volumes": "Null",
+      "edition": "الأولى، 2001 م",
+      "publisher": "دار ابن حزم - بيروت [طبع ضمن مجموعة أجزاء حديثية]",
+      "editor": "مشهور بن حسن آل سلمان",
+      "link": "https://shamela.ws/book/7531",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7861",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "السنن الكبرى",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "11 (الأخير فهارس)",
+      "edition": "الثالثة، 1424 هـ - 2003 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "محمد عبد القادر عطا",
+      "link": "https://shamela.ws/book/7861",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8203",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الآداب للبيهقي",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "351",
+      "volumes": "Null",
+      "edition": "الأولى، 1408 هـ - 1988 م",
+      "publisher": "مؤسسة الكتب الثقافية، بيروت - لبنان",
+      "editor": "أبو عبد الله السعيد المندوه",
+      "link": "https://shamela.ws/book/8203",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8258",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إثبات عذاب القبر",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "136",
+      "volumes": "Null",
+      "edition": "الأولى، 1403 هـ - 1983 م",
+      "publisher": "دار الفرقان - عمان الأردن",
+      "editor": "د. شرف محمود القضاة (كلية الشريعة - الجامعة الأردنية)",
+      "link": "https://shamela.ws/book/8258",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8970",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الدعوات الكبير",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى للنسخة الكاملة، 2009 م",
+      "publisher": "غراس للنشر والتوزيع - الكويت",
+      "editor": "بدر بن عبد الله البدر",
+      "link": "https://shamela.ws/book/8970",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9270",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأسماء والصفات للبيهقي",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1413 هـ - 1993 م",
+      "publisher": "مكتبة السوادي، جدة - المملكة العربية السعودية",
+      "editor": "عبد الله بن محمد الحاشدي",
+      "link": "https://shamela.ws/book/9270",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9292",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البعث والنشور للبيهقي",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "336",
+      "volumes": "Null",
+      "edition": "الأولى، 1406 هـ - 1986 م",
+      "publisher": "مركز الخدمات والأبحاث الثقافية، بيروت",
+      "editor": "الشيخ عامر أحمد حيدر",
+      "link": "https://shamela.ws/book/9292",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9300",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الجامع في الخاتم للبيهقي",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "67",
+      "volumes": "Null",
+      "edition": "الأولى، 1407 هـ - 1987 م",
+      "publisher": "الدار السلفية، بومباي - الهند",
+      "editor": "عمرو علي عمر",
+      "link": "https://shamela.ws/book/9300",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11758",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تاريخ بيهق / تعريب",
+      "author_ar": "أبو الحسن ظهير الدين علي بن زيد بن محمد بن الحسين البيهقي الشهير بابن فندمه",
+      "author_death_h": "565",
+      "category": "التراجم والطبقات",
+      "pages": "672",
+      "volumes": "Null",
+      "edition": "الأولى، 1425 هـ",
+      "publisher": "دار اقرأ، دمشق",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11758",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12415",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "السنن الصغير للبيهقي",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1410هـ - 1989م",
+      "publisher": "جامعة الدراسات الإسلامية، كراتشي ـ باكستان",
+      "editor": "عبد المعطي أمين قلعجي",
+      "link": "https://shamela.ws/book/12415",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12992",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأربعون الصغرى",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "author_death_h": "458",
+      "category": "كتب السنة",
+      "pages": "176",
+      "volumes": "Null",
+      "edition": "الأولى، 1408",
+      "publisher": "دار الكتاب العربي - بيروت",
+      "editor": "أبو إسحاق الحويني الأثري",
+      "link": "https://shamela.ws/book/12992",
+      "score": 40,
+      "reasons": [
+        "author contains: البيهقي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

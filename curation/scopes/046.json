@@ -1,0 +1,422 @@
+{
+  "id": "046",
+  "request": "Download and process al-Kamil fi al-Tarikh by Ibn al-Athir",
+  "scope": "single_work",
+  "author": "Ibn al-Athir",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "21712",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الكامل في التاريخ",
+      "author_ar": "عز الدين بن الأثير أبو الحسن علي بن محمد الجزري",
+      "author_death_h": "630",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "10",
+      "edition": "الأولى، 1417هـ / 1997م",
+      "publisher": "دار الكتاب العربي، بيروت - لبنان",
+      "editor": "تحقيق: عمر عبد السلام تدمري",
+      "link": "https://shamela.ws/book/21712",
+      "score": 105,
+      "reasons": [
+        "exact title: الكامل في التاريخ"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10551",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المثل السائر في أدب الكاتب والشاعر",
+      "author_ar": "نصر الله بن محمد بن محمد بن عبد الكريم الشيباني الجزري أبو الفتح ضياء الدين المعروف بابن الأثير الكاتب",
+      "author_death_h": "637",
+      "category": "البلاغة",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "Null",
+      "publisher": "دار نهضة مصر للطباعة والنشر والتوزيع، الفجالة ـ القاهرة",
+      "editor": "أحمد الحوفي - بدوي طبانة (تحقيق)",
+      "link": "https://shamela.ws/book/10551",
+      "score": 40,
+      "reasons": [
+        "author contains: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13241",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الشَّافِي فيْ شَرْح مُسْنَد الشَّافِعي لابْنِ الأثِيرْ",
+      "author_ar": "مجد الدين أبو السعادات المبارك بن محمد بن محمد بن محمد ابن عبد الكريم الشيباني الجزري ابن الأثير",
+      "author_death_h": "606",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "الأولي، 1426 هـ - 2005 م",
+      "publisher": "مَكتَبةَ الرُّشْدِ، الرياض - المملكة العربية السعودية",
+      "editor": "أحمد بن سليمان - أبي تميم يَاسر بن إبراهيم",
+      "link": "https://shamela.ws/book/13241",
+      "score": 40,
+      "reasons": [
+        "author contains: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17905",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البديع في علم العربية",
+      "author_ar": "مجد الدين أبو السعادات المبارك بن محمد بن محمد بن محمد ابن عبد الكريم الشيباني الجزري ابن الأثير",
+      "author_death_h": "606",
+      "category": "النحو والصرف",
+      "pages": "115",
+      "volumes": "Null",
+      "edition": "الأولى، 1420 هـ",
+      "publisher": "جامعة أم القرى، مكة المكرمة - المملكة العربية السعودية",
+      "editor": "د. فتحي أحمد علي الدين (تحقيق ودراسة)",
+      "link": "https://shamela.ws/book/17905",
+      "score": 40,
+      "reasons": [
+        "author contains: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23691",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النهاية في غريب الحديث والأثر",
+      "author_ar": "مجد الدين أبو السعادات المبارك بن محمد بن محمد بن محمد ابن عبد الكريم الشيباني الجزري ابن الأثير",
+      "author_death_h": "606",
+      "category": "الغريب والمعاجم",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "1399هـ - 1979م",
+      "publisher": "المكتبة العلمية - بيروت",
+      "editor": "طاهر أحمد الزاوى - محمود محمد الطناحي (تحقيق)",
+      "link": "https://shamela.ws/book/23691",
+      "score": 40,
+      "reasons": [
+        "author contains: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23794",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المثل السائر في أدب الكاتب والشاعر",
+      "author_ar": "نصر الله بن محمد بن محمد بن عبد الكريم الشيباني الجزري أبو الفتح ضياء الدين المعروف بابن الأثير الكاتب",
+      "author_death_h": "637",
+      "category": "البلاغة",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "1420 هـ",
+      "publisher": "المكتبة العصرية للطباعة والنشر - بيروت",
+      "editor": "محمد محي الدين عبد الحميد [ت ١٣٩٢ هـ]",
+      "link": "https://shamela.ws/book/23794",
+      "score": 40,
+      "reasons": [
+        "author contains: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "25800",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جامع الأصول في أحاديث الرسول",
+      "author_ar": "مجد الدين أبو السعادات المبارك بن محمد بن محمد بن محمد ابن عبد الكريم الشيباني الجزري ابن الأثير",
+      "author_death_h": "606",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "12",
+      "edition": "الأولى",
+      "publisher": "مكتبة الحلواني - مطبعة الملاح - مكتبة دار البيان",
+      "editor": "عبد القادر الأرنؤوط [ت ١٤٢٥ هـ]- التتمة تحقيق بشير عيون [ت ١٤٣١ هـ]",
+      "link": "https://shamela.ws/book/25800",
+      "score": 40,
+      "reasons": [
+        "author contains: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "37475",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الجامع الكبير في صناعة المنظوم من الكلام والمنثور",
+      "author_ar": "نصر الله بن محمد بن محمد بن عبد الكريم الشيباني الجزري أبو الفتح ضياء الدين المعروف بابن الأثير الكاتب",
+      "author_death_h": "637",
+      "category": "البلاغة",
+      "pages": "274",
+      "volumes": "Null",
+      "edition": "1375هـ",
+      "publisher": "مطبعة المجمع العلمي",
+      "editor": "مصطفى جواد",
+      "link": "https://shamela.ws/book/37475",
+      "score": 40,
+      "reasons": [
+        "author contains: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6653",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ثلاث تراجم نفيسة للأئمة الأعلام ابن تيمية والحافظ علم الدين البزرالي والحافظ جمال الدين المزي",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "56",
+      "volumes": "Null",
+      "edition": "الأولى، 1415هـ - 1995م",
+      "publisher": "دار ابن الأثير - الكويت",
+      "editor": "محمد بن ناصر العجمي",
+      "link": "https://shamela.ws/book/6653",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7624",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرد على الرفاعي والبوطي في كذبهما على أهل السنة ودعوتهما إلى البدع والضلال",
+      "author_ar": "عبد المحسن بن حمد بن عبد المحسن بن عبد الله بن حمد العباد البدر",
+      "author_death_h": "Null",
+      "category": "الفرق والردود",
+      "pages": "147",
+      "volumes": "Null",
+      "edition": "الأولى، 1421هـ/2000م",
+      "publisher": "دار ابن الأثير، الرياض، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/7624",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9434",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فضائل فاطمة بنت رسول الله صلى الله عليه وسلم",
+      "author_ar": "أبو حفص عمر بن أحمد بن عثمان بن أحمد بن محمد بن أيوب بن أزداذ البغدادي المعروف بـ ابن شاهين",
+      "author_death_h": "385",
+      "category": "كتب السنة",
+      "pages": "49",
+      "volumes": "Null",
+      "edition": "الأولى 1415 هـ - 1994 م",
+      "publisher": "دار ابن الأثير - الكويت (ضمن مجموع فيه من مصنفات ابن شاهين)",
+      "editor": "بدر البدر",
+      "link": "https://shamela.ws/book/9434",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9449",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كتاب فضائل رمضان لابن شاهين",
+      "author_ar": "أبو حفص عمر بن أحمد بن عثمان بن أحمد بن محمد بن أيوب بن أزداذ البغدادي المعروف بـ ابن شاهين",
+      "author_death_h": "385",
+      "category": "كتب السنة",
+      "pages": "171",
+      "volumes": "Null",
+      "edition": "الأولى 1415 هـ - 1994 م",
+      "publisher": "دار ابن الأثير - الكويت (ضمن مجموع فيه من مصنفات ابن شاهين)",
+      "editor": "بدر البدر",
+      "link": "https://shamela.ws/book/9449",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11233",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فضل أهل البيت وعلو مكانتهم عند أهل السنة والجماعة",
+      "author_ar": "عبد المحسن بن حمد بن عبد المحسن بن عبد الله بن حمد العباد البدر",
+      "author_death_h": "Null",
+      "category": "العقيدة",
+      "pages": "85",
+      "volumes": "Null",
+      "edition": "الأولى، 1422هـ/2001م",
+      "publisher": "دار ابن الأثير، الرياض، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11233",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12098",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "منهج ابن الأثير الجزري في مصنفه «النهاية في غريب الحديث والأثر»",
+      "author_ar": "أحمد بن محمد الخراط أبو بلال",
+      "author_death_h": "Null",
+      "category": "الغريب والمعاجم",
+      "pages": "87",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف بالمدينة المنورة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/12098",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13023",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرد على الجهمية",
+      "author_ar": "أبو سعيد عثمان بن سعيد الدارمي",
+      "author_death_h": "280",
+      "category": "العقيدة",
+      "pages": "212",
+      "volumes": "Null",
+      "edition": "الثانية، 1416 هـ - 1995 م",
+      "publisher": "دار ابن الأثير - الكويت",
+      "editor": "بدر بن عبد الله البدر",
+      "link": "https://shamela.ws/book/13023",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14532",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "القنوت في الوتر",
+      "author_ar": "الوليد بن عبد الرحمن بن محمد آل فريان",
+      "author_death_h": "Null",
+      "category": "مسائل فقهية",
+      "pages": "185",
+      "volumes": "Null",
+      "edition": "الأولى، 1430 هـ - 2009 م",
+      "publisher": "دار ابن الأثير للنشر والتوزيع، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/14532",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "22418",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفوائد",
+      "author_ar": "أبو حفص عمر بن أحمد بن عثمان بن أحمد بن محمد بن أيوب بن أزداذ البغدادي المعروف بـ ابن شاهين",
+      "author_death_h": "385",
+      "category": "كتب السنة",
+      "pages": "107",
+      "volumes": "Null",
+      "edition": "الأولى 1415 هـ - 1994 م",
+      "publisher": "دار ابن الأثير - الكويت (ضمن مجموع فيه من مصنفات ابن شاهين)",
+      "editor": "بدر البدر",
+      "link": "https://shamela.ws/book/22418",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26514",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الجزء الخامس من الأفراد",
+      "author_ar": "أبو حفص عمر بن أحمد بن عثمان بن أحمد بن محمد بن أيوب بن أزداذ البغدادي المعروف بـ ابن شاهين",
+      "author_death_h": "385",
+      "category": "كتب السنة",
+      "pages": "298",
+      "volumes": "Null",
+      "edition": "الأولى 1415 هـ - 1994 م",
+      "publisher": "دار ابن الأثير - الكويت (ضمن مجموع فيه من مصنفات ابن شاهين)",
+      "editor": "بدر البدر",
+      "link": "https://shamela.ws/book/26514",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26517",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جزء من حديث ابن شاهين جمع أبي الحسين بن المهتدي",
+      "author_ar": "أبو حفص عمر بن أحمد بن عثمان بن أحمد بن محمد بن أيوب بن أزداذ البغدادي المعروف بـ ابن شاهين",
+      "author_death_h": "385",
+      "category": "كتب السنة",
+      "pages": "381",
+      "volumes": "Null",
+      "edition": "الأولى 1415 هـ - 1994 م",
+      "publisher": "دار ابن الأثير - الكويت (ضمن مجموع فيه من مصنفات ابن شاهين)",
+      "editor": "بدر البدر",
+      "link": "https://shamela.ws/book/26517",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "145425",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المُوَازَنَةُ بَيْنَ «الفَائِق» للزَّمَخْشَرِي (ت ٥٣٨ هـ) و «النِّهَايَة» لابن الأثِيْر (ت ٦٠٦ هـ)",
+      "author_ar": "إبراهيم بن عبد الله المديهش",
+      "author_death_h": "Null",
+      "category": "الغريب والمعاجم",
+      "pages": "90",
+      "volumes": "Null",
+      "edition": "الثالثة، 1446 هـ",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/145425",
+      "score": 15,
+      "reasons": [
+        "record contains author term: ابن الاثير"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

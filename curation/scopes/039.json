@@ -1,0 +1,510 @@
+{
+  "id": "039",
+  "request": "Download and process Sharh al-Sunnah by al-Baghawi",
+  "scope": "single_work",
+  "author": "al-Baghawi",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "7891",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح السنة",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "15",
+      "edition": "الثانية، 1403 هـ - 1983 م",
+      "publisher": "المكتب الإسلامي - دمشق، بيروت",
+      "editor": "شعيب الأرنؤوط [ت ١٤٣٨ هـ]- محمد زهير الشاويش [ت ١٤٣٤ هـ]",
+      "link": "https://shamela.ws/book/7891",
+      "score": 175,
+      "reasons": [
+        "exact title: شرح السنه",
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8601",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح السنة",
+      "author_ar": "أبو محمد الحسن بن علي بن خلف البربهاري",
+      "author_death_h": "329",
+      "category": "العقيدة",
+      "pages": "138",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8601",
+      "score": 105,
+      "reasons": [
+        "exact title: شرح السنه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "41",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معالم التنزيل في تفسير القرآن = تفسير البغوي",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الرابعة، 1417 هـ - 1997 م",
+      "publisher": "دار طيبة للنشر والتوزيع",
+      "editor": "حققه وخرج أحاديثه محمد عبد الله النمر - عثمان جمعة ضميرية - سليمان مسلم الحرش",
+      "link": "https://shamela.ws/book/41",
+      "score": 75,
+      "reasons": [
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "3637",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كتاب السير من التهذيب",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "category": "الفقه الشافعي",
+      "pages": "351",
+      "volumes": "Null",
+      "edition": "السنة (34) - العدد (117) 1422هـ",
+      "publisher": "الجامعة الاسلامية بالمدينة المنورة",
+      "editor": "راوية بنت أحمد الظهار",
+      "link": "https://shamela.ws/book/3637",
+      "score": 75,
+      "reasons": [
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6484",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح السنة معتقد إسماعيل بن يحيى المزني",
+      "author_ar": "إسماعيل بن يحيى بن إسماعيل أبو إبراهيم المزني",
+      "author_death_h": "264",
+      "category": "العقيدة",
+      "pages": "92",
+      "volumes": "Null",
+      "edition": "الأولى، 1415هـ - 1995م",
+      "publisher": "مكتبة الغرباء الأثرية - السعودية",
+      "editor": "جمال عزون",
+      "link": "https://shamela.ws/book/6484",
+      "score": 75,
+      "reasons": [
+        "title contains: شرح السنه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10803",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الأنوار في شمائل النبي المختار",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "2 (متسلسلة الترقيم)",
+      "edition": "الأولى، 1416 هـ - 1995 م",
+      "publisher": "دار المكتبي، دمشق - سوريا",
+      "editor": "حققه وخرج أحاديثه: إبراهيم اليعقوبي",
+      "link": "https://shamela.ws/book/10803",
+      "score": 75,
+      "reasons": [
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12217",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معالم التنزيل في تفسير القرآن = تفسير البغوي",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "الأولى ، 1420 هـ",
+      "publisher": "دار إحياء التراث العربي -بيروت",
+      "editor": "عبد الرزاق المهدي",
+      "link": "https://shamela.ws/book/12217",
+      "score": 75,
+      "reasons": [
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14119",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مصابيح السنة",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1407 هـ - 1987 م",
+      "publisher": "دار المعرفة للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "الدكتور يوسف عبد الرحمن المرعشلي، محمد سليم إبراهيم سمارة، جمال حمدي الذهبي",
+      "link": "https://shamela.ws/book/14119",
+      "score": 75,
+      "reasons": [
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17885",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التهذيب في فقه الإمام الشافعي",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "author_death_h": "510",
+      "category": "الفقه الشافعي",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى، 1418 هـ - 1997 م",
+      "publisher": "دار الكتب العلمية",
+      "editor": "عادل أحمد عبد الموجود، علي محمد معوض",
+      "link": "https://shamela.ws/book/17885",
+      "score": 75,
+      "reasons": [
+        "author contains: البغوي",
+        "author contains: الحسين بن مسعود"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "37718",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التعليق على شرح السنة للبربهاري",
+      "author_ar": "ناصر بن عبد الكريم العقل",
+      "author_death_h": "Null",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "22",
+      "edition": "Null",
+      "publisher": "مصدر الكتاب: دروس صوتية قام بتفريغها موقع الشبكة الإسلامية http://www.islamweb.net",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/37718",
+      "score": 75,
+      "reasons": [
+        "title contains: شرح السنه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5733",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حديث مصعب بن عبد الله الزبيري",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "كتب السنة",
+      "pages": "144",
+      "volumes": "Null",
+      "edition": "الأولى، 1424هـ - 2003م",
+      "publisher": "الدار العثمانية - الأردن / عمان",
+      "editor": "صالح عثمان اللحام",
+      "link": "https://shamela.ws/book/5733",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9922",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مسند عثمان بن عفان لأبي القاسم البغوي (وهو مطبوع ضمن كتاب الفوائد)",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "كتب السنة",
+      "pages": "153",
+      "volumes": "Null",
+      "edition": "الأولى، 1423 هـ - 2002 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "خلاف محمود عبد السميع",
+      "link": "https://shamela.ws/book/9922",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12853",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جزء في مسائل عن أبي عبد الله أحمد بن حنبل",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "الفقه الحنبلي",
+      "pages": "117",
+      "volumes": "Null",
+      "edition": "الأولى، 1407 هـ",
+      "publisher": "دار العاصمة، الرياض",
+      "editor": "أبي عبد الله محمود بن محمد الحداد",
+      "link": "https://shamela.ws/book/12853",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13101",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جزء فيه ثلاثة وثلاثون حديثا من حديث أبي القاسم البغوي",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "كتب السنة",
+      "pages": "70",
+      "volumes": "Null",
+      "edition": "الأولى، 1407",
+      "publisher": "مكتبة ابن الجوزي - الإحساء - الدمام",
+      "editor": "محمد ياسين محمد إدريس",
+      "link": "https://shamela.ws/book/13101",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13158",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مسند الحب بن الحب أسامة بن زيد",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "كتب السنة",
+      "pages": "135",
+      "volumes": "Null",
+      "edition": "الأولى، 1409",
+      "publisher": "دار الضياء - الرياض",
+      "editor": "حسن أمين بن المندوه",
+      "link": "https://shamela.ws/book/13158",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23100",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معجم الصحابة",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "مكتبة دار البيان - الكويت",
+      "editor": "محمد الأمين بن محمد الجكني",
+      "link": "https://shamela.ws/book/23100",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26341",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نسخة طالوت وهي في أحاديث طالوت بن عباد البصري الصيرفي المتوفى: ٢٣٨ هـ",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "كتب السنة",
+      "pages": "47",
+      "volumes": "Null",
+      "edition": "2006 م",
+      "publisher": "دار النوادر",
+      "editor": "حمدي السلفي [ت ١٤٣٣ هـ]",
+      "link": "https://shamela.ws/book/26341",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "27106",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تاريخ وفاة الشيوخ الذين أدركهم البغوي",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "كتب السنة",
+      "pages": "91",
+      "volumes": "Null",
+      "edition": "الأولى 1409 هـ - 1988 م",
+      "publisher": "الدار السلفية - بومباي - الهند",
+      "editor": "محمد عزيز شمس",
+      "link": "https://shamela.ws/book/27106",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "29715",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حكايات شعبة بن الحجاج",
+      "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
+      "author_death_h": "317",
+      "category": "كتب السنة",
+      "pages": "23",
+      "volumes": "Null",
+      "edition": "الأولى، 2004",
+      "publisher": "مخطوط نُشر في برنامج جوامع الكلم المجاني التابع لموقع الشبكة الإسلامية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/29715",
+      "score": 40,
+      "reasons": [
+        "author contains: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17791",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح مصابيح السنة للإمام البغوي",
+      "author_ar": "محمد بن عز الدين عبد اللطيف بن عبد العزيز بن أمين الدين بن فرشتا الرومي الكرماني الحنفي المشهور بـ ابن الملك",
+      "author_death_h": "854",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "6",
+      "edition": "الأولى، 1433 هـ - 2012 م",
+      "publisher": "إدارة الثقافة الإسلامية",
+      "editor": "لجنة مختصة من المحققين بإشراف: نور الدين طالب",
+      "link": "https://shamela.ws/book/17791",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21483",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "من حديث البغوي وابن صاعد والهاشمي لابن زنبور الوراق (مطبوع ضمن جمهرة الأجزاء الحديثية)",
+      "author_ar": "محمد بن عمر بن خلف بن زنبور البغدادي الوراق",
+      "author_death_h": "396",
+      "category": "كتب السنة",
+      "pages": "267",
+      "volumes": "Null",
+      "edition": "الأولى، 1421 هـ - 2001 م",
+      "publisher": "مكتبة العبيكان، السعودية",
+      "editor": "محمد زياد عمر تكلة",
+      "link": "https://shamela.ws/book/21483",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26428",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "نزهة الناظر في ذكر من حدث عن أبي القاسم البغوي من الحفاظ والأكابر",
+      "author_ar": "يحيى بن علي بن عبد الله بن علي بن مفرج أبو الحسين رشيد الدين القرشي الاموي النابلسي ثم المصري المعروف بالرشيد العطار",
+      "author_death_h": "662",
+      "category": "كتب السنة",
+      "pages": "161",
+      "volumes": "Null",
+      "edition": "الأولى 1423 هـ - 2002 م",
+      "publisher": "دار ابن حزم",
+      "editor": "مشعل بن باني الجبرين المطيري",
+      "link": "https://shamela.ws/book/26428",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "31364",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مختصر تفسير البغوي",
+      "author_ar": "عبد الله بن أحمد بن علي الزيد",
+      "author_death_h": "Null",
+      "category": "التفسير",
+      "pages": "1040",
+      "volumes": "1",
+      "edition": "الأولى، 1416هـ",
+      "publisher": "دار السلام للنشر والتوزيع - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/31364",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البغوي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "132397",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "روايات البغوي في تفسيره معالم التنزيل عن شيخه عبد الواحد المَلِيْحِيّ «تخريج ودراسة»",
+      "author_ar": "عبد الحميد شيخون",
+      "author_death_h": "Null",
+      "category": "التخريج والأطراف",
+      "pages": "707",
+      "volumes": "Null",
+      "edition": "1435 هـ - 2014 م",
+      "publisher": "Null",
+      "editor": "عبد الحميد عبد الرازق شيخون محمد",
+      "link": "https://shamela.ws/book/132397",
+      "score": 15,
+      "reasons": [
+        "record contains author term: البغوي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

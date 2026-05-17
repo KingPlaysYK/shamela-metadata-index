@@ -1,0 +1,407 @@
+{
+  "id": "036",
+  "request": "Download and process Qadi Iyad explanation books",
+  "scope": "author_collection",
+  "author": "Qadi Iyad",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "26463",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الغنية فهرست شيوخ القاضي عياض",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "كتب السنة",
+      "pages": "231",
+      "volumes": "Null",
+      "edition": "الأولى 1402 هـ - 1982 م",
+      "publisher": "دار الغرب الإسلامي",
+      "editor": "ماهر زهير جرار",
+      "link": "https://shamela.ws/book/26463",
+      "score": 55,
+      "reasons": [
+        "record contains author term: القاضي عياض",
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "106",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "بغية الرائد لما تضمنه حديث أم زرع من الفوائد",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "شروح الحديث",
+      "pages": "371",
+      "volumes": "Null",
+      "edition": "الأولى، 1439 هـ - 2018 م",
+      "publisher": "دار الذخائر",
+      "editor": "أبو داود أيمن بن حامد بن نصير الدسوقي",
+      "link": "https://shamela.ws/book/106",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1753",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الشفا بتعريف حقوق المصطفى - مذيلا بالحاشية المسماة مزيل الخفاء عن ألفاظ الشفاء",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "1399 هـ - 1979 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "الحاشية: أحمد بن محمد بن محمد الشمنى (ت ٨٧٣ هـ)",
+      "link": "https://shamela.ws/book/1753",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6030",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإلماع إلى معرفة أصول الرواية وتقييد السماع",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "علوم الحديث",
+      "pages": "250",
+      "volumes": "Null",
+      "edition": "الأولى، 1379هـ - 1970م",
+      "publisher": "دار التراث / المكتبة العتيقة - القاهرة / تونس",
+      "editor": "السيد أحمد صقر",
+      "link": "https://shamela.ws/book/6030",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10005",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مشارق الأنوار على صحاح الآثار",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "الغريب والمعاجم",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1437 هـ - 2016 م",
+      "publisher": "دار الكمال المتحدة",
+      "editor": "المكتب العلمي بدار الكمال المتحدة (تحقيق)",
+      "link": "https://shamela.ws/book/10005",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10527",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مشارق الأنوار على صحاح الآثار",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "الغريب والمعاجم",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "1328 - 1332 هـ",
+      "publisher": "المطبعة المولوية، فاس - المغرب (ثم صَوّرَتْها: المكتبة العتيقة بتونس مع دار التراث بالقاهرة)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/10527",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10554",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مشارق الأنوار على صحاح الآثار",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "الغريب والمعاجم",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الثانية، 1440 هـ - 2018 م",
+      "publisher": "دار القلم، دمشق - سوريا",
+      "editor": "صالح أحمد الشامي (حققه وخرج أحاديثه ورتب مادته)",
+      "link": "https://shamela.ws/book/10554",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14253",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التَّنْبيهَاتُ المُسْتَنْبَطةُ على الكُتُبِ المُدَوَّنَةِ والمُخْتَلَطَةِ",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "الفقه المالكي",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1432 هـ - 2011 م",
+      "publisher": "دار ابن حزم، بيروت - لبنان",
+      "editor": "الدكتور محمد الوثيق، الدكتور عبد النعيم حميتي",
+      "link": "https://shamela.ws/book/14253",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23645",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الشفا بتعريف حقوق المصطفى",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1407 هـ - 1986",
+      "publisher": "دار الفيحاء، عمان - الأردن",
+      "editor": "تحقيق: محمد أمين قرة علي، أسامة الرفاعي، جمال السيروان، نور الدين قرة علي، عبد الفتاح السيد (قام المحققون بشرح الغريب وحذف الأسانيد)",
+      "link": "https://shamela.ws/book/23645",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "31215",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ترتيب المدارك وتقريب المسالك لمعرفة أعلام مذهب مالك",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى [ثم أعادتْ طبعها طبعة ثانية بنفس الصف وترقيم الصفحات]; وطبعتْها: مطبعة فضالة - المحمدية، المغرب",
+      "publisher": "وزارة الأوقاف والشؤون الإسلامية بالمملكة المغربية",
+      "editor": "جزء ١: محمد بن تاويت الطنجي، في سنة ١٩٦٥ م جزء ٢، ٣، ٤: عبد القادر الصحراوي، في السنوات ١٩٦٦ - ١٩٧٠ م جزء ٥: محمد بن شريفة جزء ٦، ٧، ٨: سعيد أحمد أعراب، في السنوات ١٩٨١ - ١٩٨٣ م",
+      "link": "https://shamela.ws/book/31215",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "31316",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ترتيب المدارك وتقريب المسالك لمعرفة أعلام مذهب مالك",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "5 (4 والفهارس، والأجزاء 1 - 2 متسلسة الترقيم، وكذا 3 - 4؛ لذا طُبعَتْ أيضا في مجلدين وثالثها الفهارس)",
+      "edition": "1387 هـ - 1967 م",
+      "publisher": "(دار مكتبة الحياة، بيروت)، (دار مكتبة الفكر، طرابلس - ليبيا)",
+      "editor": "د. أحمد بكير محمود",
+      "link": "https://shamela.ws/book/31316",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "36379",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أصُولُ الِفقهِ الذي لا يَسَعُ الفَقِيهَ جَهُلهُ",
+      "author_ar": "عياض بن نامي السلمي",
+      "author_death_h": "Null",
+      "category": "أصول الفقه",
+      "pages": "494",
+      "volumes": "Null",
+      "edition": "الأولى، 1426 هـ - 2005 م",
+      "publisher": "دار التدمرية، الرياض - السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/36379",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "105571",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مشارق الأنوار على صحاح الآثار في شرح غريب الحديث الموطأ والبخاري ومسلم",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "الغريب والمعاجم",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1423 هـ - 2002 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "إبراهيم شمس الدين (قدم له وخرج أحاديثه)",
+      "link": "https://shamela.ws/book/105571",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "122406",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شَرْحُ صَحِيح مُسْلِمِ لِلقَاضِى عِيَاض المُسَمَّى إِكمَالُ المُعْلِمِ بفَوَائِدِ مُسْلِم",
+      "author_ar": "عياض بن موسى بن عياض بن عمرون اليحصبي السبتي أبو الفضل",
+      "author_death_h": "544",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى، 1419 هـ - 1998 م",
+      "publisher": "دار الوفاء للطباعة والنشر والتوزيع، مصر",
+      "editor": "الدكتور يحْيَى إِسْمَاعِيل",
+      "link": "https://shamela.ws/book/122406",
+      "score": 45,
+      "reasons": [
+        "author contains: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8858",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "القاضي عياض ومفهومه للإعجاز القرآني",
+      "author_ar": "أحمد جمال العمري",
+      "author_death_h": "Null",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "28",
+      "volumes": "Null",
+      "edition": "السنة العاشرة - العدد الثاني - 1397هـ - 1977 م",
+      "publisher": "الجامعة الإسلامية بالمدينة المنورة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8858",
+      "score": 20,
+      "reasons": [
+        "record contains author term: القاضي عياض",
+        "record contains author term: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26350",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أزهار الرياض في أخبار القاضي عياض",
+      "author_ar": "شهاب الدين أحمد بن محمد بن أحمد بن يحيى أبو العباس المقري التلمساني",
+      "author_death_h": "1041",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "5",
+      "edition": "1358 هـ - 1939 م",
+      "publisher": "مطبعة لجنة التأليف والترجمة والنشر - القاهرة",
+      "editor": "مصطفى السقا (المدرس بجامعة فؤاد الأول ت ١٣٨٩ هـ) - إبراهيم الإبياري (المدرس بالمدارس الأميرية ت ١٤١٤ هـ) - عبد الحفيظ شلبي (المدرس بالمدارس الأميرية)",
+      "link": "https://shamela.ws/book/26350",
+      "score": 20,
+      "reasons": [
+        "record contains author term: القاضي عياض",
+        "record contains author term: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9361",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أربعون حديثا عن أربعين شيخا في أربعين لابن المقرب",
+      "author_ar": "أبو بكر أحمد بن المقرب بن الحسين بن الحسن البغدادي الكرخي",
+      "author_death_h": "563",
+      "category": "كتب السنة",
+      "pages": "126",
+      "volumes": "Null",
+      "edition": "الأولى، 1420 هـ - 1999 م",
+      "publisher": "دار ابن حزم، بيروت - لبنان",
+      "editor": "صلاح بن عياض الشلاجي",
+      "link": "https://shamela.ws/book/9361",
+      "score": 10,
+      "reasons": [
+        "record contains author term: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9918",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح الشفا، للقاضي عياض",
+      "author_ar": "علي بن (سلطان) محمد أبو الحسن نور الدين الملا الهروي القاري",
+      "author_death_h": "1014",
+      "category": "السيرة النبوية",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1421 هـ - 2001 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "ضبطه وصححه: عبد الله محمد الخليلي",
+      "link": "https://shamela.ws/book/9918",
+      "score": 10,
+      "reasons": [
+        "record contains author term: عياض"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17908",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الانتهاض في ختم «الشفا» لعياض - سلسلة لقاء العشر الأواخر بالمسجد الحرام (٣٢)",
+      "author_ar": "الحافظ شمس الدين محمد بن عبد الرحمن السخاوي",
+      "author_death_h": "902",
+      "category": "كتب السنة",
+      "pages": "53",
+      "volumes": "Null",
+      "edition": "الأولى، 1422 هـ - 2001 م",
+      "publisher": "دار البشائر الإسلامية للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "عبد اللطيف بن محمد الجيلاني",
+      "link": "https://shamela.ws/book/17908",
+      "score": 10,
+      "reasons": [
+        "record contains author term: عياض"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

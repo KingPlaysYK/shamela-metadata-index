@@ -1,0 +1,543 @@
+{
+  "id": "029",
+  "request": "Download and process Ibn Qudamah al-Maqdisi books",
+  "scope": "author_collection",
+  "author": "Ibn Qudamah al-Maqdisi",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "5554",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حكاية المناظرة في القرآن مع بعض أهل البدعة",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "62",
+      "volumes": "Null",
+      "edition": "الأولى، 1409",
+      "publisher": "مكتبة الرشد - الرياض",
+      "editor": "عبد الله يوسف الجديع",
+      "link": "https://shamela.ws/book/5554",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6425",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ذم التأويل",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "كتب السنة",
+      "pages": "48",
+      "volumes": "Null",
+      "edition": "الأولى، 1406",
+      "publisher": "الدار السلفية - الكويت",
+      "editor": "بدر بن عبد الله البدر",
+      "link": "https://shamela.ws/book/6425",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6467",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحريم النظر في كتب الكلام",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "العقيدة",
+      "pages": "72",
+      "volumes": "Null",
+      "edition": "الأولى، 1410هـ - 1990م",
+      "publisher": "عالم الكتب - السعودية - الرياض",
+      "editor": "عبد الرحمن بن محمد سعيد دمشقية",
+      "link": "https://shamela.ws/book/6467",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6763",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المتحابين في الله",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "كتب السنة",
+      "pages": "104",
+      "volumes": "Null",
+      "edition": "الأولى، 1411 - 1991",
+      "publisher": "دار الطباع - دمشق",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6763",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6910",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المغني",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "15",
+      "edition": "الثالثة، 1417 هـ - 1997 م",
+      "publisher": "دار عالم الكتب للطباعة والنشر والتوزيع، الرياض - المملكة العربية السعودية",
+      "editor": "الدكتور عبد اللَّه بن عبد المحسن التركي، الدكتور عبد الفتاح محمد الحلو",
+      "link": "https://shamela.ws/book/6910",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7268",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إثبات صفة العلو",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الأولى، 1409هـ / 1988م",
+      "publisher": "مكتبة العلوم والحكم، المدينة المنورة، المملكة العربية السعودية",
+      "editor": "أحمد بن عطية بن علي الغامدي",
+      "link": "https://shamela.ws/book/7268",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8463",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المغني لابن قدامة",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "10",
+      "edition": "الأولى، (1388 هـ = 1968 م) - (1389 هـ = 1969 م)",
+      "publisher": "مكتبة القاهرة",
+      "editor": "طه الزيني - ومحمود عبد الوهاب فايد - وعبد القادر عطا [ت ١٤٠٣ هـ]- ومحمود غانم غيث",
+      "link": "https://shamela.ws/book/8463",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9384",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرقة والبكاء لابن قدامة",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "كتب السنة",
+      "pages": "133",
+      "volumes": "Null",
+      "edition": "الأولى، 1415 هـ - 1994 م",
+      "publisher": "دار القلم، دمشق، الدار الشامية، بيروت",
+      "editor": "محمد خير رمضان يوسف",
+      "link": "https://shamela.ws/book/9384",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11218",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رسالة في القرآن وكلام الله",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "العقيدة",
+      "pages": "80",
+      "volumes": "Null",
+      "edition": "الأولى، 1424هـ/2004م",
+      "publisher": "دار أطلس الخضراء، المملكة العربية السعودية",
+      "editor": "يوسف بن محمد السعيد",
+      "link": "https://shamela.ws/book/11218",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11315",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "عمدة الفقه",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "الفقه الحنبلي",
+      "pages": "154",
+      "volumes": "Null",
+      "edition": "1425هـ - 2004م",
+      "publisher": "المكتبة العصرية",
+      "editor": "أحمد محمد عزوز",
+      "link": "https://shamela.ws/book/11315",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11317",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كتاب التوابين",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "184",
+      "volumes": "Null",
+      "edition": "الأولى 1424هـ/2003م",
+      "publisher": "دار ابن حزم",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11317",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11417",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "بلغة الطالب الحثيث في صحيح عوالي الحديث - مخطوط",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "كتب السنة",
+      "pages": "49",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "الضياء المقدسي (تخريج)",
+      "link": "https://shamela.ws/book/11417",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12010",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "روضة الناظر وجنة المناظر في أصول الفقه على مذهب الإمام أحمد بن حنبل",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الطبعة الثانية 1423 هـ-2002 م",
+      "publisher": "مؤسسة الريّان للطباعة والنشر والتوزيع",
+      "editor": "الدكتور شعبان محمد إسماعيل [ت ١٤٤٣ هـ]",
+      "link": "https://shamela.ws/book/12010",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14207",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كتاب الهادي أو «عمدة الحازم في الزوائد على مختصر أبي القاسم»",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "الفقه الحنبلي",
+      "pages": "768",
+      "volumes": "Null",
+      "edition": "الأولى، 1428 هـ - 2007 م",
+      "publisher": "وزارة الأوقاف والشؤون الإسلامية، قطر",
+      "editor": "نور الدين طالب",
+      "link": "https://shamela.ws/book/14207",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "19233",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المقنع في فقه الإمام أحمد بن حنبل الشيباني رحمه الله تعالى",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "الفقه الحنبلي",
+      "pages": "530",
+      "volumes": "Null",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "مكتبة السوادي للتوزيع، جدة - المملكة العربية السعودية",
+      "editor": "محمود الأرناؤوط [ت ١٤٣٨ هـ]، ياسين محمود الخطيب",
+      "link": "https://shamela.ws/book/19233",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21731",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الكافي في فقه الإمام أحمد",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1414 هـ - 1994 م",
+      "publisher": "دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21731",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26075",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنتخب من علل الخلال (ومعه تتمة)",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "العلل والسؤلات الحديثية",
+      "pages": "8",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار الراية للنشر والتوزيع",
+      "editor": "أبي معاذ طارق بن عوض الله بن محمد",
+      "link": "https://shamela.ws/book/26075",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "30317",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فضل يوم التروية وعرفة",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "كتب السنة",
+      "pages": "41",
+      "volumes": "Null",
+      "edition": "الأولى، 2004",
+      "publisher": "مخطوط نُشر في برنامج جوامع الكلم المجاني التابع لموقع الشبكة الإسلامية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/30317",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "30855",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "لمعة الاعتقاد",
+      "author_ar": "أبو محمد موفق الدين عبد الله بن أحمد بن محمد بن قدامة الجماعيلي المقدسي ثم الدمشقي الحنبلي الشهير بابن قدامة المقدسي",
+      "author_death_h": "620",
+      "category": "العقيدة",
+      "pages": "46",
+      "volumes": "1",
+      "edition": "الثانية، 1420هـ - 2000م",
+      "publisher": "وزارة الشؤون الإسلامية والأوقاف والدعوة والإرشاد - المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/30855",
+      "score": 80,
+      "reasons": [
+        "author contains: ابن قدامه",
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "18",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مجموعٌ فيه أربع رسائل للحجاوي",
+      "author_ar": "أبو النجا شرف الدين موسى الحجاوي المقدسي",
+      "author_death_h": "968",
+      "category": "الفقه الحنبلي",
+      "pages": "67",
+      "volumes": "Null",
+      "edition": "الأولى، 1439 هـ - 2018 م",
+      "publisher": "ركائز للنشر والتوزيع",
+      "editor": "عبد السلام بن محمد الشويعر",
+      "link": "https://shamela.ws/book/18",
+      "score": 45,
+      "reasons": [
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "90",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الكمال في أسماء الرجال (وهو أول مصنف في رجال الكتب الستة وأصل «تهذيب الكمال» للمزي)",
+      "author_ar": "عبد الغني بن عبد الواحد بن علي بن سرور المقدسي الجماعيلي الدمشقي الحنبلي أبو محمد تقي الدين",
+      "author_death_h": "600",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "10",
+      "edition": "الأولى، 1437 هـ - 2016 م",
+      "publisher": "الهيئة العامة للعناية بطباعة ونشر القرآن الكريم والسنة النبوية وعلومها، الكويت - شركة غراس للدعاية والإعلان والنشر والتوزيع، الكويت",
+      "editor": "شادي بن محمد بن سالم آل نعمان (دراسة وتحقيق)",
+      "link": "https://shamela.ws/book/90",
+      "score": 45,
+      "reasons": [
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "178",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "اتباع السنن واجتناب البدع",
+      "author_ar": "ضياء الدين أبو عبد الله محمد بن عبد الواحد المقدسي",
+      "author_death_h": "643",
+      "category": "العقيدة",
+      "pages": "76",
+      "volumes": "Null",
+      "edition": "الأولى، 1407 هـ - 1987 م",
+      "publisher": "دار ابن كثير، دمشق - بيروت",
+      "editor": "دراسة وتحقيق: محمد بدر الدين القهوجي، محمد الأرناؤوط",
+      "link": "https://shamela.ws/book/178",
+      "score": 45,
+      "reasons": [
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "254",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "دليل الطالبين لكلام النحويين",
+      "author_ar": "مرعي بن يوسف بن أبى بكر بن أحمد الكرمى المقدسي الحنبلى",
+      "author_death_h": "1033",
+      "category": "النحو والصرف",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "1430 هـ - 2009 م",
+      "publisher": "إدارة المخطوطات والمكتبات الإسلامية - الكويت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/254",
+      "score": 45,
+      "reasons": [
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "538",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "العمدة في الأحكام",
+      "author_ar": "عبد الغني بن عبد الواحد بن علي بن سرور المقدسي الجماعيلي الدمشقي الحنبلي أبو محمد تقي الدين",
+      "author_death_h": "600",
+      "category": "كتب السنة",
+      "pages": "456",
+      "volumes": "Null",
+      "edition": "الثانية، 1442 هـ - 2021 م",
+      "publisher": "Null",
+      "editor": "عبد المحسن بن محمد القاسم",
+      "link": "https://shamela.ws/book/538",
+      "score": 45,
+      "reasons": [
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "803",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح دليل الطالب",
+      "author_ar": "عبد الله بن أحمد بن يحيى المقدسي",
+      "author_death_h": "1091",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1436 هـ - 2015 مـ",
+      "publisher": "دار أطلس الخضراء للنشر والتوزيع، السعودية - الرياض",
+      "editor": "أحمد بن عبد العزيز الجماز",
+      "link": "https://shamela.ws/book/803",
+      "score": 45,
+      "reasons": [
+        "author contains: المقدسي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

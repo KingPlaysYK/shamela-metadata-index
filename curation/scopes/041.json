@@ -1,0 +1,525 @@
+{
+  "id": "041",
+  "request": "Download and process al-Bayan wa al-Tahsil",
+  "scope": "single_work",
+  "author": "Ibn Rushd al-Jadd / Maliki tradition",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "21751",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البيان والتحصيل والشرح والتوجيه والتعليل لمسائل المستخرجة",
+      "author_ar": "أبو الوليد محمد بن أحمد بن رشد القرطبي",
+      "author_death_h": "520",
+      "category": "الفقه المالكي",
+      "pages": "Null",
+      "volumes": "20",
+      "edition": "الثانية، 1408 هـ - 1988 م",
+      "publisher": "دار الغرب الإسلامي، بيروت - لبنان",
+      "editor": "د محمد حجي وآخرون",
+      "link": "https://shamela.ws/book/21751",
+      "score": 110,
+      "reasons": [
+        "title contains: البيان والتحصيل",
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14310",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مسائل أبي الوليد ابن رشد (الجد)",
+      "author_ar": "أبو الوليد محمد بن أحمد بن رشد القرطبي",
+      "author_death_h": "520",
+      "category": "الفقه المالكي",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1414 هـ - 1993 م",
+      "publisher": "دار الجيل، بيروت - دار الآفاق الجديدة، المغرب",
+      "editor": "محمد الحبيب التجكاني",
+      "link": "https://shamela.ws/book/14310",
+      "score": 60,
+      "reasons": [
+        "record contains author term: ابن رشد",
+        "record contains author term: الجد",
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "401",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النفحة النسرينية واللمحة المرينية",
+      "author_ar": "إسماعيل بن يوسف بن محمد بن نصر الخزرجي الأنصاري النصري أبو الوليد المعروف بابن الأحمر",
+      "author_death_h": "807",
+      "category": "التاريخ",
+      "pages": "15",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/401",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "698",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تلخيص الخطابة",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "author_death_h": "595",
+      "category": "علوم أخرى",
+      "pages": "135",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/698",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "706",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإشارات في أصول المالكية (مطبوع بهامش حاشية محمد الهدة السوسي على قرة العين شرح ورقات إمام الحرمين الجويني)",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "أصول الفقه",
+      "pages": "162",
+      "volumes": "Null",
+      "edition": "الثالثة، 1351 هـ",
+      "publisher": "المطبعة التونسية، نهج سوق البلاط- تونس",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/706",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1416",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحرير علوم الحديث",
+      "author_ar": "عبد الله بن يوسف الجديع",
+      "author_death_h": "Null",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1424 هـ - 2003 م",
+      "publisher": "مؤسسة الريان للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1416",
+      "score": 40,
+      "reasons": [
+        "author contains: الجد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1703",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الضروري في أصول الفقه أو مختصر المستصفى",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "author_death_h": "595",
+      "category": "أصول الفقه",
+      "pages": "146",
+      "volumes": "Null",
+      "edition": "الأولى، 1994 م",
+      "publisher": "دار الغرب الإسلامي، بيروت - لبنان",
+      "editor": "جمال الدين العلوي",
+      "link": "https://shamela.ws/book/1703",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1704",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البديع في وصف الربيع",
+      "author_ar": "أبو الوليد إسماعيل بن محمد بن عامر بن حبيب الحميري",
+      "author_death_h": "440",
+      "category": "الأدب",
+      "pages": "44",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1704",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "4270",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فدائيون من عصر الرسول",
+      "author_ar": "أحمد عبد اللطيف الجدع",
+      "author_death_h": "Null",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "170",
+      "volumes": "Null",
+      "edition": "الخامسة، 1407هـ - 1987م",
+      "publisher": "دار الضياء للنشر والتوزيع - عمان، الاردن",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/4270",
+      "score": 40,
+      "reasons": [
+        "author contains: الجد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5851",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أبو الوليد سليمان بن خلف الباجي وكتابه التعديل والتجريح لمن خرج له البخاري في الجامع الصحيح",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "3 (متسلسلة الترقيم)",
+      "edition": "الأولى، 1406 هـ - 1986 م",
+      "publisher": "دار اللواء للنشر والتوزيع - الرياض",
+      "editor": "د أبو لبابة حسين",
+      "link": "https://shamela.ws/book/5851",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6179",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "لسان الحكام في معرفة الأحكام",
+      "author_ar": "أحمد بن محمد بن محمد أبو الوليد لسان الدين ابن الشحنة الثقفي الحلبي الحلبي",
+      "author_death_h": "882",
+      "category": "الفقه الحنفي",
+      "pages": "438",
+      "volumes": "Null",
+      "edition": "الثانية، 1393 - 1973",
+      "publisher": "البابي الحلبي - القاهرة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6179",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6542",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرد على من ذهب إلى تصحيح علم الغيب من جهة الخط",
+      "author_ar": "أبو الوليد محمد بن أحمد بن رشد القرطبي",
+      "author_death_h": "520",
+      "category": "العقيدة",
+      "pages": "52",
+      "volumes": "Null",
+      "edition": "الأولى، 1413",
+      "publisher": "دار ابن حزم - بيروت",
+      "editor": "مشهور حسن سلمان",
+      "link": "https://shamela.ws/book/6542",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6684",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنتقى شرح الموطإ",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1332 هـ (ثم صورتها دار الكتاب الإسلامي، القاهرة - الطبعة: الثانية، بدون تاريخ)",
+      "publisher": "مطبعة السعادة - بجوار محافظة مصر",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6684",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6865",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النصيحة الولدية/ وصية أبي الوليد الباجي لولديه",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "39",
+      "volumes": "Null",
+      "edition": "الأولى، 1417هـ",
+      "publisher": "دار الوطن - الرياض",
+      "editor": "إبراهيم باجس عبد المجيد",
+      "link": "https://shamela.ws/book/6865",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9621",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أخبار مكة وما جاء فيها من الأثار",
+      "author_ar": "أبو الوليد محمد بن عبد الله بن أحمد بن محمد بن الوليد بن عقبة بن الأزرق الغساني المكي المعروف بالأزرقي",
+      "author_death_h": "250",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "2*1",
+      "edition": "Null",
+      "publisher": "دار الأندلس للنشر - بيروت",
+      "editor": "رشدي الصالح ملحس",
+      "link": "https://shamela.ws/book/9621",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9707",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "القياس",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "author_death_h": "595",
+      "category": "علوم أخرى",
+      "pages": "103",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/9707",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9737",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رسالة النفس",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "author_death_h": "595",
+      "category": "علوم أخرى",
+      "pages": "30",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/9737",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11521",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المقدمات الأساسية في علوم القرآن",
+      "author_ar": "عبد الله بن يوسف الجديع",
+      "author_death_h": "Null",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "591",
+      "volumes": "Null",
+      "edition": "الأولى، 1422 هـ - 2001 م",
+      "publisher": "مركز البحوث الإسلامية ليدز - بريطانيا",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11521",
+      "score": 40,
+      "reasons": [
+        "author contains: الجد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12727",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فصل المقال",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "author_death_h": "595",
+      "category": "علوم أخرى",
+      "pages": "77",
+      "volumes": "Null",
+      "edition": "الثانية",
+      "publisher": "دار المعارف",
+      "editor": "دراسة وتحقيق: محمد عمارة",
+      "link": "https://shamela.ws/book/12727",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13112",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حديث هشام بن عمار",
+      "author_ar": "هشام بن عمار بن نصير بن ميسرة بن أبان السلمي ويقال: الظفري أبو الوليد الدمشقي المقرئ",
+      "author_death_h": "245",
+      "category": "كتب السنة",
+      "pages": "281",
+      "volumes": "Null",
+      "edition": "الأولى، 1419هـ - 1999م",
+      "publisher": "دار إشبيليا - السعودية",
+      "editor": "د. عبد الله بن وكيل الشيخ",
+      "link": "https://shamela.ws/book/13112",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17871",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإشارة في أصول الفقه",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "أصول الفقه",
+      "pages": "87",
+      "volumes": "Null",
+      "edition": "الأولى، 1424 هـ - 2003 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "محمد حسن محمد حسن إسماعيل",
+      "link": "https://shamela.ws/book/17871",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17872",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الحدود في الأصول (مطبوع مع: الإشارة في أصول الفقه)",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "أصول الفقه",
+      "pages": "126",
+      "volumes": "Null",
+      "edition": "الأولى، 1424 هـ - 2003 م",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "محمد حسن محمد حسن إسماعيل",
+      "link": "https://shamela.ws/book/17872",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "20983",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإشارة في معرفة الأصول والوجازة في معنى الدليل",
+      "author_ar": "أبو الوليد سليمان بن خلف بن سعد بن أيوب بن وارث التجيبي القرطبي الباجي الأندلسي",
+      "author_death_h": "474",
+      "category": "أصول الفقه",
+      "pages": "396",
+      "volumes": "Null",
+      "edition": "الأولى، 1416 هـ - 1996 م",
+      "publisher": "المكتبة المكية (مكة المكرمة) - دار البشائر الإسلامية (بيروت)",
+      "editor": "محمد علي فركوس",
+      "link": "https://shamela.ws/book/20983",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21503",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تلخيص السفسطة",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "author_death_h": "595",
+      "category": "علوم أخرى",
+      "pages": "180",
+      "volumes": "Null",
+      "edition": "عام النشر: 1972 م",
+      "publisher": "مطبعة دار الكتب، القاهرة",
+      "editor": "محمد سليم سالم",
+      "link": "https://shamela.ws/book/21503",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21735",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المقدمات الممهدات",
+      "author_ar": "أبو الوليد محمد بن أحمد بن رشد القرطبي",
+      "author_death_h": "520",
+      "category": "الفقه المالكي",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1408 هـ - 1988 م",
+      "publisher": "دار الغرب الإسلامي، بيروت - لبنان",
+      "editor": "الدكتور محمد حجي",
+      "link": "https://shamela.ws/book/21735",
+      "score": 40,
+      "reasons": [
+        "author contains: ابو الوليد"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

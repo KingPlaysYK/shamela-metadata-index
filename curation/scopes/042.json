@@ -1,0 +1,45 @@
+{
+  "id": "042",
+  "request": "Download and process Bada'i al-Sana'i by al-Kasani",
+  "scope": "single_work",
+  "author": "Ala al-Din al-Kasani",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "8183",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "بدائع الصنائع في ترتيب الشرائع",
+      "author_ar": "علاء الدين أبو بكر بن مسعود الكاساني الحنفي الملقب بـ (بملك العلماء)",
+      "author_death_h": "587",
+      "category": "الفقه الحنفي",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى 1327 - 1328 هـ",
+      "publisher": "مطبعة شركة المطبوعات العلمية بمصر / مطبعة الجمالية بمصر / دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8183",
+      "score": 245,
+      "reasons": [
+        "title contains: بدايع الصنايع",
+        "exact title: بدايع الصنايع في ترتيب الشرايع",
+        "author contains: الكاساني",
+        "author contains: ابو بكر بن مسعود"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

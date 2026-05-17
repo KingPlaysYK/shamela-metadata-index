@@ -1,0 +1,144 @@
+{
+  "id": "060",
+  "request": "Final rich metadata and indexing for al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah",
+  "scope": "single_work_final_stage",
+  "author": "al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah",
+  "status": "deferred_final_stage_review",
+  "recommended_action": "Review the top candidate now, but run download/enrichment only after the prior requested batches are complete.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "deferred",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [
+      "Run after the earlier requested author/source batches."
+    ],
+    "instructions": [
+      "Review the candidate now but defer processing until prior batches are complete.",
+      "This stage should receive full metadata and indexing after the corpus foundations are stable."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "11430",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الموسوعة الفقهية الكويتية",
+      "author_ar": "مجموعة من العلماء",
+      "author_death_h": "Null",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "45",
+      "edition": "(من 1404 - 1427 هـ)",
+      "publisher": "دارالسلاسل - الكويت / مطابع دار الصفوة - مصر / طبع الوزارة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/11430",
+      "score": 110,
+      "reasons": [
+        "exact title: الموسوعه الفقهيه الكويتيه",
+        "record contains author term: الموسوعه الفقهيه الكويتيه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "676",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفصول في الأصول",
+      "author_ar": "أحمد بن علي أبو بكر الرازي الجصاص الحنفي",
+      "author_death_h": "370",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الثانية، 1414هـ - 1994م",
+      "publisher": "وزارة الأوقاف الكويتية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/676",
+      "score": 10,
+      "reasons": [
+        "record contains author term: وزاره الاوقاف الكويتيه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8182",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الفروق",
+      "author_ar": "أسعد بن محمد بن الحسين أبو المظفر جمال الإسلام الكرابيسي النيسابوري الحنفي",
+      "author_death_h": "570",
+      "category": "علوم الفقه والقواعد الفقهية",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1402هـ - 1982م",
+      "publisher": "وزارة الأوقاف الكويتية",
+      "editor": "د. محمد طموم",
+      "link": "https://shamela.ws/book/8182",
+      "score": 10,
+      "reasons": [
+        "record contains author term: وزاره الاوقاف الكويتيه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "16976",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المفاتيح في شرح المصابيح",
+      "author_ar": "الحسين بن محمود بن الحسن مظهر الدين الزيداني الكوفي الضرير الشيرازي الحنفي المشهور بالمظهري",
+      "author_death_h": "727",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "6",
+      "edition": "الأولى، 1433 هـ - 2012 م",
+      "publisher": "دار النوادر، وهو من إصدارات إدارة الثقافة الإسلامية - وزارة الأوقاف الكويتية",
+      "editor": "لجنة مختصة من المحققين بإشراف: نور الدين طالب",
+      "link": "https://shamela.ws/book/16976",
+      "score": 10,
+      "reasons": [
+        "record contains author term: وزاره الاوقاف الكويتيه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17419",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحفة الراكع والساجد بأحكام المساجد",
+      "author_ar": "تقي الدين أبي بكر بن زايد الجراعي المقدسي الحنبلي",
+      "author_death_h": "825",
+      "category": "الفقه الحنبلي",
+      "pages": "416",
+      "volumes": "Null",
+      "edition": "الأولى، 1425 هـ - 2004 م",
+      "publisher": "وزارة الأوقاف الكويتية - إدارة مساجد محافظة الفروانية - المراقبة الثقافية",
+      "editor": "صالح سالم النهام، محمد باني المطيري، صباح عبد الكريم العنزي، فيصل يوسف العلي",
+      "link": "https://shamela.ws/book/17419",
+      "score": 10,
+      "reasons": [
+        "record contains author term: وزاره الاوقاف الكويتيه"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21592",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنثور في القواعد الفقهية",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "علوم الفقه والقواعد الفقهية",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الثانية، 1405 هـ - 1985 م",
+      "publisher": "وزارة الأوقاف الكويتية (طباعة شركة الكويت للصحافة)",
+      "editor": "د تيسير فائق أحمد محمود",
+      "link": "https://shamela.ws/book/21592",
+      "score": 10,
+      "reasons": [
+        "record contains author term: وزاره الاوقاف الكويتيه"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

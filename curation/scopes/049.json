@@ -1,0 +1,124 @@
+{
+  "id": "049",
+  "request": "Download and process all Ibn Abd al-Barr books",
+  "scope": "author_collection",
+  "author": "Ibn Abd al-Barr",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "2",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النوازل في الرضاع",
+      "author_ar": "عبد الله بن يوسف بن عبد الله الأحمد",
+      "author_death_h": "Null",
+      "category": "مسائل فقهية",
+      "pages": "601",
+      "volumes": "Null",
+      "edition": "العام الجامعي: 1437 - 1438 هـ",
+      "publisher": "Null",
+      "editor": "إشراف: د. عبد العزيز بن عبد الله البخيت، الأستاذ المساعد في قسم الفقه المقارن بالمعهد العالي للقضاء",
+      "link": "https://shamela.ws/book/2",
+      "score": 45,
+      "reasons": [
+        "author contains: يوسف بن عبد الله"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "182",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أشراط الساعة",
+      "author_ar": "يوسف بن عبد الله بن يوسف الوابل",
+      "author_death_h": "Null",
+      "category": "العقيدة",
+      "pages": "483",
+      "volumes": "Null",
+      "edition": "الثالثة، 1411 هـ - 1991 م",
+      "publisher": "دار ابن الجوزي للنشر والتوزيع، المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/182",
+      "score": 45,
+      "reasons": [
+        "author contains: يوسف بن عبد الله"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1199",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فقه الخلاف وأثره في القضاء على الإرهاب",
+      "author_ar": "يوسف بن عبد الله الشبيلي",
+      "author_death_h": "Null",
+      "category": "كتب عامة",
+      "pages": "47",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "الكتاب منشور على موقع وزارة الأوقاف السعودية بدون بيانات",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1199",
+      "score": 45,
+      "reasons": [
+        "author contains: يوسف بن عبد الله"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8515",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "العناية بالقرآن الكريم في العهد النبوي الشريف",
+      "author_ar": "يوسف بن عبد الله الحاطي",
+      "author_death_h": "Null",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "67",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف بالمدينة المنورة",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8515",
+      "score": 45,
+      "reasons": [
+        "author contains: يوسف بن عبد الله"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17857",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مقدمة إملاء الاستذكار للحافظ أبي عمر ابن عبد البر القرطبي - سلسلة لقاء العشر الأواخر بالمسجد الحرام (٣١)",
+      "author_ar": "أبو طاهر أحمد بن محمد بن أحمد السلفي الأصبهاني",
+      "author_death_h": "576",
+      "category": "شروح الحديث",
+      "pages": "58",
+      "volumes": "Null",
+      "edition": "الأولى، 1422 هـ - 2001 م",
+      "publisher": "دار البشائر الإسلامية للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "عبد اللطيف بن محمد الجيلاني",
+      "link": "https://shamela.ws/book/17857",
+      "score": 10,
+      "reasons": [
+        "record contains author term: ابن عبد البر"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

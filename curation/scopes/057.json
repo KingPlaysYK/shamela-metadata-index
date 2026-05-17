@@ -1,0 +1,343 @@
+{
+  "id": "057",
+  "request": "Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi",
+  "scope": "single_work",
+  "author": "al-Zarkashi",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "11436",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البرهان في علوم القرآن",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1376 هـ - 1957 م",
+      "publisher": "دار إحياء الكتب العربية عيسى البابى الحلبي وشركائه (ثم صوَّرته دار المعرفة، بيروت، لبنان - وبنفس ترقيم الصفحات)",
+      "editor": "محمد أبو الفضل إبراهيم [ت ١٤٠١ هـ]",
+      "link": "https://shamela.ws/book/11436",
+      "score": 140,
+      "reasons": [
+        "exact title: البرهان في علوم القران",
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14114",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البرهان في علوم القرآن للإمام الحَوفيِّ - سورة يوسف دارسة وتحقيقا",
+      "author_ar": "علي بن إبراهيم بن سعيد أبو الحسن الحوفي",
+      "author_death_h": "430",
+      "category": "التفسير",
+      "pages": "413",
+      "volumes": "Null",
+      "edition": "العام الجامعي: 1436 هـ - 2015 م",
+      "publisher": "Null",
+      "editor": "إبراهيم عناني عطية عناني",
+      "link": "https://shamela.ws/book/14114",
+      "score": 75,
+      "reasons": [
+        "title contains: البرهان في علوم القران"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1364",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإجابة لإيراد ما استدركته عائشة على الصحابة",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "الفقه العام",
+      "pages": "283",
+      "volumes": "Null",
+      "edition": "الأولى، 1425 هـ - 2004 م",
+      "publisher": "مؤسسة الرسالة، بيروت - لبنان",
+      "editor": "د (مُحَمّد) بنيامين أَرُولْ",
+      "link": "https://shamela.ws/book/1364",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5978",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "النكت على مقدمة ابن الصلاح",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1419هـ - 1998م",
+      "publisher": "أضواء السلف - الرياض",
+      "editor": "د. زين العابدين بن محمد بلا فريج",
+      "link": "https://shamela.ws/book/5978",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6061",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "اللآلئ المنثورة في الأحاديث المشهورة المعروف بـ (التذكرة في الأحاديث المشتهرة)",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "التخريج والأطراف",
+      "pages": "227",
+      "volumes": "Null",
+      "edition": "الأولى، 1406 هـ - 1986م",
+      "publisher": "دار الكتب العلمية - بيروت",
+      "editor": "مصطفى عبد القادر عطا",
+      "link": "https://shamela.ws/book/6061",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6133",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "خبايا الزوايا",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "الفقه الشافعي",
+      "pages": "506",
+      "volumes": "Null",
+      "edition": "الأولى، 1402",
+      "publisher": "وزارة الأوقاف والشئون الإسلامية - الكويت",
+      "editor": "عبد القادر عبد الله العاني",
+      "link": "https://shamela.ws/book/6133",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6495",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معنى لا إله إلا الله",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "العقيدة",
+      "pages": "158",
+      "volumes": "Null",
+      "edition": "الثالثة، 1405هـ/ 1985م",
+      "publisher": "دار الاعتصام - القاهرة",
+      "editor": "علي محيي الدين علي القرة راغي",
+      "link": "https://shamela.ws/book/6495",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8490",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإجابة لإيراد ما استدركته عائشة على الصحابة",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "الفقه العام",
+      "pages": "172",
+      "volumes": "Null",
+      "edition": "الأولى، 1421 هـ - 2001 م",
+      "publisher": "مكتبة الخانجي - القاهرة",
+      "editor": "د رفعت فوزي عبد المطلب",
+      "link": "https://shamela.ws/book/8490",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12703",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإجابة لإيراد ما استدركته عائشة على الصحابة",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "الفقه العام",
+      "pages": "184",
+      "volumes": "Null",
+      "edition": "الثانية، 1390 هـ - 1970 م",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "سعيد الأفغاني [ت ١٤١٧ هـ]",
+      "link": "https://shamela.ws/book/12703",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "14452",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "إعلام الساجد بأحكام المساجد",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "مسائل فقهية",
+      "pages": "408",
+      "volumes": "Null",
+      "edition": "الرابعة، 1416 هـ - 1996 م",
+      "publisher": "المجلس الأعلى للشؤون الإسلامية - القاهرة",
+      "editor": "أبو الوفا مصطفى المراغي",
+      "link": "https://shamela.ws/book/14452",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21592",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنثور في القواعد الفقهية",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "علوم الفقه والقواعد الفقهية",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الثانية، 1405 هـ - 1985 م",
+      "publisher": "وزارة الأوقاف الكويتية (طباعة شركة الكويت للصحافة)",
+      "editor": "د تيسير فائق أحمد محمود",
+      "link": "https://shamela.ws/book/21592",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21593",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البحر المحيط في أصول الفقه",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "8",
+      "edition": "الأولى، 1414 هـ - 1994 م",
+      "publisher": "دار الكتبي",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21593",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "21743",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح الزركشي",
+      "author_ar": "شمس الدين محمد بن عبد الله الزركشي المصري الحنبلي",
+      "author_death_h": "772",
+      "category": "الفقه الحنبلي",
+      "pages": "Null",
+      "volumes": "7",
+      "edition": "الأولى، 1413 هـ - 1993 م",
+      "publisher": "دار العبيكان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/21743",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "37338",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "زهر العريش في تحريم الحشيش",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "مسائل فقهية",
+      "pages": "139",
+      "volumes": "Null",
+      "edition": "الثانية،1411 هـ - 1990 م",
+      "publisher": "دار الوفاء للطباعة والنشر، المنصورة - مصر",
+      "editor": "د. أحمد فرج",
+      "link": "https://shamela.ws/book/37338",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "122142",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تشنيف المسامع بجمع الجوامع لتاج الدين السبكي",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "أصول الفقه",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1418 هـ - 1998 م",
+      "publisher": "مكتبة قرطبة للبحث العلمي وإحياء التراث - توزيع المكتبة المكية",
+      "editor": "د سيد عبد العزيز - د عبد الله ربيع",
+      "link": "https://shamela.ws/book/122142",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "150599",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "سلاسل الذهب",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "author_death_h": "794",
+      "category": "أصول الفقه",
+      "pages": "479",
+      "volumes": "Null",
+      "edition": "الثانية، 1423 هـ - 2002 م",
+      "publisher": "المحقق، المدينة المنورة",
+      "editor": "محمد المختار بن محمد الأمين الشنقيطي",
+      "link": "https://shamela.ws/book/150599",
+      "score": 40,
+      "reasons": [
+        "author contains: الزركشي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

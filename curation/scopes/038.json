@@ -1,0 +1,184 @@
+{
+  "id": "038",
+  "request": "Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi",
+  "scope": "single_work",
+  "author": "Muhammad ibn Ali al-Ithyubi",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "148870",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "البحر المحيط الثجاج في شرح صحيح الإمام مسلم بن الحجاج",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "47 (45 والفهارس)",
+      "edition": "الأولى، (1426 - 1436 هـ)",
+      "publisher": "دار ابن الجوزي - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/148870",
+      "score": 210,
+      "reasons": [
+        "title contains: البحر المحيط الثجاج",
+        "exact title: البحر المحيط الثجاج في شرح صحيح الامام مسلم بن الحجاج",
+        "author contains: محمد بن علي بن ادم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7456",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "منظومة تذكرة الطالبين في بيان الموضوع وأصناف الوضاعين (مطبوع بأول {الجليس الأمين في شرح تذكرة الطالبين في بيان الموضوع وأصناف الوضَّاعين} )",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "category": "علوم الحديث",
+      "pages": "10",
+      "volumes": "Null",
+      "edition": "الأولى، 1414هـ",
+      "publisher": "دار الحديث الخيرية، مكة المكرمة - أجياد",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/7456",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن علي بن ادم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "10312",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح أَلْفِيَّةِ السُّيوطي في الحديث المسمى «إسعاف ذوي الوَطَر بشرح نظم الدُّرَر في علم الأثر»",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "category": "علوم الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1414 هـ - 1993 م",
+      "publisher": "مكتبة الغرباء الأثرية، المدينة المنورة - المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/10312",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن علي بن ادم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "12888",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح سنن النسائي المسمى «ذخيرة العقبى في شرح المجتبى».",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "42 (40 والفهارس)",
+      "edition": "الأولى، 1416 - 1424 هـ",
+      "publisher": "دار المعراج الدولية للنشر (جـ ١ - ٥)، دار آل بروم للنشر والتوزيع (جـ ٦ - ٤٠)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/12888",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن علي بن ادم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "17132",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مشارق الأنوار الوهاجة ومطالع الأسرار البهاجة في شرح سنن الإمام ابن ماجه",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1427 هـ - 2006 م",
+      "publisher": "دار المغني، الرياض - المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/17132",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن علي بن ادم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "148896",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "قرة عين المحتاج في شرح مقدمة صحيح مسلم بن الحجاج",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "category": "شروح الحديث",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1424 هـ",
+      "publisher": "دار ابن الجوزي",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/148896",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن علي بن ادم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "151040",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "قرة العين في تلخيص تراجم رجال الصحيحين",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "author_death_h": "Null",
+      "category": "التراجم والطبقات",
+      "pages": "598",
+      "volumes": "Null",
+      "edition": "الثانية، 1421 هـ - 2000 م",
+      "publisher": "دار المعراج الدوليّة للنشر، الرياض - المملكة العربية السعودية، مؤسسة الريان للطباعة والنشر والتوزيع، بيروت - لبنان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/151040",
+      "score": 40,
+      "reasons": [
+        "author contains: محمد بن علي بن ادم"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8206",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الإبانة عن شريعة الفرقة الناجية ومجانبة الفرق المذمومة",
+      "author_ar": "أبو عبد الله عبيد الله بن محمد بن بطة العكبري الحنبلي",
+      "author_death_h": "387",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "9",
+      "edition": "جـ 1، 2: الثانية، 1415 هـ. جـ 3، 4: الثانية، 1418 هـ. جـ 5، 6: الثانية، 1418 هـ. جـ 7: الأولى، 1418 هـ. جـ 8، 9: الأولى، 1426 هـ",
+      "publisher": "دار الراية للنشر والتوزيع، الرياض",
+      "editor": "رضا معطي، وعثمان الأثيوبي، ويوسف الوابل، والوليد بن سيف النصر، وحمد التويجري",
+      "link": "https://shamela.ws/book/8206",
+      "score": 15,
+      "reasons": [
+        "record contains author term: الاثيوبي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

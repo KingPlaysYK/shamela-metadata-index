@@ -1,0 +1,524 @@
+{
+  "id": "030",
+  "request": "Download and process all Imam al-Dhahabi books",
+  "scope": "author_collection",
+  "author": "al-Dhahabi",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "167",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المستملح من كتاب التكملة",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "590",
+      "volumes": "Null",
+      "edition": "الأولى، 1429 هـ - 2008 م",
+      "publisher": "دار الغرب الإسلامي، بيروت - لبنان",
+      "editor": "الدكتور بشار عواد معروف (حققه وضبط نصه وعلق عليه)",
+      "link": "https://shamela.ws/book/167",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "718",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المختصر المحتاج إليه من تاريخ ابن الدبيثي وهو: محمد بن سعيد بن يحيى بن علي، ابن الدبيثي (ت ٦٣٧ هـ)",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "400",
+      "volumes": "Null",
+      "edition": "(الأولى، 1417 هـ - 1997 م)، (الثانية، 1425 هـ - 2004 م)",
+      "publisher": "دار الكتب العلمية، بيروت - لبنان",
+      "editor": "مصطفى عبد القادر عطا (دراسة وتحقيق)",
+      "link": "https://shamela.ws/book/718",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1583",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تذكرة الحفاظ",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "5 (1 - 4: تذكرة الذهبي و 5: ذيوله للحسيني وابن فهد والسيوطي)",
+      "edition": "الأولى، 1419 هـ- 1998 م",
+      "publisher": "دار الكتب العلمية، بيروت-لبنان",
+      "editor": "زكريا عميرات (وضع حواشيه)",
+      "link": "https://shamela.ws/book/1583",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1692",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ميزان الاعتدال في نقد الرجال",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الأولى، 1382 هـ - 1963 م",
+      "publisher": "دار المعرفة للطباعة والنشر، بيروت - لبنان",
+      "editor": "علي محمد البجاوي [ت ١٣٩٩ هـ] (تحقيق)",
+      "link": "https://shamela.ws/book/1692",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1892",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ذكر أسماء من تكلم فيه وهو موثق",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الأولى، 1406هـ - 1986م",
+      "publisher": "مكتبة المنار - الزرقاء",
+      "editor": "محمد شكور بن محمود الحاجي أمرير المياديني",
+      "link": "https://shamela.ws/book/1892",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "2171",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الكاشف في معرفة من له رواية في الكتب الستة",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "الأولى، 1413 هـ - 1992 م",
+      "publisher": "دار القبلة للثقافة الإسلامية - مؤسسة علوم القرآن، جدة",
+      "editor": "محمد عوامة أحمد محمد نمر الخطيب",
+      "link": "https://shamela.ws/book/2171",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "2582",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "رسالة طرق حديث من كنت مولاه فعلي مولاه",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التخريج والأطراف",
+      "pages": "106",
+      "volumes": "Null",
+      "edition": "الأولى، 1423 هـ",
+      "publisher": "منشورات دليل ما - إيران",
+      "editor": "عبد العزيز الطباطبائي (شيعي)",
+      "link": "https://shamela.ws/book/2582",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5688",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الدينار من حديث المشايخ الكبار",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "كتب السنة",
+      "pages": "87",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "مكتبة القرآن - القاهرة",
+      "editor": "مجدي السيد إبراهيم",
+      "link": "https://shamela.ws/book/5688",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5817",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرواة الثقات المتكلم فيهم بما لا يوجب ردهم",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "204",
+      "volumes": "Null",
+      "edition": "الأولى، 1412هـ - 1992م",
+      "publisher": "دار البشائر الإسلامية - بيروت - لبنان",
+      "editor": "محمد إبراهيم الموصلي",
+      "link": "https://shamela.ws/book/5817",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5836",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المغني في الضعفاء",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "الدكتور نور الدين عتر",
+      "link": "https://shamela.ws/book/5836",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5889",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المعين في طبقات المحدثين",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "238",
+      "volumes": "Null",
+      "edition": "الأولى، 1404",
+      "publisher": "دار الفرقان - عمان - الأردن",
+      "editor": "د. همام عبد الرحيم سعيد",
+      "link": "https://shamela.ws/book/5889",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6068",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تلخيص كتاب الموضوعات لابن الجوزي",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "العلل والسؤلات الحديثية",
+      "pages": "362",
+      "volumes": "Null",
+      "edition": "الأولى، 1419 هـ - 1998م",
+      "publisher": "مكتبة الرشد - الرياض",
+      "editor": "أبو تميم ياسر بن إبراهيم بن محمد",
+      "link": "https://shamela.ws/book/6068",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6071",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحاديث مختارة من موضوعات الجورقاني وابن الجوزي",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "العلل والسؤلات الحديثية",
+      "pages": "151",
+      "volumes": "Null",
+      "edition": "الأولى، 1404 هـ",
+      "publisher": "مكتبة الدار - المدينة المنورة",
+      "editor": "عبد الرحمن بن عبد الجبار الفريوائي",
+      "link": "https://shamela.ws/book/6071",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6342",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "زغل العلم",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "52",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "مكتبة الصحوة الإسلامية",
+      "editor": "تحقيق: محمد بن ناصر العجمي",
+      "link": "https://shamela.ws/book/6342",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6463",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "العلو للعلي الغفار في إيضاح صحيح الأخبار وسقيمها",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "العقيدة",
+      "pages": "268",
+      "volumes": "Null",
+      "edition": "الأولى، 1416هـ - 1995م",
+      "publisher": "مكتبة أضواء السلف - الرياض",
+      "editor": "أبو محمد أشرف بن عبد المقصود",
+      "link": "https://shamela.ws/book/6463",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6531",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنتقى من منهاج الاعتدال في نقض كلام أهل الرفض والاعتزال",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "العقيدة",
+      "pages": "562",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "محب الدين الخطيب [ت ١٣٨٩ هـ]",
+      "link": "https://shamela.ws/book/6531",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6653",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ثلاث تراجم نفيسة للأئمة الأعلام ابن تيمية والحافظ علم الدين البزرالي والحافظ جمال الدين المزي",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "56",
+      "volumes": "Null",
+      "edition": "الأولى، 1415هـ - 1995م",
+      "publisher": "دار ابن الأثير - الكويت",
+      "editor": "محمد بن ناصر العجمي",
+      "link": "https://shamela.ws/book/6653",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6848",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الكبائر",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "الرقائق والآداب والأذكار",
+      "pages": "240",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار الندوة الجديدة - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/6848",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7271",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المقتنى في سرد الكنى",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1408هـ",
+      "publisher": "المجلس العلمي بالجامعة الإسلامية، المدينة المنورة، المملكة العربية السعودية",
+      "editor": "محمد صالح عبد العزيز المراد",
+      "link": "https://shamela.ws/book/7271",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7318",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مختصر العلو للعلي العظيم للذهبي",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "العقيدة",
+      "pages": "304",
+      "volumes": "Null",
+      "edition": "الطبعة الثانية 1412هـ-1991م.",
+      "publisher": "المكتب الإسلامي",
+      "editor": "حققها واختصرها: محمد ناصر الدين الألباني",
+      "link": "https://shamela.ws/book/7318",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7350",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "العرش",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "العقيدة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الثانية، 1424هـ/2003م",
+      "publisher": "عمادة البحث العلمي بالجامعة الإسلامية، المدينة المنورة، المملكة العربية السعودية",
+      "editor": "محمد بن خليفة بن علي التميمي",
+      "link": "https://shamela.ws/book/7350",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8195",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الموقظة في علم مصطلح الحديث",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "علوم الحديث",
+      "pages": "93",
+      "volumes": "Null",
+      "edition": "الثانية، 1412 هـ",
+      "publisher": "مكتبة المطبوعات الإسلامية بحلب",
+      "editor": "عبد الفتاح أبو غُدّة",
+      "link": "https://shamela.ws/book/8195",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8349",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معرفة القراء الكبار على الطبقات والأعصار",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "406",
+      "volumes": "Null",
+      "edition": "الأولى 1417 هـ- 1997م",
+      "publisher": "دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8349",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9075",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرد على ابن القطان في كتابه «بيان الوهم والإيهام»",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التخريج والأطراف",
+      "pages": "66",
+      "volumes": "Null",
+      "edition": "الأولى، 1426 هـ - 2005 م",
+      "publisher": "الفاروق الحديثة للطباعة والنشر - القاهرة، مصر",
+      "editor": "أبو عبد الأعلى خالد بن محمد بن عثمان المصري",
+      "link": "https://shamela.ws/book/9075",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9869",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المعجم المختص بالمحدثين",
+      "author_ar": "شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن قايماز الذهبي",
+      "author_death_h": "748",
+      "category": "التراجم والطبقات",
+      "pages": "309",
+      "volumes": "Null",
+      "edition": "الأولى، 1408 هـ - 1988 م",
+      "publisher": "مكتبة الصديق، الطائف",
+      "editor": "د. محمد الحبيب الهيلة (تحقيق)",
+      "link": "https://shamela.ws/book/9869",
+      "score": 45,
+      "reasons": [
+        "author contains: الذهبي"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

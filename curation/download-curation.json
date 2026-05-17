@@ -1,0 +1,279 @@
+{
+  "generated_at": "2026-05-17T12:00:33.109Z",
+  "purpose": "Human-readable and machine-readable curation layer before downloads, enrichment, and indexing.",
+  "rule": "No candidate is canonical until approval_status is reviewed and canonical_book_id or include_book_ids are set.",
+  "scopes": [
+    {
+      "id": "027",
+      "request": "Download and process all Ibn al-Jawzi books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/027.json",
+      "top_candidate_book_id": "6349"
+    },
+    {
+      "id": "028",
+      "request": "Download and process all Ibn Hajar al-Asqalani books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/028.json",
+      "top_candidate_book_id": "6662"
+    },
+    {
+      "id": "029",
+      "request": "Download and process Ibn Qudamah al-Maqdisi books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/029.json",
+      "top_candidate_book_id": "5554"
+    },
+    {
+      "id": "030",
+      "request": "Download and process all Imam al-Dhahabi books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/030.json",
+      "top_candidate_book_id": "167"
+    },
+    {
+      "id": "031",
+      "request": "Download and process all Ibn al-Qayyim books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/031.json",
+      "top_candidate_book_id": "1477"
+    },
+    {
+      "id": "032",
+      "request": "Download and process Imam al-Albani books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/032.json",
+      "top_candidate_book_id": "1147"
+    },
+    {
+      "id": "033",
+      "request": "Download and process Shaykh Ibn Uthaymin books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/033.json",
+      "top_candidate_book_id": "553"
+    },
+    {
+      "id": "034",
+      "request": "Download and process Imam al-Qurtubi books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/034.json",
+      "top_candidate_book_id": "33"
+    },
+    {
+      "id": "035",
+      "request": "Download and process Bidayat al-Mujtahid by Ibn Rushd",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/035.json",
+      "top_candidate_book_id": "21739"
+    },
+    {
+      "id": "036",
+      "request": "Download and process Qadi Iyad explanation books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/036.json",
+      "top_candidate_book_id": "26463"
+    },
+    {
+      "id": "037",
+      "request": "Download and process al-Muhalla by Ibn Hazm",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/037.json",
+      "top_candidate_book_id": "767"
+    },
+    {
+      "id": "038",
+      "request": "Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/038.json",
+      "top_candidate_book_id": "148870"
+    },
+    {
+      "id": "039",
+      "request": "Download and process Sharh al-Sunnah by al-Baghawi",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/039.json",
+      "top_candidate_book_id": "7891"
+    },
+    {
+      "id": "040",
+      "request": "Download and process al-Umm by Imam al-Shafi'i",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/040.json",
+      "top_candidate_book_id": "1655"
+    },
+    {
+      "id": "041",
+      "request": "Download and process al-Bayan wa al-Tahsil",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/041.json",
+      "top_candidate_book_id": "21751"
+    },
+    {
+      "id": "042",
+      "request": "Download and process Bada'i al-Sana'i by al-Kasani",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/042.json",
+      "top_candidate_book_id": "8183"
+    },
+    {
+      "id": "043",
+      "request": "Download and process all Ibn Kathir books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/043.json",
+      "top_candidate_book_id": "9241"
+    },
+    {
+      "id": "044",
+      "request": "Download and process all Imam al-Nawawi books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/044.json",
+      "top_candidate_book_id": "497"
+    },
+    {
+      "id": "045",
+      "request": "Download and process Tarikh al-Tabari",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/045.json",
+      "top_candidate_book_id": "9783"
+    },
+    {
+      "id": "046",
+      "request": "Download and process al-Kamil fi al-Tarikh by Ibn al-Athir",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/046.json",
+      "top_candidate_book_id": "21712"
+    },
+    {
+      "id": "047",
+      "request": "Download and process Kitab al-Ibar by Ibn Khaldun",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/047.json",
+      "top_candidate_book_id": "12320"
+    },
+    {
+      "id": "048",
+      "request": "Download and process Umdat al-Qari by Badr al-Din al-Ayni",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/048.json",
+      "top_candidate_book_id": "5756"
+    },
+    {
+      "id": "049",
+      "request": "Download and process all Ibn Abd al-Barr books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/049.json",
+      "top_candidate_book_id": "2"
+    },
+    {
+      "id": "050",
+      "request": "Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition",
+      "status": "blocked_exact_edition_not_confirmed",
+      "approval_status": "blocked",
+      "file": "curation/scopes/050.json",
+      "top_candidate_book_id": "23789"
+    },
+    {
+      "id": "051",
+      "request": "Download and process all Arabic language books",
+      "status": "requires_collection_curation",
+      "approval_status": "collection_curation_required",
+      "file": "curation/scopes/051.json",
+      "top_candidate_book_id": "18280"
+    },
+    {
+      "id": "052",
+      "request": "Record author madhab and scholarly profile for every book",
+      "status": "cross_cutting_metadata_rule",
+      "approval_status": "rule",
+      "file": "curation/scopes/052.json",
+      "top_candidate_book_id": null
+    },
+    {
+      "id": "053",
+      "request": "Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/053.json",
+      "top_candidate_book_id": "748"
+    },
+    {
+      "id": "054",
+      "request": "Download and process Tanbih al-Ghafileen by Abu Layth al-Samarqandi",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/054.json",
+      "top_candidate_book_id": "10488"
+    },
+    {
+      "id": "055",
+      "request": "Download and process al-Adab al-Shar'iyyah by Ibn Muflih",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/055.json",
+      "top_candidate_book_id": "21582"
+    },
+    {
+      "id": "056",
+      "request": "Download and process Tarikh Baghdad by al-Khatib al-Baghdadi",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/056.json",
+      "top_candidate_book_id": "736"
+    },
+    {
+      "id": "057",
+      "request": "Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/057.json",
+      "top_candidate_book_id": "11436"
+    },
+    {
+      "id": "058",
+      "request": "Download and process Takhrij Ahadith al-Kashshaf by Ibn Hajar",
+      "status": "ambiguous_candidate",
+      "approval_status": "ambiguous",
+      "file": "curation/scopes/058.json",
+      "top_candidate_book_id": "6662"
+    },
+    {
+      "id": "059",
+      "request": "Download and process Anwar al-Tanzil by al-Baydawi",
+      "status": "ready_for_manual_review",
+      "approval_status": "pending_review",
+      "file": "curation/scopes/059.json",
+      "top_candidate_book_id": "23588"
+    },
+    {
+      "id": "060",
+      "request": "Final rich metadata and indexing for al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah",
+      "status": "deferred_final_stage_review",
+      "approval_status": "deferred",
+      "file": "curation/scopes/060.json",
+      "top_candidate_book_id": "11430"
+    }
+  ]
+}

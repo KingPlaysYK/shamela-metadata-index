@@ -1,0 +1,539 @@
+{
+  "id": "045",
+  "request": "Download and process Tarikh al-Tabari",
+  "scope": "single_work",
+  "author": "al-Tabari",
+  "status": "ready_for_manual_review",
+  "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "pending_review",
+    "canonical_book_id": null,
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Check edition, editor, publisher, completeness, and page/volume metadata.",
+      "Set canonical_book_id only after confirming this is the intended full text.",
+      "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "9783",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تاريخ الطبري = تاريخ الرسل والملوك",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "11",
+      "edition": "الثانية 1387 هـ - 1967 م",
+      "publisher": "دار المعارف بمصر",
+      "editor": "محمد أبو الفضل إبراهيم [ت ١٤٠١ هـ]",
+      "link": "https://shamela.ws/book/9783",
+      "score": 215,
+      "reasons": [
+        "title contains: تاريخ الطبري",
+        "title contains: تاريخ الرسل والملوك",
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6616",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تكملة تاريخ الطبري",
+      "author_ar": "محمد بن عبد الملك بن إبراهيم بن أحمد أبو الحسن الهمذاني المعروف بالمقدسي",
+      "author_death_h": "521",
+      "category": "التاريخ",
+      "pages": "236",
+      "volumes": "Null",
+      "edition": "الأولى، 1958",
+      "publisher": "المطبعة الكاثوليكية - بيروت",
+      "editor": "ألبرت يوسف كنعان",
+      "link": "https://shamela.ws/book/6616",
+      "score": 85,
+      "reasons": [
+        "title contains: تاريخ الطبري",
+        "record contains author term: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "145435",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صحيح وضعيف «تاريخ الطبري، للإمام أبي جعفر بن جرير الطبري (٢٢٤ - ٣١٠ هـ)»",
+      "author_ar": "محمد بن طاهر البرزنجي",
+      "author_death_h": "Null",
+      "category": "التاريخ",
+      "pages": "Null",
+      "volumes": "13",
+      "edition": "الأولى، 1428 هـ - 2007 م",
+      "publisher": "دار ابن كثير، دمشق - بيروت",
+      "editor": "إشراف ومراجعة: محمد صبحي حسن حلاق [ت ١٤٣٨ هـ]",
+      "link": "https://shamela.ws/book/145435",
+      "score": 85,
+      "reasons": [
+        "title contains: تاريخ الطبري",
+        "record contains author term: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "43",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جامع البيان عن تأويل آي القرآن",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "24",
+      "edition": "بدون تاريخ نشر",
+      "publisher": "توزيع: دار التربية والتراث - مكة المكرمة - ص.ب: ٧٧٨٠",
+      "editor": "مصورةٌ من تحقيق محمود محمد شاكر، الذي ينتهي بتفسير الآية ٢٧ من سورة إبراهيم + إعادة صَف لطبعة الحلبي بنصها وحواشيها بلا أدنى إشارة!!",
+      "link": "https://shamela.ws/book/43",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1133",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المنتخب من ذيل المذيل",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "مؤسسة الأعلمي للمطبوعات، بيروت - لبنان",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1133",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "5597",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب الآثار (الجزء المفقود)",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "الفقه العام",
+      "pages": "572",
+      "volumes": "Null",
+      "edition": "الأولى، 1416هـ - 1995م",
+      "publisher": "دار المأمون للتراث - دمشق / سوريا",
+      "editor": "علي رضا بن عبد الله بن علي رضا",
+      "link": "https://shamela.ws/book/5597",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7492",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "اختلاف الفقهاء",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "الفقه العام",
+      "pages": "305",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/7492",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7798",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تفسير الطبري = جامع البيان عن تأويل آي القرآن",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "التفسير",
+      "pages": "Null",
+      "volumes": "26 (24 والفهارس)",
+      "edition": "الأولى، 1422 هـ - 2001 م",
+      "publisher": "دار هجر للطباعة والنشر والتوزيع والإعلان - القاهرة، مصر",
+      "editor": "تحقيق: د عبد الله بن عبد المحسن التركي بالتعاون مع: مركز البحوث والدراسات الإسلامية بدار هجر - د عبد السند حسن يمامة",
+      "link": "https://shamela.ws/book/7798",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13090",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب الآثار وتفصيل الثابت عن رسول الله من الأخبار",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "Null",
+      "publisher": "مطبعة المدني - القاهرة",
+      "editor": "محمود محمد شاكر",
+      "link": "https://shamela.ws/book/13090",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13091",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب الآثار وتفصيل الثابت عن رسول الله من الأخبار",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "Null",
+      "publisher": "مطبعة المدني - القاهرة",
+      "editor": "محمود محمد شاكر",
+      "link": "https://shamela.ws/book/13091",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13092",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تهذيب الآثار وتفصيل الثابت عن رسول الله من الأخبار",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "Null",
+      "publisher": "مطبعة المدني - القاهرة",
+      "editor": "محمود محمد شاكر",
+      "link": "https://shamela.ws/book/13092",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13127",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صريح السنة",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "كتب السنة",
+      "pages": "30",
+      "volumes": "Null",
+      "edition": "الأولى، 1405",
+      "publisher": "دار الخلفاء للكتاب الإسلامي - الكويت",
+      "editor": "بدر يوسف المعتوق",
+      "link": "https://shamela.ws/book/13127",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "26464",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التبصير في معالم الدين",
+      "author_ar": "أبو جعفر محمد بن جرير الطبري",
+      "author_death_h": "310",
+      "category": "كتب السنة",
+      "pages": "222",
+      "volumes": "Null",
+      "edition": "الأولى 1416 هـ - 1996 م",
+      "publisher": "دار العاصمة",
+      "editor": "علي بن عبد العزيز بن علي الشبل",
+      "link": "https://shamela.ws/book/26464",
+      "score": 75,
+      "reasons": [
+        "author contains: الطبري",
+        "author contains: محمد بن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1001",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ذخائر العقبى في مناقب ذوى القربى",
+      "author_ar": "محب الدين أبو جعفر بن عبد الله بن محمد بن أبي بكر الطبري المكي الشافعي",
+      "author_death_h": "694",
+      "category": "السيرة النبوية",
+      "pages": "261",
+      "volumes": "Null",
+      "edition": "1356 هـ",
+      "publisher": "Null",
+      "editor": "عنيت بنشره: مكتبة القدسي لصاحبها حسام الدين القدسي بباب الخلق بحارة الجداوي بدرب سعادة بالقاهرة",
+      "link": "https://shamela.ws/book/1001",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "6583",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "خلاصة سير سيد البشر",
+      "author_ar": "محب الدين أبو جعفر بن عبد الله بن محمد بن أبي بكر الطبري المكي الشافعي",
+      "author_death_h": "694",
+      "category": "السيرة النبوية",
+      "pages": "182",
+      "volumes": "Null",
+      "edition": "الأولى، 1418 هـ - 1997 م",
+      "publisher": "مكتبة نزار مصطفى الباز - مكة المكرمة، الرياض",
+      "editor": "دراسة وتحقيق: د طلال بن جميل الرفاعي",
+      "link": "https://shamela.ws/book/6583",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "8657",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرياض النضرة في مناقب العشرة",
+      "author_ar": "محب الدين أبو جعفر بن عبد الله بن محمد بن أبي بكر الطبري المكي الشافعي",
+      "author_death_h": "694",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "4",
+      "edition": "الثانية",
+      "publisher": "دار الكتب العلمية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/8657",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "9200",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "شرح أصول اعتقاد أهل السنة والجماعة",
+      "author_ar": "أبو القاسم هبة الله بن الحسن بن منصور الطبري الرازي اللالكائي",
+      "author_death_h": "418",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "9 أجزاء (4 مجلدات)",
+      "edition": "الثامنة، 1423 هـ / 2003 م",
+      "publisher": "دار طيبة - السعودية",
+      "editor": "أحمد بن سعد بن حمدان الغامدي [ت ١٤٣٤ هـ]",
+      "link": "https://shamela.ws/book/9200",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "11454",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "جزء فيه حديثان أحدهما في فضل رجب",
+      "author_ar": "عبد الكريم بن عبد الصمد بن محمد بن علي بن محمد القطان أبو معشر الطبري",
+      "author_death_h": "478",
+      "category": "كتب السنة",
+      "pages": "344",
+      "volumes": "Null",
+      "edition": "الأولى، 2000 م",
+      "publisher": "مؤسسة الريان - بيروت [طبع ضمن مجموع يبدأ بكتاب: أداء ما وجب من بيان وضع الوضاعين في رجب]",
+      "editor": "جمال عزون",
+      "link": "https://shamela.ws/book/11454",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13148",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فوائد حديث أبي عمير",
+      "author_ar": "أبو العباس أحمد بن أبي أحمد الطبري المعروف بـ ابن القاص",
+      "author_death_h": "335",
+      "category": "كتب السنة",
+      "pages": "16",
+      "volumes": "Null",
+      "edition": "الأولى، 1413هـ - 1992م",
+      "publisher": "مكتبة السنة - القاهرة",
+      "editor": "صابر أحمد البطاوي",
+      "link": "https://shamela.ws/book/13148",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "13150",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "كرامات الأولياء للالكائي - من كتاب شرح أصول اعتقاد أهل السنة والجماعة للالكائي",
+      "author_ar": "أبو القاسم هبة الله بن الحسن بن منصور الطبري الرازي اللالكائي",
+      "author_death_h": "418",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "1 (هو الجزء 9 من كتاب شرح أصول اعتقاد أهل السنة والجماعة)",
+      "edition": "الثامنة، 1423 هـ / 2003 م",
+      "publisher": "دار طيبة - السعودية",
+      "editor": "أحمد بن سعد بن حمدان الغامدي [ت ١٤٣٤ هـ]",
+      "link": "https://shamela.ws/book/13150",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "18252",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أدب القاضي",
+      "author_ar": "أبو العباس أحمد بن أبي أحمد الطبري المعروف بـ ابن القاص",
+      "author_death_h": "335",
+      "category": "السياسة الشرعية والقضاء",
+      "pages": "Null",
+      "volumes": "2 (متسلسلة الترقيم)",
+      "edition": "الأولى، 1409 هـ - 1989 م.",
+      "publisher": "مكتبة الصديق - المملكة العربية السعودية/الطائف",
+      "editor": "دراسة وتحقيق: د. حسين خلف الجبوري [ت ١٤٤٤ هـ]",
+      "link": "https://shamela.ws/book/18252",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "23582",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحكام القرآن",
+      "author_ar": "علي بن محمد بن علي أبو الحسن الطبري الملقب بعماد الدين المعروف بالكيا الهراسي الشافعي",
+      "author_death_h": "504",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "Null",
+      "volumes": "Null",
+      "edition": "الثانية، 1405 هـ",
+      "publisher": "دار الكتب العلمية، بيروت",
+      "editor": "موسى محمد علي وعزة عبد عطية",
+      "link": "https://shamela.ws/book/23582",
+      "score": 40,
+      "reasons": [
+        "author contains: الطبري"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1465",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الاستدلال في التفسير دراسة في منهج ابن جرير الطبري في الاستدلال على المعاني في التفسير",
+      "author_ar": "نايف بن سعيد بن جمعان الزهراني الأستاذ المشارك في التفسير وعلوم القرآن بجامعة جدة",
+      "author_death_h": "Null",
+      "category": "علوم القرآن وأصول التفسير",
+      "pages": "678",
+      "volumes": "Null",
+      "edition": "الأولى، 1436 هـ - 2015 م",
+      "publisher": "مركر تفسير للدراسات القرآنية، الرياض - السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/1465",
+      "score": 25,
+      "reasons": [
+        "record contains author term: الطبري",
+        "record contains author term: ابن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "29982",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "المعجم الصغير لرواة الإمام ابن جرير الطبري",
+      "author_ar": "أكرم بن محمد زيادة الفالوجي الأثري",
+      "author_death_h": "Null",
+      "category": "التراجم والطبقات",
+      "pages": "Null",
+      "volumes": "2 (متسلسلة الترقيم)",
+      "edition": "Null",
+      "publisher": "الدار الأثرية، الأردن - دار ابن عفان، القاهرة",
+      "editor": "علي حسن عبد الحميد الأثري (تقديم)",
+      "link": "https://shamela.ws/book/29982",
+      "score": 25,
+      "reasons": [
+        "record contains author term: الطبري",
+        "record contains author term: ابن جرير"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "29741",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "معجم شيوخ الطبري الذين روى عنهم في كتبه المسندة المطبوعة",
+      "author_ar": "أكرم بن محمد زيادة الفالوجي الأثري",
+      "author_death_h": "Null",
+      "category": "التراجم والطبقات",
+      "pages": "826",
+      "volumes": "Null",
+      "edition": "الأولى، 1426 هـ - 2005 م",
+      "publisher": "الدار الأثرية، الأردن - دار ابن عفان، القاهرة",
+      "editor": "الشيخ باسم بن فيصل الجوابرة، الشيخ سليم بن عيد الهلالي، الشيخ علي بن حسن الحلبي، الشيخ محمد بن عبد الرزاق الرعود، الشيخ مشهور بن حسن سلمان (تقديم)",
+      "link": "https://shamela.ws/book/29741",
+      "score": 15,
+      "reasons": [
+        "record contains author term: الطبري"
+      ],
+      "review_notes": ""
+    }
+  ]
+}

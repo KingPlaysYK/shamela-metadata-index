@@ -1,0 +1,553 @@
+{
+  "id": "032",
+  "request": "Download and process Imam al-Albani books",
+  "scope": "author_collection",
+  "author": "Muhammad Nasir al-Din al-Albani",
+  "status": "requires_collection_curation",
+  "recommended_action": "Curate the candidate list into included/excluded books before download.",
+  "edition_status": "not_required",
+  "review": {
+    "approval_status": "collection_curation_required",
+    "canonical_book_id": null,
+    "include_book_ids": [],
+    "exclude_book_ids": [],
+    "fallback_book_ids": [],
+    "blockers": [],
+    "instructions": [
+      "Review candidates and create a curated include list.",
+      "Prefer comprehensive authored works and avoid unrelated studies about the author unless explicitly useful.",
+      "Record why any major work is missing."
+    ]
+  },
+  "candidates": [
+    {
+      "book_id": "1147",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صحيح سنن النسائي، باختصار السند",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "التخريج والأطراف",
+      "pages": "Null",
+      "volumes": "3 (متسلسلة الترقيم)",
+      "edition": "الأولى، 1409 هـ - 1988 م",
+      "publisher": "مكتب التربية العربي لدول الخليج - الرياض",
+      "editor": "محمد ناصر الدين الألباني",
+      "link": "https://shamela.ws/book/1147",
+      "score": 90,
+      "reasons": [
+        "author contains: الالباني",
+        "record contains author term: ناصر الدين الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1148",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ضعيف سنن النسائي، مع بقاء السند",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "التخريج والأطراف",
+      "pages": "251",
+      "volumes": "Null",
+      "edition": "الأولى، 14011 هـ - 1990 م",
+      "publisher": "المكتب الإسلامي، بيروت",
+      "editor": "محمد ناصر الدين الألباني",
+      "link": "https://shamela.ws/book/1148",
+      "score": 90,
+      "reasons": [
+        "author contains: الالباني",
+        "record contains author term: ناصر الدين الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1341",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صحيح الأدب المفرد للإمام البخاري",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "كتب السنة",
+      "pages": "502",
+      "volumes": "Null",
+      "edition": "الرابعة، 1418 هـ - 1997 م",
+      "publisher": "دار الصديق للنشر والتوزيع",
+      "editor": "محمد ناصر الدين الألباني",
+      "link": "https://shamela.ws/book/1341",
+      "score": 90,
+      "reasons": [
+        "author contains: الالباني",
+        "record contains author term: ناصر الدين الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "7682",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "دروس للشيخ محمد ناصر الدين الألباني",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "الجوامع",
+      "pages": "Null",
+      "volumes": "46",
+      "edition": "Null",
+      "publisher": "موقع الشبكة الإسلامية http://www.islamweb.net (دروس صوتية قام بتفريغها)",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/7682",
+      "score": 90,
+      "reasons": [
+        "author contains: الالباني",
+        "record contains author term: ناصر الدين الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "171",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صحيح الترغيب والترهيب",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "3",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "مكتبة المعارف للنشر والتوزيع - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/171",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "179",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ضعيف الترغيب والترهيب",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "2",
+      "edition": "الأولى، 1421 هـ - 2000 م",
+      "publisher": "مكتبة المعارف للنشر والتوزيع - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/179",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "306",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الثمر المستطاب في فقه السنة والكتاب",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "الأولى، 1422 هـ",
+      "publisher": "غراس للنشر والتوزيع",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/306",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "314",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "الرد المفحم على من خالف العلماء وتشدد وتعصب وألزم المرأة أن تستر وجهها وكفيها وأوجب ولم يقنع بقولهم: إنه سنة ومستحبة",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "الفقه العام",
+      "pages": "157",
+      "volumes": "Null",
+      "edition": "الأولى - 1421",
+      "publisher": "المكتبة الإسلامية - عمان - الأردن",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/314",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "349",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تحذير الساجد من اتخاذ القبور مساجد",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "العقيدة",
+      "pages": "132",
+      "volumes": "Null",
+      "edition": "الرابعة",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/349",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "365",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "تخريج أحاديث مشكلة الفقر وكيف عالجها الإسلام",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "التخريج والأطراف",
+      "pages": "83",
+      "volumes": "Null",
+      "edition": "الأولى - 1405 هـ- 1984 م",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/365",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "399",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حجة النبي صلى الله عليه وسلم كما رواها عنه جابر رضي الله عنه",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "الفقه العام",
+      "pages": "148",
+      "volumes": "Null",
+      "edition": "الخامسة - 1399",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/399",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "416",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "حكم تارك الصلاة",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "مسائل فقهية",
+      "pages": "66",
+      "volumes": "Null",
+      "edition": "الأولى - 1412",
+      "publisher": "دار الجلالين - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/416",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "421",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "دفاع عن الحديث النبوي والسيرة",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "علوم الحديث",
+      "pages": "111",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/421",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "592",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صحيح السيرة النبوية [من \"البداية والنهاية\" لابن كثير]",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "السيرة النبوية",
+      "pages": "234",
+      "volumes": "Null",
+      "edition": "الأولى",
+      "publisher": "المكتبة الإسلامية - عمان - الأردن",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/592",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "641",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "التعليقات الحسان على صحيح ابن حبان وتمييز سقيمه من صحيحه، وشاذه من محفوظه",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "كتب السنة",
+      "pages": "Null",
+      "volumes": "12 (10 أجزاء ومجلدان فهارس)",
+      "edition": "الأولى، 1424 هـ - 2003 م",
+      "publisher": "دار با وزير للنشر والتوزيع، جدة - المملكة العربية السعودية",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/641",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "657",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صفة صلاة النبي صلى الله عليه وسلم من التكبير إلى التسليم كأنك تراها",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "الفقه العام",
+      "pages": "Null",
+      "volumes": "1",
+      "edition": "Null",
+      "publisher": "مكتبة المعارف للنشر والتوزيع - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/657",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "680",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "صلاة التراويح",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "مسائل فقهية",
+      "pages": "125",
+      "volumes": "Null",
+      "edition": "الأولى - 1421",
+      "publisher": "مكتبة المعارف للنشر والتوزيع - الرياض",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/680",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "682",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "غاية المرام في تخريج أحاديث الحلال والحرام",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "التخريج والأطراف",
+      "pages": "282",
+      "volumes": "Null",
+      "edition": "الثالثة - 1405",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/682",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "692",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "قصة المسيح الدجال ونزول عيسى عليه الصلاة والسلام",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "العقيدة",
+      "pages": "149",
+      "volumes": "Null",
+      "edition": "الأولى 1421هـ",
+      "publisher": "المكتبة الإسلامية - عمان - الأردن",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/692",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "702",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "مساجلة علمية بين الإمامين الجليلين العز بن عبد السلام وابن الصلاح حول صلاة الرغائب المبتدعة",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "التخريج والأطراف",
+      "pages": "46",
+      "volumes": "Null",
+      "edition": "الثانية - 1405",
+      "publisher": "المكتب الإسلامي - بيروت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/702",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "705",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "منزلة السنة في الإسلام",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "علوم الحديث",
+      "pages": "23",
+      "volumes": "Null",
+      "edition": "الرابعة - 1404 هـ - 1984 م",
+      "publisher": "الدار السلفية - الكويت",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/705",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "707",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فتنة التكفير",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "العقيدة",
+      "pages": "17",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/707",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "710",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "فقه الواقع",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "كتب عامة",
+      "pages": "29",
+      "volumes": "Null",
+      "edition": "Null",
+      "publisher": "Null",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/710",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "854",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "أحكام الجنائز",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "الفقه العام",
+      "pages": "268",
+      "volumes": "Null",
+      "edition": "الرابعة، 1406 هـ - 1986 م",
+      "publisher": "المكتب الإسلامي",
+      "editor": "Null",
+      "link": "https://shamela.ws/book/854",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    },
+    {
+      "book_id": "1216",
+      "decision": "undecided",
+      "role": null,
+      "title_ar": "ضعيف سنن الترمذي",
+      "author_ar": "أبو عبد الرحمن محمد ناصر الدين بن الحاج نوح بن نجاتي بن آدم الأشقودري الألباني",
+      "author_death_h": "1420",
+      "category": "كتب السنة",
+      "pages": "575",
+      "volumes": "Null",
+      "edition": "الأولى، 1411 هـ - 1991 م",
+      "publisher": "المكتب الاسلامي - بيروت",
+      "editor": "زهير الشاويش [ت ١٤٣٤ هـ] (أشرف على استخراجه وطباعته والتعليق عليه)",
+      "link": "https://shamela.ws/book/1216",
+      "score": 80,
+      "reasons": [
+        "author contains: الالباني",
+        "author contains: محمد ناصر الدين"
+      ],
+      "review_notes": ""
+    }
+  ]
+}
