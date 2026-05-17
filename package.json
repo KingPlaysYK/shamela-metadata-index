@@ -14,10 +14,13 @@
     "resolve:books": "node scripts/resolve-requested-books.mjs",
     "plan:downloads": "node scripts/build-download-plan.mjs",
     "curation:build": "node scripts/build-curation-workspace.mjs",
+    "curation:auto-approve-single": "node scripts/approve-high-confidence-single-works.mjs",
     "curation:validate": "node scripts/validate-curation.mjs",
     "downloads:manifest": "node scripts/build-approved-download-manifest.mjs",
     "downloads:jobs": "node scripts/build-download-jobs.mjs",
+    "downloads:extract-local": "node scripts/extract-approved-books-from-local-parquet.mjs",
     "downloads:dry-run": "node scripts/run-download-jobs.mjs",
+    "metadata:baseline-index": "node scripts/build-baseline-metadata-index.mjs",
     "pipeline:stage": "node scripts/pipeline-stage.mjs",
     "status": "node scripts/status.mjs"
   }

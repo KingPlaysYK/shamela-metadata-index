@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "767",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "767",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "المُحلَّى بالآثار",
       "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
       "author_death_h": "456",
@@ -37,11 +39,11 @@
         "title contains: المحلي",
         "exact title: المحلي بالاثار"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "21608",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "حاشية العطار على شرح الجلال المحلي على جمع الجوامع",
       "author_ar": "حسن بن محمد بن محمود العطار الشافعي",
@@ -57,11 +59,11 @@
       "reasons": [
         "title contains: المحلي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "11577",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مزيد النعمة لجمع أقوال الأئمة",
       "author_ar": "حسين بن محمد المحلي الشافعي المصري",
@@ -77,11 +79,11 @@
       "reasons": [
         "record contains title term: المحلي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12876",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تفسير الجلالين",
       "author_ar": "جلال الدين محمد بن أحمد المحلي وجلال الدين عبد الرحمن بن أبي بكر السيوطي",
@@ -97,11 +99,11 @@
       "reasons": [
         "record contains title term: المحلي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21547",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح الورقات في أصول الفقه",
       "author_ar": "جلال الدين محمد بن أحمد المحلي وجلال الدين عبد الرحمن بن أبي بكر السيوطي",
@@ -117,11 +119,11 @@
       "reasons": [
         "record contains title term: المحلي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "14",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "استنباطات الشيخ عبد الرحمن السعدي من القرآن الكريم عرض ودراسة.",
       "author_ar": "سيف بن منصر بن علي الحارثي",
@@ -137,11 +139,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "116",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "ابن حزم وموقفه من الإلهيات عرض ونقد",
       "author_ar": "أحمد بن ناصر الحمد",
@@ -157,11 +159,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "151",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح عمدة الفقه [آثار شيخ الإسلام ابن تيمية وما لحقها من أعمال (٢٥)]",
       "author_ar": "تقي الدين أبو العباس أحمد بن عبد الحليم بن عبد السلام بن عبد الله بن أبي القاسم بن محمد ابن تيمية الحراني الحنبلي الدمشقي",
@@ -177,11 +179,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "184",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الصواعق المرسلة على الجهمية والمعطلة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٣)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -197,11 +199,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "197",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "زاد المعاد في هدي خير العباد [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٠)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -217,11 +219,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "199",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مدارج السالكين في منازل السائرين [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣١)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -237,11 +239,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "201",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تهذيب سنن أبي داود وإيضاح علله ومشكلاته [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٩)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -257,11 +259,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "205",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٢)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -277,11 +279,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "212",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الفوائد [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٨)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -297,11 +299,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "218",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "أحكام أهل الذمة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٤)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -317,11 +319,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "221",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مؤلفات ابن قيم الجوزية - نسخها الخطية وطبعاتها [بذيل «الجامع لسيرة الإمام ابن قيم الجوزية خلال ستة قرون» - آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٥)]",
       "author_ar": "محمد عزير شمس و علي بن محمد العمران",
@@ -337,11 +339,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "229",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تحفة المودود بأحكام المولود [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٢)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -357,11 +359,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "234",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الجامع لسيرة الإمام ابن قيم الجوزية خلال ستة قرون [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٣٥)]",
       "author_ar": "علي بن محمد بن حسين العمران",
@@ -377,11 +379,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "251",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "طريق الهجرتين وباب السعادتين",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -397,11 +399,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "252",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "عدة الصابرين وذخيرة الشاكرين [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٥)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -417,11 +419,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "253",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الصلاة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (١٩)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -437,11 +439,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "257",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "رفع اليدين في الصلاة [آثار الإمام ابن قيم الجوزية وما لحقها من أعمال (٢٠)]",
       "author_ar": "محمد بن أبي بكر بن أيوب بن سعد شمس الدين ابن قيم الجوزية",
@@ -457,11 +459,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "266",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "آداب البحث والمناظرة [آثار الشيخ العلامة محمد الأمين الشنقيطي (٧)]",
       "author_ar": "محمد الأمين بن محمد المختار الجكني الشنقيطي",
@@ -477,11 +479,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "281",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "دفع إيهام الاضطراب عن آيات الكتاب [آثار الشيخ العلامة محمد الأمين الشنقيطي (٣)]",
       "author_ar": "محمد الأمين بن محمد المختار الجكني الشنقيطي",
@@ -497,11 +499,11 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "282",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مذكرة أصول الفقه على روضة الناظر [آثار الشيخ العلامة محمد الأمين الشنقيطي (٦)]",
       "author_ar": "محمد الأمين بن محمد المختار الجكني الشنقيطي",
@@ -517,7 +519,7 @@
       "reasons": [
         "record contains author term: ابن حزم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "11436",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "11436",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "البرهان في علوم القرآن",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
       "author_death_h": "794",
@@ -37,11 +39,11 @@
         "exact title: البرهان في علوم القران",
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "14114",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "البرهان في علوم القرآن للإمام الحَوفيِّ - سورة يوسف دارسة وتحقيقا",
       "author_ar": "علي بن إبراهيم بن سعيد أبو الحسن الحوفي",
@@ -57,11 +59,11 @@
       "reasons": [
         "title contains: البرهان في علوم القران"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1364",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإجابة لإيراد ما استدركته عائشة على الصحابة",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -77,11 +79,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "5978",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "النكت على مقدمة ابن الصلاح",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -97,11 +99,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6061",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "اللآلئ المنثورة في الأحاديث المشهورة المعروف بـ (التذكرة في الأحاديث المشتهرة)",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -117,11 +119,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6133",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "خبايا الزوايا",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -137,11 +139,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6495",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "معنى لا إله إلا الله",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -157,11 +159,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8490",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإجابة لإيراد ما استدركته عائشة على الصحابة",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -177,11 +179,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12703",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإجابة لإيراد ما استدركته عائشة على الصحابة",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -197,11 +199,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "14452",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "إعلام الساجد بأحكام المساجد",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -217,11 +219,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21592",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المنثور في القواعد الفقهية",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -237,11 +239,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21593",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "البحر المحيط في أصول الفقه",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -257,11 +259,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21743",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح الزركشي",
       "author_ar": "شمس الدين محمد بن عبد الله الزركشي المصري الحنبلي",
@@ -277,11 +279,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "37338",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "زهر العريش في تحريم الحشيش",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -297,11 +299,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "122142",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تشنيف المسامع بجمع الجوامع لتاج الدين السبكي",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -317,11 +319,11 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "150599",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "سلاسل الذهب",
       "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
@@ -337,7 +339,7 @@
       "reasons": [
         "author contains: الزركشي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

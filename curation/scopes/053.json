@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "748",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "748",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "شعب الإيمان",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
       "author_death_h": "458",
@@ -37,11 +39,11 @@
         "exact title: شعب الايمان",
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "10660",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شعب الإيمان",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -58,11 +60,11 @@
         "exact title: شعب الايمان",
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1128",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "ري الظمآن بمجالس «شعب الإيمان، للحافظ أبي بكر أحمد بن الحسين البيهقي»",
       "author_ar": "أبو حمزة غازي بن سالم أفلح",
@@ -80,11 +82,11 @@
         "record contains author term: البيهقي",
         "record contains author term: احمد بن الحسين البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6850",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مختصر شعب الإيمان للبيهقي",
       "author_ar": "عمر بن عبد الرحمن بن عمر بن أحمد إمام الدين أبو القاسم الكرخي التميمي القزويني الشافعي",
@@ -100,11 +102,11 @@
       "reasons": [
         "title contains: شعب الايمان"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "17795",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "عقد الجمان في بيان شعب الإيمان - لقاء العشر الأواخر بالمسجد الحرام (١٣)",
       "author_ar": "محمد بن محمد بن عبد الرزاق الحسيني أبو الفيض الملقب بمرتضى الزبيدي",
@@ -120,11 +122,11 @@
       "reasons": [
         "title contains: شعب الايمان"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "18567",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المنهاج في شعب الإيمان",
       "author_ar": "الحسين بن الحسن بن محمد بن حليم البخاري الجرجاني أبو عبد الله الحليمي",
@@ -140,11 +142,11 @@
       "reasons": [
         "title contains: شعب الايمان"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "92",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "أحكام القرآن",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -160,11 +162,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "273",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تتمة صوان الحكمة",
       "author_ar": "أبو الحسن ظهير الدين علي بن زيد بن محمد بن الحسين البيهقي الشهير بابن فندمه",
@@ -180,11 +182,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "355",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "لباب الأنساب والألقاب والأعقاب",
       "author_ar": "أبو الحسن ظهير الدين علي بن زيد بن محمد بن الحسين البيهقي الشهير بابن فندمه",
@@ -200,11 +202,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "564",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المحاسن والمساوئ",
       "author_ar": "إبراهيم بن محمد البيهقي",
@@ -220,11 +222,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1378",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "كتاب القراءة خلف الإمام",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -240,11 +242,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "2863",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "معرفة السنن والآثار",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -260,11 +262,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "3328",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "أحكام القرآن للشافعي - جمع البيهقي",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -280,11 +282,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "7478",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "دلائل النبوة ومعرفة أحوال صاحب الشريعة",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -300,11 +302,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "7531",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "حديث أَحْمَد بن عبد الله بن خالد الجويباري في مسائل عبد الله بن سلام",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -320,11 +322,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "7861",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "السنن الكبرى",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -340,11 +342,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8203",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الآداب للبيهقي",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -360,11 +362,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8258",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "إثبات عذاب القبر",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -380,11 +382,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8970",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الدعوات الكبير",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -400,11 +402,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9270",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الأسماء والصفات للبيهقي",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -420,11 +422,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9292",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "البعث والنشور للبيهقي",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -440,11 +442,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9300",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الجامع في الخاتم للبيهقي",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -460,11 +462,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "11758",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تاريخ بيهق / تعريب",
       "author_ar": "أبو الحسن ظهير الدين علي بن زيد بن محمد بن الحسين البيهقي الشهير بابن فندمه",
@@ -480,11 +482,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12415",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "السنن الصغير للبيهقي",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -500,11 +502,11 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12992",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الأربعون الصغرى",
       "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
@@ -520,7 +522,7 @@
       "reasons": [
         "author contains: البيهقي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

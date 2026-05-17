@@ -3,9 +3,120 @@
     "curation/scopes/*.json"
   ],
   "rule": "Only approved curation records are eligible for download jobs.",
-  "approved_download_count": 0,
-  "skipped_scope_count": 34,
-  "downloads": [],
+  "approved_download_count": 11,
+  "skipped_scope_count": 23,
+  "downloads": [
+    {
+      "scope_id": "035",
+      "request": "Download and process Bidayat al-Mujtahid by Ibn Rushd",
+      "role": "canonical",
+      "book_id": "21739",
+      "title_ar": "بداية المجتهد ونهاية المقتصد",
+      "author_ar": "أبو الوليد محمد بن رشد الحفيد",
+      "source_link": "https://shamela.ws/book/21739",
+      "scope_file": "curation/scopes/035.json"
+    },
+    {
+      "scope_id": "037",
+      "request": "Download and process al-Muhalla by Ibn Hazm",
+      "role": "canonical",
+      "book_id": "767",
+      "title_ar": "المُحلَّى بالآثار",
+      "author_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي القرطبي الظاهري",
+      "source_link": "https://shamela.ws/book/767",
+      "scope_file": "curation/scopes/037.json"
+    },
+    {
+      "scope_id": "038",
+      "request": "Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi",
+      "role": "canonical",
+      "book_id": "148870",
+      "title_ar": "البحر المحيط الثجاج في شرح صحيح الإمام مسلم بن الحجاج",
+      "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
+      "source_link": "https://shamela.ws/book/148870",
+      "scope_file": "curation/scopes/038.json"
+    },
+    {
+      "scope_id": "039",
+      "request": "Download and process Sharh al-Sunnah by al-Baghawi",
+      "role": "canonical",
+      "book_id": "7891",
+      "title_ar": "شرح السنة",
+      "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
+      "source_link": "https://shamela.ws/book/7891",
+      "scope_file": "curation/scopes/039.json"
+    },
+    {
+      "scope_id": "040",
+      "request": "Download and process al-Umm by Imam al-Shafi'i",
+      "role": "canonical",
+      "book_id": "1655",
+      "title_ar": "الأم",
+      "author_ar": "الشافعي أبو عبد الله محمد بن إدريس بن العباس بن عثمان بن شافع بن عبد المطلب بن عبد مناف المطلبي القرشي المكي",
+      "source_link": "https://shamela.ws/book/1655",
+      "scope_file": "curation/scopes/040.json"
+    },
+    {
+      "scope_id": "042",
+      "request": "Download and process Bada'i al-Sana'i by al-Kasani",
+      "role": "canonical",
+      "book_id": "8183",
+      "title_ar": "بدائع الصنائع في ترتيب الشرائع",
+      "author_ar": "علاء الدين أبو بكر بن مسعود الكاساني الحنفي الملقب بـ (بملك العلماء)",
+      "source_link": "https://shamela.ws/book/8183",
+      "scope_file": "curation/scopes/042.json"
+    },
+    {
+      "scope_id": "048",
+      "request": "Download and process Umdat al-Qari by Badr al-Din al-Ayni",
+      "role": "canonical",
+      "book_id": "5756",
+      "title_ar": "عمدة القاري شرح صحيح البخاري",
+      "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
+      "source_link": "https://shamela.ws/book/5756",
+      "scope_file": "curation/scopes/048.json"
+    },
+    {
+      "scope_id": "053",
+      "request": "Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi",
+      "role": "canonical",
+      "book_id": "748",
+      "title_ar": "شعب الإيمان",
+      "author_ar": "أبو بكر أحمد بن الحسين الخسروجردي البيهقي",
+      "source_link": "https://shamela.ws/book/748",
+      "scope_file": "curation/scopes/053.json"
+    },
+    {
+      "scope_id": "055",
+      "request": "Download and process al-Adab al-Shar'iyyah by Ibn Muflih",
+      "role": "canonical",
+      "book_id": "21582",
+      "title_ar": "الآداب الشرعية والمنح المرعية",
+      "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
+      "source_link": "https://shamela.ws/book/21582",
+      "scope_file": "curation/scopes/055.json"
+    },
+    {
+      "scope_id": "057",
+      "request": "Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi",
+      "role": "canonical",
+      "book_id": "11436",
+      "title_ar": "البرهان في علوم القرآن",
+      "author_ar": "أبو عبد الله بدر الدين محمد بن عبد الله بن بهادر الزركشي الشافعي",
+      "source_link": "https://shamela.ws/book/11436",
+      "scope_file": "curation/scopes/057.json"
+    },
+    {
+      "scope_id": "059",
+      "request": "Download and process Anwar al-Tanzil by al-Baydawi",
+      "role": "canonical",
+      "book_id": "23588",
+      "title_ar": "أنوار التنزيل وأسرار التأويل",
+      "author_ar": "ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي",
+      "source_link": "https://shamela.ws/book/23588",
+      "scope_file": "curation/scopes/059.json"
+    }
+  ],
   "skipped": [
     {
       "scope_id": "027",
@@ -64,13 +175,6 @@
       "scope_file": "curation/scopes/034.json"
     },
     {
-      "scope_id": "035",
-      "request": "Download and process Bidayat al-Mujtahid by Ibn Rushd",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/035.json"
-    },
-    {
       "scope_id": "036",
       "request": "Download and process Qadi Iyad explanation books",
       "approval_status": "collection_curation_required",
@@ -78,46 +182,11 @@
       "scope_file": "curation/scopes/036.json"
     },
     {
-      "scope_id": "037",
-      "request": "Download and process al-Muhalla by Ibn Hazm",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/037.json"
-    },
-    {
-      "scope_id": "038",
-      "request": "Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/038.json"
-    },
-    {
-      "scope_id": "039",
-      "request": "Download and process Sharh al-Sunnah by al-Baghawi",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/039.json"
-    },
-    {
-      "scope_id": "040",
-      "request": "Download and process al-Umm by Imam al-Shafi'i",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/040.json"
-    },
-    {
       "scope_id": "041",
       "request": "Download and process al-Bayan wa al-Tahsil",
       "approval_status": "pending_review",
       "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/041.json"
-    },
-    {
-      "scope_id": "042",
-      "request": "Download and process Bada'i al-Sana'i by al-Kasani",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/042.json"
     },
     {
       "scope_id": "043",
@@ -155,13 +224,6 @@
       "scope_file": "curation/scopes/047.json"
     },
     {
-      "scope_id": "048",
-      "request": "Download and process Umdat al-Qari by Badr al-Din al-Ayni",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/048.json"
-    },
-    {
       "scope_id": "049",
       "request": "Download and process all Ibn Abd al-Barr books",
       "approval_status": "collection_curation_required",
@@ -190,25 +252,11 @@
       "scope_file": "curation/scopes/052.json"
     },
     {
-      "scope_id": "053",
-      "request": "Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/053.json"
-    },
-    {
       "scope_id": "054",
       "request": "Download and process Tanbih al-Ghafileen by Abu Layth al-Samarqandi",
       "approval_status": "pending_review",
       "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/054.json"
-    },
-    {
-      "scope_id": "055",
-      "request": "Download and process al-Adab al-Shar'iyyah by Ibn Muflih",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/055.json"
     },
     {
       "scope_id": "056",
@@ -218,25 +266,11 @@
       "scope_file": "curation/scopes/056.json"
     },
     {
-      "scope_id": "057",
-      "request": "Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/057.json"
-    },
-    {
       "scope_id": "058",
       "request": "Download and process Takhrij Ahadith al-Kashshaf by Ibn Hajar",
       "approval_status": "ambiguous",
       "reason": "Resolver could not safely select a canonical text.",
       "scope_file": "curation/scopes/058.json"
-    },
-    {
-      "scope_id": "059",
-      "request": "Download and process Anwar al-Tanzil by al-Baydawi",
-      "approval_status": "pending_review",
-      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
-      "scope_file": "curation/scopes/059.json"
     },
     {
       "scope_id": "060",

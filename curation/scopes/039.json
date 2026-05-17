@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "7891",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "7891",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "شرح السنة",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
       "author_death_h": "510",
@@ -38,11 +40,11 @@
         "author contains: البغوي",
         "author contains: الحسين بن مسعود"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "8601",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح السنة",
       "author_ar": "أبو محمد الحسن بن علي بن خلف البربهاري",
@@ -58,11 +60,11 @@
       "reasons": [
         "exact title: شرح السنه"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "41",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "معالم التنزيل في تفسير القرآن = تفسير البغوي",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
@@ -79,11 +81,11 @@
         "author contains: البغوي",
         "author contains: الحسين بن مسعود"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "3637",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "كتاب السير من التهذيب",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
@@ -100,11 +102,11 @@
         "author contains: البغوي",
         "author contains: الحسين بن مسعود"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6484",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح السنة معتقد إسماعيل بن يحيى المزني",
       "author_ar": "إسماعيل بن يحيى بن إسماعيل أبو إبراهيم المزني",
@@ -120,11 +122,11 @@
       "reasons": [
         "title contains: شرح السنه"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "10803",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الأنوار في شمائل النبي المختار",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
@@ -141,11 +143,11 @@
         "author contains: البغوي",
         "author contains: الحسين بن مسعود"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12217",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "معالم التنزيل في تفسير القرآن = تفسير البغوي",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
@@ -162,11 +164,11 @@
         "author contains: البغوي",
         "author contains: الحسين بن مسعود"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "14119",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مصابيح السنة",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
@@ -183,11 +185,11 @@
         "author contains: البغوي",
         "author contains: الحسين بن مسعود"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "17885",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "التهذيب في فقه الإمام الشافعي",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
@@ -204,11 +206,11 @@
         "author contains: البغوي",
         "author contains: الحسين بن مسعود"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "37718",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "التعليق على شرح السنة للبربهاري",
       "author_ar": "ناصر بن عبد الكريم العقل",
@@ -224,11 +226,11 @@
       "reasons": [
         "title contains: شرح السنه"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "5733",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "حديث مصعب بن عبد الله الزبيري",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -244,11 +246,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9922",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مسند عثمان بن عفان لأبي القاسم البغوي (وهو مطبوع ضمن كتاب الفوائد)",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -264,11 +266,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12853",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "جزء في مسائل عن أبي عبد الله أحمد بن حنبل",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -284,11 +286,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "13101",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "جزء فيه ثلاثة وثلاثون حديثا من حديث أبي القاسم البغوي",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -304,11 +306,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "13158",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مسند الحب بن الحب أسامة بن زيد",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -324,11 +326,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "23100",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "معجم الصحابة",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -344,11 +346,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "26341",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "نسخة طالوت وهي في أحاديث طالوت بن عباد البصري الصيرفي المتوفى: ٢٣٨ هـ",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -364,11 +366,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "27106",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تاريخ وفاة الشيوخ الذين أدركهم البغوي",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -384,11 +386,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "29715",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "حكايات شعبة بن الحجاج",
       "author_ar": "أبو القاسم عبد الله بن محمد بن عبد العزيز بن المرزبان بن سابور بن شاهنشاه البغوي",
@@ -404,11 +406,11 @@
       "reasons": [
         "author contains: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "17791",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح مصابيح السنة للإمام البغوي",
       "author_ar": "محمد بن عز الدين عبد اللطيف بن عبد العزيز بن أمين الدين بن فرشتا الرومي الكرماني الحنفي المشهور بـ ابن الملك",
@@ -424,11 +426,11 @@
       "reasons": [
         "record contains author term: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21483",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "من حديث البغوي وابن صاعد والهاشمي لابن زنبور الوراق (مطبوع ضمن جمهرة الأجزاء الحديثية)",
       "author_ar": "محمد بن عمر بن خلف بن زنبور البغدادي الوراق",
@@ -444,11 +446,11 @@
       "reasons": [
         "record contains author term: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "26428",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "نزهة الناظر في ذكر من حدث عن أبي القاسم البغوي من الحفاظ والأكابر",
       "author_ar": "يحيى بن علي بن عبد الله بن علي بن مفرج أبو الحسين رشيد الدين القرشي الاموي النابلسي ثم المصري المعروف بالرشيد العطار",
@@ -464,11 +466,11 @@
       "reasons": [
         "record contains author term: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "31364",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مختصر تفسير البغوي",
       "author_ar": "عبد الله بن أحمد بن علي الزيد",
@@ -484,11 +486,11 @@
       "reasons": [
         "record contains author term: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "132397",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "روايات البغوي في تفسيره معالم التنزيل عن شيخه عبد الواحد المَلِيْحِيّ «تخريج ودراسة»",
       "author_ar": "عبد الحميد شيخون",
@@ -504,7 +506,7 @@
       "reasons": [
         "record contains author term: البغوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "21739",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "21739",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "بداية المجتهد ونهاية المقتصد",
       "author_ar": "أبو الوليد محمد بن رشد الحفيد",
       "author_death_h": "595",
@@ -38,11 +40,11 @@
         "exact title: بدايه المجتهد ونهايه المقتصد",
         "author contains: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "1149",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "بغية المقتصد شرح «بداية المجتهد لابن رشد الحفيد (ت ٥٩٥ هـ)»",
       "author_ar": "محمد بن حمود الوائلي",
@@ -60,11 +62,11 @@
         "record contains author term: ابن رشد",
         "record contains author term: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "16738",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الهداية في تخريج أحاديث البداية (بداية المجتهد لابن رشد)",
       "author_ar": "أحمد بن محمد بن الصديق بن أحمد أبو الفيض الغماري الحسني الأزهري",
@@ -81,11 +83,11 @@
         "title contains: بدايه المجتهد",
         "record contains author term: ابن رشد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "698",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تلخيص الخطابة",
       "author_ar": "أبو الوليد محمد بن رشد الحفيد",
@@ -101,11 +103,11 @@
       "reasons": [
         "author contains: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1703",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الضروري في أصول الفقه أو مختصر المستصفى",
       "author_ar": "أبو الوليد محمد بن رشد الحفيد",
@@ -121,11 +123,11 @@
       "reasons": [
         "author contains: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9707",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "القياس",
       "author_ar": "أبو الوليد محمد بن رشد الحفيد",
@@ -141,11 +143,11 @@
       "reasons": [
         "author contains: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9737",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "رسالة النفس",
       "author_ar": "أبو الوليد محمد بن رشد الحفيد",
@@ -161,11 +163,11 @@
       "reasons": [
         "author contains: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12727",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "فصل المقال",
       "author_ar": "أبو الوليد محمد بن رشد الحفيد",
@@ -181,11 +183,11 @@
       "reasons": [
         "author contains: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21503",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تلخيص السفسطة",
       "author_ar": "أبو الوليد محمد بن رشد الحفيد",
@@ -201,11 +203,11 @@
       "reasons": [
         "author contains: الحفيد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8819",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "العقل والنقل عند ابن رشد",
       "author_ar": "أبو أحمد محمد أمان بن علي جامي علي",
@@ -221,11 +223,11 @@
       "reasons": [
         "record contains author term: ابن رشد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "14310",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مسائل أبي الوليد ابن رشد (الجد)",
       "author_ar": "أبو الوليد محمد بن أحمد بن رشد القرطبي",
@@ -241,7 +243,7 @@
       "reasons": [
         "record contains author term: ابن رشد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

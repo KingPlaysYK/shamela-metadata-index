@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "21582",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "21582",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "الآداب الشرعية والمنح المرعية",
       "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
       "author_death_h": "763",
@@ -38,11 +40,11 @@
         "exact title: الاداب الشرعيه والمنح المرعيه",
         "author contains: محمد بن مفلح"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "54",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الألفية في الآداب الشرعية [المشهورة بـ «منظومة الآداب»]",
       "author_ar": "شمس الدين محمد بن عبد القوي المرداوي الحنبلي",
@@ -58,11 +60,11 @@
       "reasons": [
         "title contains: الاداب الشرعيه"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "27194",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح المنظومة الميمية في الآداب الشرعية",
       "author_ar": "عبد الكريم بن عبد الله بن عبد الرحمن بن حمد الخضير",
@@ -78,11 +80,11 @@
       "reasons": [
         "title contains: الاداب الشرعيه"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1262",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المبدع شرح المقنع (مقابل على نسخة بخط المصنف، وعشر نسخ أخرى)",
       "author_ar": "برهان الدين إبراهيم بن محمد بن مفلح المقدسي الصالحي الحنبلي",
@@ -98,11 +100,11 @@
       "reasons": [
         "author contains: محمد بن مفلح"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "5890",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المقصد الأرشد في ذكر أصحاب الإمام أحمد",
       "author_ar": "برهان الدين إبراهيم بن محمد بن مفلح المقدسي الصالحي الحنبلي",
@@ -118,11 +120,11 @@
       "reasons": [
         "author contains: محمد بن مفلح"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6094",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "النكت والفوائد السنية على مشكل المحرر لمجد الدين ابن تيمية",
       "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
@@ -138,11 +140,11 @@
       "reasons": [
         "author contains: محمد بن مفلح"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12052",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الفروع",
       "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
@@ -158,11 +160,11 @@
       "reasons": [
         "author contains: محمد بن مفلح"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21619",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المبدع في شرح المقنع",
       "author_ar": "برهان الدين إبراهيم بن محمد بن مفلح المقدسي الصالحي الحنبلي",
@@ -178,11 +180,11 @@
       "reasons": [
         "author contains: محمد بن مفلح"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "122256",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "أصول الفقه",
       "author_ar": "شمس الدين محمد بن مفلح المقدسي الحنبلي",
@@ -198,7 +200,7 @@
       "reasons": [
         "author contains: محمد بن مفلح"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

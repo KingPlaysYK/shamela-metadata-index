@@ -7,7 +7,8 @@ Valid: yes
 | Status | Count |
 |---|---:|
 | collection_curation_required | 13 |
-| pending_review | 17 |
+| approved | 11 |
+| pending_review | 6 |
 | blocked | 1 |
 | rule | 1 |
 | ambiguous | 1 |
@@ -15,9 +16,9 @@ Valid: yes
 
 ## Download Readiness
 
-Ready download scopes: 0
+Ready download scopes: 11
 
-Ready download books: 0
+Ready download books: 11
 
 ## Structural Errors
 

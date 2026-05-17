@@ -3,10 +3,88 @@
     "manifests/download-jobs.json"
   ],
   "mode": "dry-run",
-  "job_count": 0,
+  "job_count": 11,
   "executed_count": 0,
-  "skipped_count": 0,
-  "results": [],
+  "skipped_count": 11,
+  "results": [
+    {
+      "job_id": "0001-035-21739",
+      "book_id": "21739",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/21739.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0002-037-767",
+      "book_id": "767",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/767.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0003-038-148870",
+      "book_id": "148870",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/148870.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0004-039-7891",
+      "book_id": "7891",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/7891.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0005-040-1655",
+      "book_id": "1655",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/1655.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0006-042-8183",
+      "book_id": "8183",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/8183.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0007-048-5756",
+      "book_id": "5756",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/5756.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0008-053-748",
+      "book_id": "748",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/748.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0009-055-21582",
+      "book_id": "21582",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/21582.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0010-057-11436",
+      "book_id": "11436",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/11436.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    },
+    {
+      "job_id": "0011-059-23588",
+      "book_id": "23588",
+      "status": "dry_run_ready",
+      "output_path": "data/raw/shamela_ws/23588.jsonl",
+      "message": "Job is structurally ready but was not executed."
+    }
+  ],
   "notes": [
     "Dry run only.",
     "Use this report to confirm that approved jobs resolve to the expected raw-data output paths."

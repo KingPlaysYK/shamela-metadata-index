@@ -5,8 +5,7 @@ node_modules/
 data/raw/
 data/existing-app-rag-data/
 data/indexes/
-data/metadata/*.jsonl
-data/metadata/*.parquet
+data/metadata/
 data/logs/
 *.log
 *.tmp

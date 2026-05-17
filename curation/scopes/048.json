@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "5756",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "5756",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "عمدة القاري شرح صحيح البخاري",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
       "author_death_h": "855",
@@ -40,11 +42,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "380",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "عِقْد الجُمَان في تاريخ أهل الزمان - العصر الأيوبي [٥٦٥ - ٦٢٨ هـ]",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -62,11 +64,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "427",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "البناية شرح الهداية",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -84,11 +86,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1056",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "عِقْد الجُمَان في تاريخ أهل الزمان - عصر سلاطين المماليك [٦٤٨ - ٧١٢ هـ]",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -106,11 +108,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8540",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح سنن أبي داود",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -128,11 +130,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "10452",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مغاني الأخيار في شرح أسامي رجال معاني الآثار",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -150,11 +152,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "13667",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "نخب الأفكار في تنقيح مباني الأخبار في شرح معاني الآثار",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -172,11 +174,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "13784",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "منحة السلوك في شرح تحفة الملوك",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -194,11 +196,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "16714",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المقاصد النحوية في شرح شواهد شروح الألفية المشهور بـ «شرح الشواهد الكبرى»",
       "author_ar": "أبو محمد محمود بن أحمد بن موسى بن أحمد بن حسين الغيتابى الحنفى بدر الدين العينى",
@@ -216,11 +218,11 @@
         "author contains: بدر الدين العيني",
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6298",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تخريج الفروع على الأصول",
       "author_ar": "أبو المناقب شهاب الدين محمود بن أحمد الزنجاني",
@@ -236,11 +238,11 @@
       "reasons": [
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9403",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "العناية شرح الهداية",
       "author_ar": "محمد بن محمود بن أحمد البابرتى الحنفي",
@@ -256,11 +258,11 @@
       "reasons": [
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "10875",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المحيط البرهاني في الفقه النعماني: فقه الإمام أبي حنيفة رضي الله عنه",
       "author_ar": "برهان الدين أبو المعالي محمود بن أحمد بن عبد العزيز بن عمر بن مازة البخاري الحنفي",
@@ -276,11 +278,11 @@
       "reasons": [
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "17881",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الردود والنقود شرح مختصر ابن الحاجب",
       "author_ar": "محمد بن محمود بن أحمد البابرتى الحنفي",
@@ -296,11 +298,11 @@
       "reasons": [
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "37568",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "حياة التابعين",
       "author_ar": "ياسر بن أحمد بن محمود بن أحمد بن أبي الحمد الكويس الحمداني",
@@ -316,11 +318,11 @@
       "reasons": [
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "37569",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "جواهر من أقوال الرسول",
       "author_ar": "ياسر بن أحمد بن محمود بن أحمد بن أبي الحمد الكويس الحمداني",
@@ -336,11 +338,11 @@
       "reasons": [
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "38154",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "موسوعة الرقائق والأدب",
       "author_ar": "ياسر بن أحمد بن محمود بن أحمد بن أبي الحمد الكويس الحمداني",
@@ -356,11 +358,11 @@
       "reasons": [
         "author contains: محمود بن احمد"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "96618",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح ألفية العراقي في علوم الحديث",
       "author_ar": "عبد الرحمن بن أبي بكر بن محمد زين الدين المعروف بابن العيني الحنفي",
@@ -376,11 +378,11 @@
       "reasons": [
         "author contains: العيني"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "96930",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "إقَامَةُ الدَّليل عَلى عُلو رتبَة إرْوَاءِ الغَليل وَالرَّد عَلى مُستَدَرك التعليل",
       "author_ar": "أبو عبد الله أحمد بن إبراهيم بن أبي العينين",
@@ -396,11 +398,11 @@
       "reasons": [
         "author contains: العيني"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1158",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإعلام بسنته عليه السلام شرح سنن ابن ماجة الإمام",
       "author_ar": "علاء الدين مغلطاي البكجري الحنفي",
@@ -416,11 +418,11 @@
       "reasons": [
         "record contains author term: العيني"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1613",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "قرة العينين برفع اليدين في الصلاة",
       "author_ar": "محمد بن إسماعيل البخاري",
@@ -436,11 +438,11 @@
       "reasons": [
         "record contains author term: العيني"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8632",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "كتاب الضعفاء",
       "author_ar": "محمد بن إسماعيل البخاري",
@@ -456,11 +458,11 @@
       "reasons": [
         "record contains author term: العيني"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9943",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "جلاء العينين في محاكمة الأحمدين",
       "author_ar": "نعمان بن محمود بن عبد الله أبو البركات خير الدين الآلوسي",
@@ -476,11 +478,11 @@
       "reasons": [
         "record contains author term: العيني"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "13771",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "انتقاض الاعتراض في الرد على العيني في شرح البخاري",
       "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
@@ -496,7 +498,7 @@
       "reasons": [
         "record contains author term: العيني"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "23588",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "23588",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "أنوار التنزيل وأسرار التأويل",
       "author_ar": "ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي",
       "author_death_h": "685",
@@ -38,11 +40,11 @@
         "exact title: انوار التنزيل واسرار التاويل",
         "author contains: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "13614",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تحفة الأبرار شرح مصابيح السنة",
       "author_ar": "ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي",
@@ -58,11 +60,11 @@
       "reasons": [
         "author contains: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1535",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "حَاشِيةُ الشِّهَابِ عَلَى تفْسيرِ البَيضَاوِي، الْمُسَمَّاة: عِنَايةُ القَاضِى وكِفَايةُ الرَّاضِى عَلَى تفْسيرِ البَيضَاوي",
       "author_ar": "شهاب الدين أحمد بن محمد بن عمر الخفاجي المصري الحنفي",
@@ -78,11 +80,11 @@
       "reasons": [
         "record contains author term: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "1550",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الاعتقاد القادري",
       "author_ar": "أبو أحمد محمد بن علي بن محمد الكرجي القصاب",
@@ -98,11 +100,11 @@
       "reasons": [
         "record contains author term: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8635",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الفتح السماوي بتخريج أحاديث القاضي البيضاوي",
       "author_ar": "زين الدين محمد عبد الرؤوف بن علي زين العابدين الحدادي",
@@ -118,11 +120,11 @@
       "reasons": [
         "record contains author term: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "11727",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإبهاج في شرح المنهاج (على منهاج الوصول إلي علم الأصول للقاضي البيضاوي المتوفي سنه ٦٨٥ هـ)",
       "author_ar": "تاج الدين عبد الوهاب بن تقي الدين السبكي",
@@ -138,11 +140,11 @@
       "reasons": [
         "record contains author term: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "29882",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "نواهد الأبكار وشوارد الأفكار = حاشية السيوطي على تفسير البيضاوي",
       "author_ar": "عبد الرحمن بن أبي بكر جلال الدين السيوطي",
@@ -158,11 +160,11 @@
       "reasons": [
         "record contains author term: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "147104",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإبهاج في شرح المنهاج (شرح على منهاج الوصول إلى علم الأصول للقاضي البيضاوي المتوفى سنة ٦٨٥ هـ)",
       "author_ar": "تاج الدين عبد الوهاب بن تقي الدين السبكي",
@@ -178,7 +180,7 @@
       "reasons": [
         "record contains author term: البيضاوي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "148870",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "148870",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "البحر المحيط الثجاج في شرح صحيح الإمام مسلم بن الحجاج",
       "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
       "author_death_h": "Null",
@@ -38,11 +40,11 @@
         "exact title: البحر المحيط الثجاج في شرح صحيح الامام مسلم بن الحجاج",
         "author contains: محمد بن علي بن ادم"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "7456",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "منظومة تذكرة الطالبين في بيان الموضوع وأصناف الوضاعين (مطبوع بأول {الجليس الأمين في شرح تذكرة الطالبين في بيان الموضوع وأصناف الوضَّاعين} )",
       "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
@@ -58,11 +60,11 @@
       "reasons": [
         "author contains: محمد بن علي بن ادم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "10312",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح أَلْفِيَّةِ السُّيوطي في الحديث المسمى «إسعاف ذوي الوَطَر بشرح نظم الدُّرَر في علم الأثر»",
       "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
@@ -78,11 +80,11 @@
       "reasons": [
         "author contains: محمد بن علي بن ادم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "12888",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "شرح سنن النسائي المسمى «ذخيرة العقبى في شرح المجتبى».",
       "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
@@ -98,11 +100,11 @@
       "reasons": [
         "author contains: محمد بن علي بن ادم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "17132",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مشارق الأنوار الوهاجة ومطالع الأسرار البهاجة في شرح سنن الإمام ابن ماجه",
       "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
@@ -118,11 +120,11 @@
       "reasons": [
         "author contains: محمد بن علي بن ادم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "148896",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "قرة عين المحتاج في شرح مقدمة صحيح مسلم بن الحجاج",
       "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
@@ -138,11 +140,11 @@
       "reasons": [
         "author contains: محمد بن علي بن ادم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "151040",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "قرة العين في تلخيص تراجم رجال الصحيحين",
       "author_ar": "محمد بن علي بن آدم بن موسى الإتيوبي الولوي",
@@ -158,11 +160,11 @@
       "reasons": [
         "author contains: محمد بن علي بن ادم"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "8206",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإبانة عن شريعة الفرقة الناجية ومجانبة الفرق المذمومة",
       "author_ar": "أبو عبد الله عبيد الله بن محمد بن بطة العكبري الحنبلي",
@@ -178,7 +180,7 @@
       "reasons": [
         "record contains author term: الاثيوبي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

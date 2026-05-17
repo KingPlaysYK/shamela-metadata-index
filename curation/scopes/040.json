@@ -7,21 +7,23 @@
   "recommended_action": "Review the top candidate's edition/publisher/editor, then approve for download.",
   "edition_status": "not_required",
   "review": {
-    "approval_status": "pending_review",
-    "canonical_book_id": null,
+    "approval_status": "approved",
+    "canonical_book_id": "1655",
     "fallback_book_ids": [],
     "blockers": [],
     "instructions": [
       "Check edition, editor, publisher, completeness, and page/volume metadata.",
       "Set canonical_book_id only after confirming this is the intended full text.",
       "Do not approve abridgements unless no fuller text exists and the limitation is recorded."
-    ]
+    ],
+    "approval_basis": "Auto-approved as a high-confidence single-work match: top candidate has an exact-title resolver reason and score >= 120. Collection scopes, ambiguous matches, and exact-edition blockers are not auto-approved.",
+    "approved_by_script": "scripts/approve-high-confidence-single-works.mjs"
   },
   "candidates": [
     {
       "book_id": "1655",
-      "decision": "undecided",
-      "role": null,
+      "decision": "approved",
+      "role": "canonical",
       "title_ar": "الأم",
       "author_ar": "الشافعي أبو عبد الله محمد بن إدريس بن العباس بن عثمان بن شافع بن عبد المطلب بن عبد مناف المطلبي القرشي المكي",
       "author_death_h": "204",
@@ -38,11 +40,11 @@
         "author contains: الشافعي",
         "author contains: محمد بن ادريس"
       ],
-      "review_notes": ""
+      "review_notes": "Auto-approved as the canonical single-work text because it was the top exact-title candidate above the confidence threshold."
     },
     {
       "book_id": "9182",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تفسير الإمام الشافعي",
       "author_ar": "الشافعي أبو عبد الله محمد بن إدريس بن العباس بن عثمان بن شافع بن عبد المطلب بن عبد مناف المطلبي القرشي المكي",
@@ -60,11 +62,11 @@
         "author contains: الشافعي",
         "author contains: محمد بن ادريس"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9615",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "مسند الإمام الشافعي (ترتيب سنجر)",
       "author_ar": "الشافعي أبو عبد الله محمد بن إدريس بن العباس بن عثمان بن شافع بن عبد المطلب بن عبد مناف المطلبي القرشي المكي",
@@ -82,11 +84,11 @@
         "author contains: الشافعي",
         "author contains: محمد بن ادريس"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21495",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "ترتيب مسند الإمام الشافعي (ت ٢٠٤ هـ)",
       "author_ar": "الشافعي أبو عبد الله محمد بن إدريس بن العباس بن عثمان بن شافع بن عبد المطلب بن عبد مناف المطلبي القرشي المكي",
@@ -104,11 +106,11 @@
         "author contains: الشافعي",
         "author contains: محمد بن ادريس"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "5726",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "انتخاب العوالي والشيوخ من فهارس شيخنا الامام المسند العطار أحمد بن عبيد الله العطار",
       "author_ar": "عبد الرحمن بن محمد بن عبد الرحمن الكزبري الشافعي",
@@ -125,11 +127,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "5850",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإكمال في ذكر من له رواية في مسند الإمام أحمد من الرجال سوى من ذكر في تهذيب الكمال",
       "author_ar": "أبو المحاسن شمس الدين محمد بن علي بن الحسن بن حمزة الحسيني الشافعي",
@@ -146,11 +148,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9652",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإملاء الأنفس في ترجمة عسعس (مطبوع ضمن مجموع رسائل لابن ناصر الدين)",
       "author_ar": "محمد بن عبد الله (أبي بكر) بن محمد ابن أحمد بن مجاهد القيسي الدمشقي الشافعي شمس الدين الشهير بابن ناصر الدين",
@@ -167,11 +169,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "9823",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المجالس الوعظية في شرح أحاديث خير البرية صلى الله عليه وسلم من صحيح الإمام البخاري",
       "author_ar": "شمس الدين محمد بن عمر بن أحمد السفيري الشافعي",
@@ -188,11 +190,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "10049",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تحفة الأمين فيمن يقبل قوله بلا يمين",
       "author_ar": "صالح بن عمر بن رسلان البلقيني الشافعي شيخ الإسلام",
@@ -209,11 +211,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "17882",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الاصطلام في الخلاف بين الإمامين الشافعي وأبي حنيفة",
       "author_ar": "أبو المظفر منصور بن محمد بن عبد الجبار ابن أحمد المروزى السمعاني التميمي الحنفي ثم الشافعي",
@@ -230,11 +232,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "17885",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "التهذيب في فقه الإمام الشافعي",
       "author_ar": "أبو محمد الحسين بن مسعود بن محمد بن الفراء البغوي الشافعي",
@@ -251,11 +253,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "21721",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "البيان في مذهب الإمام الشافعي",
       "author_ar": "يحيى بن أبي الخير العمراني (شيخ الشافعية باليمن)",
@@ -272,11 +274,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "26565",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "جزء فيه مصافحات الإمام مسلم والإمام النسائي",
       "author_ar": "عبد المؤمن بن خلف الدمياطي أبو محمد شرف الدين الشافعي",
@@ -293,11 +295,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "32181",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "نَظْم علوم الحديث المُسماة: «أقصى الأمل والسُّول في علم حديث الرسول صلى الله عليه وسلم»",
       "author_ar": "شهاب الدين محمد بن أحمد الخويي الشافعي",
@@ -314,11 +316,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "36111",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "بذل النصائح الشرعية فيما على السلطان وولاة الأمور وسائر الرعية",
       "author_ar": "محب الدين أبو حامد محمد بن أحمد المقدسي الشافعي",
@@ -335,11 +337,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "95562",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "غاية الأماني في تفسير الكلام الرباني - من أول سورة النجم إلى آخر سورة الناس",
       "author_ar": "أحمد بن إسماعيل بن عثمان الكوراني شهاب الدين الشافعي ثم الحنفي",
@@ -356,11 +358,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "97928",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "عجالة الإملاء المتيسرة من التذنيب عَلى ما وقع للحافظ المنذري من الوهم وغيره في كتابه «الترغيب والترهيب»",
       "author_ar": "إبراهيم بن محمد بن محمود بن بدر برهان الدين أبو إسحاق الحلبي القبيباتي الشافعي الناجي",
@@ -377,11 +379,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "132427",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الكنز الأكبر في الأمر بالمعروف والنهي عن المنكر [ضمن سلسلة لقاءات العشر برقم (٢٥٢)]",
       "author_ar": "تقي الدين أبو بكر بن عبد الله بن قاضي عجلون الدمشقي الشافعي",
@@ -398,11 +400,11 @@
         "title contains: الام",
         "author contains: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "407",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "تنزيه الإمام الشافعي عن مطاعن الكوثري [آثار عبد الرحمن بن يحيى المعلمي اليماني (١٥)]",
       "author_ar": "عبد الرحمن بن يحيى المعلمي اليماني",
@@ -419,11 +421,11 @@
         "title contains: الام",
         "record contains author term: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "497",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "فَتَّاوَى الإِمامِ النَّوَوَيِ المُسمَّاةِ: \"بالمَسَائِل المنْثورَةِ\"",
       "author_ar": "أبو زكريا محيي الدين يحيى بن شرف النووي",
@@ -440,11 +442,11 @@
         "title contains: الام",
         "record contains author term: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "955",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الأمر والنهي على معنى الشافعي",
       "author_ar": "إسماعيل بن يحيى بن إسماعيل أبو إبراهيم المزني",
@@ -461,11 +463,11 @@
         "title contains: الام",
         "record contains author term: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "5562",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "المسند المستخرج على صحيح الإمام مسلم",
       "author_ar": "أبو نعيم أحمد بن عبد الله بن أحمد بن إسحاق بن موسى بن مهران الأصبهاني",
@@ -482,11 +484,11 @@
         "title contains: الام",
         "record contains author term: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "5719",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الإمتاع بالأربعين المتباينة السماع / ويليه أسئلة من خط الشيخ العسقلاني",
       "author_ar": "أبو الفضل أحمد بن علي بن محمد بن أحمد بن حجر العسقلاني",
@@ -503,11 +505,11 @@
         "title contains: الام",
         "record contains author term: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6157",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الحاوي الكبير في فقه مذهب الإمام الشافعي وهو شرح مختصر المزني",
       "author_ar": "أبو الحسن علي بن محمد بن محمد بن حبيب البصري البغدادي الشهير بالماوردي",
@@ -524,11 +526,11 @@
         "title contains: الام",
         "record contains author term: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     },
     {
       "book_id": "6369",
-      "decision": "undecided",
+      "decision": "not_selected",
       "role": null,
       "title_ar": "الفقه المنهجي على مذهب الإمام الشافعي رحمه الله تعالى",
       "author_ar": "مجموعة من العلماء",
@@ -545,7 +547,7 @@
         "title contains: الام",
         "record contains author term: الشافعي"
       ],
-      "review_notes": ""
+      "review_notes": "Not selected by high-confidence single-work auto-approval."
     }
   ]
 }

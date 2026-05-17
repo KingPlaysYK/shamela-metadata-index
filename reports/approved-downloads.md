@@ -2,11 +2,23 @@
 
 This manifest is the only safe input for future bulk download jobs. It intentionally excludes pending, blocked, ambiguous, and deferred scopes.
 
-Approved downloads: 0
+Approved downloads: 11
 
 ## Downloads
 
-No books are approved for download yet.
+| Scope | Book ID | Title | Role |
+|---|---|---|---|
+| 035 | 21739 | بداية المجتهد ونهاية المقتصد | canonical |
+| 037 | 767 | المُحلَّى بالآثار | canonical |
+| 038 | 148870 | البحر المحيط الثجاج في شرح صحيح الإمام مسلم بن الحجاج | canonical |
+| 039 | 7891 | شرح السنة | canonical |
+| 040 | 1655 | الأم | canonical |
+| 042 | 8183 | بدائع الصنائع في ترتيب الشرائع | canonical |
+| 048 | 5756 | عمدة القاري شرح صحيح البخاري | canonical |
+| 053 | 748 | شعب الإيمان | canonical |
+| 055 | 21582 | الآداب الشرعية والمنح المرعية | canonical |
+| 057 | 11436 | البرهان في علوم القرآن | canonical |
+| 059 | 23588 | أنوار التنزيل وأسرار التأويل | canonical |
 
 ## Skipped Scopes
 
@@ -20,29 +32,18 @@ No books are approved for download yet.
 | 032 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
 | 033 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
 | 034 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
-| 035 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 036 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
-| 037 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
-| 038 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
-| 039 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
-| 040 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 041 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
-| 042 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 043 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
 | 044 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
 | 045 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 046 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 047 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
-| 048 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 049 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
 | 050 | blocked | missing required edition terms: أحمد أمين، أحمد الزين، إبراهيم الأبياري |
 | 051 | collection_curation_required | Curate the candidate list into included/excluded books before download. |
 | 052 | rule | Apply this rule to every selected book record; no standalone download is required. |
-| 053 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 054 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
-| 055 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 056 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
-| 057 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 058 | ambiguous | Resolver could not safely select a canonical text. |
-| 059 | pending_review | Review the top candidate's edition/publisher/editor, then approve for download. |
 | 060 | deferred | Run after the earlier requested author/source batches. |
