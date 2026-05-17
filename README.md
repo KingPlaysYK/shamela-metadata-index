@@ -29,3 +29,8 @@ node scripts/status.mjs
 node scripts/inventory-existing-data.mjs
 node scripts/export-github-issues.mjs
 ```
+
+Project control docs:
+
+- `docs/COMPLETION_AUDIT.md`
+- `docs/NEXT_RUNBOOK.md`
