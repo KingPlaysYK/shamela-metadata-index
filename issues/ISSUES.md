@@ -56,3 +56,11 @@ These issues are ready to create on GitHub once the repository exists.
 | 050 | Download and process Iqd al-Farid |
 | 051 | Download and process all Arabic language books |
 | 052 | Record author madhab and scholarly profile for every book |
+| 053 | Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi |
+| 054 | Download and process Tanbih al-Ghafileen by Abu Layth al-Samarqandi |
+| 055 | Download and process al-Adab al-Shar'iyyah by Ibn Muflih |
+| 056 | Download and process Tarikh Baghdad by al-Khatib al-Baghdadi |
+| 057 | Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi |
+| 058 | Download and process Takhrij Ahadith al-Kashshaf by Ibn Hajar |
+| 059 | Download and process Anwar al-Tanzil by al-Baydawi |
+| 060 | Final rich metadata and indexing for al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah |

@@ -209,3 +209,35 @@ Source: `issues/051-download-and-process-all-arabic-language-books.md`
 ## 52. Record author madhab and scholarly profile for every book
 
 Source: `issues/052-record-author-madhab-and-scholarly-profile-for-every-book.md`
+
+## 53. Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi
+
+Source: `issues/053-download-and-process-al-jami-li-shuab-al-iman-by-al-bayhaqi.md`
+
+## 54. Download and process Tanbih al-Ghafileen by Abu Layth al-Samarqandi
+
+Source: `issues/054-download-and-process-tanbih-al-ghafileen-by-abu-layth-al-samarqandi.md`
+
+## 55. Download and process al-Adab al-Shar'iyyah by Ibn Muflih
+
+Source: `issues/055-download-and-process-al-adab-al-shariyyah-by-ibn-muflih.md`
+
+## 56. Download and process Tarikh Baghdad by al-Khatib al-Baghdadi
+
+Source: `issues/056-download-and-process-tarikh-baghdad-by-al-khatib-al-baghdadi.md`
+
+## 57. Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi
+
+Source: `issues/057-download-and-process-al-burhan-fi-ulum-al-quran-by-al-zarkashi.md`
+
+## 58. Download and process Takhrij Ahadith al-Kashshaf by Ibn Hajar
+
+Source: `issues/058-download-and-process-takhrij-ahadith-al-kashshaf-by-ibn-hajar.md`
+
+## 59. Download and process Anwar al-Tanzil by al-Baydawi
+
+Source: `issues/059-download-and-process-anwar-al-tanzil-by-al-baydawi.md`
+
+## 60. Final rich metadata and indexing for al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah
+
+Source: `issues/060-final-rich-metadata-and-indexing-for-al-mawsuah-al-fiqhiyyah-al-kuwaitiyyah.md`

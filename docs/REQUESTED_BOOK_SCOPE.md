@@ -16,6 +16,12 @@ This file records the expanded book and author scope requested for the full meta
 - Ibn Kathir
 - al-Nawawi
 - Ibn Abd al-Barr
+- al-Bayhaqi
+- Abu Layth al-Samarqandi
+- Ibn Muflih
+- al-Khatib al-Baghdadi
+- al-Zarkashi
+- al-Baydawi
 
 ## Specific Works
 
@@ -31,6 +37,14 @@ This file records the expanded book and author scope requested for the full meta
 - Kitab al-Ibar by Ibn Khaldun
 - Umdat al-Qari by Badr al-Din al-Ayni
 - Iqd al-Farid
+- al-Jami' li Shu'ab al-Iman by al-Bayhaqi
+- Tanbih al-Ghafileen by Abu Layth al-Samarqandi
+- al-Adab al-Shar'iyyah by Ibn Muflih
+- Tarikh Baghdad by al-Khatib al-Baghdadi
+- al-Burhan fi Ulum al-Quran by al-Zarkashi
+- Takhrij Ahadith al-Kashshaf by Ibn Hajar
+- Anwar al-Tanzil by al-Baydawi
+- al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah, to be processed after the requested author and source batches
 
 ## Field Collections
 
