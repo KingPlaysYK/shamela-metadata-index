@@ -6,6 +6,8 @@
   "scripts": {
     "github:create-repo": "node scripts/create-github-repo.mjs",
     "github:create-issues": "node scripts/create-github-issues.mjs",
+    "github:export-issues": "node scripts/export-github-issues.mjs",
+    "inventory:existing": "node scripts/inventory-existing-data.mjs",
     "status": "node scripts/status.mjs"
   }
 }

@@ -1,0 +1,210 @@
+[
+  {
+    "source_file": "issues/001-create-project-repository.md",
+    "title": "Create project repository and D-drive workspace",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Create project repository and D-drive workspace\n\n## Goal\nCreate a clean project repository and local D-drive workspace for the book download, metadata, and indexing project.\n\n## Tasks\n- [x] Create `D:/ShamelaMetadataIndex`.\n- [x] Add project README.\n- [x] Add `.gitignore`.\n- [x] Add `.env.example`.\n- [ ] Create GitHub repository.\n- [ ] Push initial files.\n\n## Blocker\nGitHub repository creation is blocked until GitHub CLI or an authenticated GitHub repository target is available.\n"
+  },
+  {
+    "source_file": "issues/002-preserve-existing-app-rag-data.md",
+    "title": "Preserve existing app RAG data on D drive",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Preserve existing app RAG data on D drive\n\n## Goal\nCopy the current app RAG assets to D drive so the project starts from the work already completed.\n\n## Tasks\n- [x] Copy `rag-data/sources`.\n- [x] Copy `rag-data/metadata`.\n- [x] Copy index manifests and logs where useful.\n- [x] Record copied size and file count.\n\n## Acceptance\nExisting language, hadith, tafsir, Ibn Taymiyyah, and pilot metadata files are available under `D:/ShamelaMetadataIndex/data/existing-app-rag-data`.\n\n## Result\n- Copied files: 348\n- Copied bytes: 68,235,416,559\n- Copied size: approximately 63.55 GiB\n"
+  },
+  {
+    "source_file": "issues/003-build-canonical-book-catalogue.md",
+    "title": "Build canonical book catalogue",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Build canonical book catalogue\n\n## Goal\nCreate a single catalogue that can answer: which books exist, who wrote them, what field they belong to, which edition is used, and whether full text is available.\n\n## Tasks\n- [ ] Import Shamela book info.\n- [ ] Add author full names and death dates.\n- [ ] Add field/category taxonomy.\n- [ ] Mark source priority and edition preference.\n- [ ] Mark whether full text is available.\n- [ ] Mark whether metadata/index is built.\n\n## Acceptance\nThe app can answer how many books by a given author exist and what status each book has.\n"
+  },
+  {
+    "source_file": "issues/004-define-selected-book-acquisition-policy.md",
+    "title": "Define selected-book acquisition policy",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Define selected-book acquisition policy\n\n## Goal\nAvoid downloading every possible book blindly. Use a selected-book policy.\n\n## Tasks\n- [ ] Prioritize language lexicons.\n- [ ] Prioritize tafsir and hadith commentaries.\n- [ ] Prioritize reliable aqidah/manhaj works.\n- [ ] Prioritize fiqh/usul books with clear principles and rulings.\n- [ ] Prioritize tarajim/tabaqat books with stories and narrator judgments.\n- [ ] Avoid abridgements where comprehensive editions exist.\n\n## Acceptance\nEvery downloaded book has a reason for inclusion.\n"
+  },
+  {
+    "source_file": "issues/005-download-selected-full-shamela-texts.md",
+    "title": "Download selected full Shamela texts",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Download selected full Shamela texts\n\n## Goal\nDownload full page text for selected books from approved sources.\n\n## Tasks\n- [ ] Resolve `book_id`s.\n- [ ] Download only selected books first.\n- [ ] Store raw page text.\n- [ ] Store source URL and dataset provenance.\n- [ ] Produce download manifest.\n\n## Acceptance\nEach selected book has full Arabic page text and source provenance.\n"
+  },
+  {
+    "source_file": "issues/006-normalize-arabic-text-and-source-identifiers.md",
+    "title": "Normalize Arabic text and source identifiers",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Normalize Arabic text and source identifiers\n\n## Goal\nCreate stable normalized Arabic fields without losing original text.\n\n## Tasks\n- [ ] Preserve original Arabic text.\n- [ ] Create normalized Arabic text for search.\n- [ ] Remove OCR noise only in search fields.\n- [ ] Normalize hamza/alif variants for search.\n- [ ] Strip tatweel and punctuation variants in search fields.\n- [ ] Keep exact original evidence for citation.\n\n## Acceptance\nSearch uses normalized Arabic, source modal shows original Arabic.\n"
+  },
+  {
+    "source_file": "issues/007-build-page-paragraph-and-logical-chunk-layers.md",
+    "title": "Build page, paragraph, and logical chunk layers",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Build page, paragraph, and logical chunk layers\n\n## Goal\nSupport both precise footnotes and broad research retrieval.\n\n## Tasks\n- [ ] Keep page layer.\n- [ ] Add paragraph layer.\n- [ ] Add logical chunk layer.\n- [ ] Allow multiple chunks per page.\n- [ ] Avoid chunks that are too small or too large.\n- [ ] Preserve overlap and page context.\n\n## Acceptance\nFootnotes retrieve focused evidence while research can retrieve broader discussions.\n"
+  },
+  {
+    "source_file": "issues/008-extract-baseline-metadata-deterministically.md",
+    "title": "Extract baseline metadata deterministically",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract baseline metadata deterministically\n\n## Goal\nUse local deterministic extraction before AI to reduce cost and improve consistency.\n\n## Tasks\n- [ ] Detect Qur'an references.\n- [ ] Detect hadith references.\n- [ ] Detect book/source references.\n- [ ] Detect common claim markers.\n- [ ] Detect definitions and classifications.\n- [ ] Detect principles, exceptions, conditions, disagreement, and consensus.\n\n## Acceptance\nEvery extracted item has exact Arabic evidence and citation.\n"
+  },
+  {
+    "source_file": "issues/009-extract-language-lexicon-metadata.md",
+    "title": "Extract language lexicon metadata",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract language lexicon metadata\n\n## Goal\nBuild rich language metadata for roots, terms, definitions, derivations, proverbs, poetry, and usage.\n\n## Tasks\n- [ ] Extract root meanings.\n- [ ] Extract non-root word meanings.\n- [ ] Extract derivation explanations.\n- [ ] Extract multiple meanings.\n- [ ] Extract Qur'an/hadith evidence used for language.\n- [ ] Extract poetry/proverb examples.\n- [ ] Mark contemporary usage only where supported.\n\n## Acceptance\nWord analysis can cite exact lexicon evidence.\n"
+  },
+  {
+    "source_file": "issues/010-extract-islamic-claim-metadata.md",
+    "title": "Extract Islamic claim metadata",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract Islamic claim metadata\n\n## Goal\nCapture useful Islamic scholarly material for footnotes and research.\n\n## Tasks\n- [ ] Extract definitions.\n- [ ] Extract rulings.\n- [ ] Extract classifications.\n- [ ] Extract warnings/admonitions.\n- [ ] Extract virtues.\n- [ ] Extract scholarly explanations.\n- [ ] Extract corrections and criticisms.\n\n## Acceptance\nFootnote generation can retrieve directly related scholarly benefits.\n"
+  },
+  {
+    "source_file": "issues/011-extract-hadith-and-isnad-metadata.md",
+    "title": "Extract hadith and isnad metadata",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract hadith and isnad metadata\n\n## Goal\nSupport hadith footnotes with grading, sources, routes, narrator details, and commentary.\n\n## Tasks\n- [ ] Detect hadith text.\n- [ ] Detect collector/source references.\n- [ ] Detect grading statements.\n- [ ] Detect narrator names.\n- [ ] Detect jarh/ta'dil judgments.\n- [ ] Record differences between specialists.\n- [ ] Link explanations and derived rulings.\n\n## Acceptance\nHadith footnotes can cite grading and explanation from exact sources.\n"
+  },
+  {
+    "source_file": "issues/012-extract-quran-and-tafsir-linkage-metadata.md",
+    "title": "Extract Qur'an and tafsir linkage metadata",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract Qur'an and tafsir linkage metadata\n\n## Goal\nConnect ayat to tafsir, scholarly usage, rulings, admonitions, and language benefits.\n\n## Tasks\n- [ ] Detect ayah references.\n- [ ] Link tafsir passages.\n- [ ] Capture how scholars use the ayah as evidence.\n- [ ] Extract language points tied to the ayah.\n- [ ] Extract rulings and principles derived from the ayah.\n\n## Acceptance\nSelecting a translated verse retrieves the original Arabic ayah and relevant scholarly explanations.\n"
+  },
+  {
+    "source_file": "issues/013-extract-fiqh-usul-ruling-metadata.md",
+    "title": "Extract fiqh/usul ruling metadata",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract fiqh/usul ruling metadata\n\n## Goal\nCapture rulings, principles, conditions, exceptions, edge cases, ijma, and ikhtilaf.\n\n## Tasks\n- [ ] Detect ruling statements.\n- [ ] Detect hukm category where present.\n- [ ] Detect usul principles.\n- [ ] Detect conditions and exceptions.\n- [ ] Detect consensus and disagreement.\n- [ ] Record who holds which position.\n\n## Acceptance\nFiqh footnotes can explain the ruling structure, not just quote a loose source.\n"
+  },
+  {
+    "source_file": "issues/014-extract-aqidah-manhaj-metadata.md",
+    "title": "Extract aqidah/manhaj metadata",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract aqidah/manhaj metadata\n\n## Goal\nCapture creed, methodology, sects, warnings, loaded terms, and scholarly positions.\n\n## Tasks\n- [ ] Detect creedal definitions.\n- [ ] Detect sect/group names.\n- [ ] Detect praise/criticism of groups or individuals.\n- [ ] Detect methodological principles.\n- [ ] Record scholar/source priority.\n- [ ] Preserve nuance and exact wording.\n\n## Acceptance\nAqidah/manhaj footnotes retrieve relevant, source-based explanations.\n"
+  },
+  {
+    "source_file": "issues/015-extract-biography-and-tarajim-metadata.md",
+    "title": "Extract biography and tarajim metadata",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract biography and tarajim metadata\n\n## Goal\nSupport person footnotes and biographical stories.\n\n## Tasks\n- [ ] Detect person names and variants.\n- [ ] Extract birth/death where present.\n- [ ] Extract teachers/students.\n- [ ] Extract reliability/narrator judgments.\n- [ ] Extract stories and virtues.\n- [ ] Extract criticisms and corrections.\n\n## Acceptance\nSelecting a scholar name can generate a concise or detailed sourced biography.\n"
+  },
+  {
+    "source_file": "issues/016-extract-stories-anecdotes-benefits-and-admonitions.md",
+    "title": "Extract stories, anecdotes, benefits, and admonitions",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Extract stories, anecdotes, benefits, and admonitions\n\n## Goal\nCapture inspirational or explanatory reports that support rich footnotes.\n\n## Tasks\n- [ ] Detect story markers.\n- [ ] Extract anecdotes from biography/history books.\n- [ ] Extract benefits and wisdom statements.\n- [ ] Extract admonitions and warnings.\n- [ ] Link them to themes and people.\n\n## Acceptance\n“Explain further” can retrieve valuable scholarly benefits, not just definitions.\n"
+  },
+  {
+    "source_file": "issues/017-validate-evidence-spans-and-citations.md",
+    "title": "Validate evidence spans and citations",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Validate evidence spans and citations\n\n## Goal\nEnsure every metadata claim is grounded in exact text.\n\n## Tasks\n- [ ] Validate exact Arabic evidence substring.\n- [ ] Validate source id/book id.\n- [ ] Validate page/volume fields.\n- [ ] Validate claim type.\n- [ ] Reject unsupported AI claims.\n- [ ] Produce validation reports.\n\n## Acceptance\nNo source appears in the app unless its exact evidence can be opened.\n"
+  },
+  {
+    "source_file": "issues/018-build-lexical-and-metadata-search-indexes.md",
+    "title": "Build lexical and metadata search indexes",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Build lexical and metadata search indexes\n\n## Goal\nMake retrieval fast and filterable.\n\n## Tasks\n- [ ] Build exact Arabic lexical index.\n- [ ] Build normalized Arabic index.\n- [ ] Build metadata filters.\n- [ ] Build book/category filters.\n- [ ] Build claim-type filters.\n- [ ] Add relevance scoring.\n\n## Acceptance\nThe app can retrieve relevant evidence quickly by term, phrase, source type, and footnote type.\n"
+  },
+  {
+    "source_file": "issues/019-add-semantic-vector-retrieval-layer.md",
+    "title": "Add semantic/vector retrieval layer",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Add semantic/vector retrieval layer\n\n## Goal\nSupport concept/passage search beyond exact terms.\n\n## Tasks\n- [ ] Choose embedding model.\n- [ ] Create collection schema.\n- [ ] Embed selected chunks.\n- [ ] Store embedding provenance.\n- [ ] Keep model consistent for future additions.\n- [ ] Add hybrid lexical + vector ranking.\n\n## Acceptance\nBroad passage selections retrieve conceptually related scholarly material.\n"
+  },
+  {
+    "source_file": "issues/020-add-graph-or-hypergraph-relationship-layer.md",
+    "title": "Add graph or hypergraph relationship layer",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Add graph or hypergraph relationship layer\n\n## Goal\nRepresent relationships between concepts, verses, hadiths, scholars, books, rulings, and claims.\n\n## Tasks\n- [ ] Define node types.\n- [ ] Define edge types.\n- [ ] Link claims to evidence.\n- [ ] Link books to authors/categories.\n- [ ] Link ayat/hadith to explanations.\n- [ ] Link similar/expanded/corrective discussions.\n\n## Acceptance\nResearch mode can expand from one source to related discussions across books.\n"
+  },
+  {
+    "source_file": "issues/021-integrate-indexes-with-word-analysis.md",
+    "title": "Integrate indexes with word analysis",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Integrate indexes with word analysis\n\n## Goal\nUse metadata and indexes to improve word analysis.\n\n## Tasks\n- [ ] Retrieve exact word/root evidence.\n- [ ] Use multiple lexicons.\n- [ ] Cite all used evidence.\n- [ ] Open exact source text.\n- [ ] Avoid irrelevant fallback sources.\n- [ ] Mark AI-generated content where no RAG evidence is used.\n\n## Acceptance\nWord analysis is grounded, relevant, and source-checkable.\n"
+  },
+  {
+    "source_file": "issues/022-integrate-indexes-with-pdf-footnotes.md",
+    "title": "Integrate indexes with PDF footnotes",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Integrate indexes with PDF footnotes\n\n## Goal\nGenerate useful footnotes from selected words, names, ayat, hadith, or passages.\n\n## Tasks\n- [ ] Search original normalized Arabic, not English.\n- [ ] Classify selection type.\n- [ ] Retrieve by selected footnote type.\n- [ ] Support up to 10 sources.\n- [ ] Add “Explain Further”.\n- [ ] Use source modal for every citation.\n\n## Acceptance\nPDF footnotes behave like a scholar annotating the book with grounded sources.\n"
+  },
+  {
+    "source_file": "issues/023-improve-source-modal-citations-and-source-links.md",
+    "title": "Improve source modal citations and source links",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Improve source modal citations and source links\n\n## Goal\nMake source verification easy.\n\n## Tasks\n- [ ] Format author, death, book, volume, page, edition, editor, publisher, year.\n- [ ] Treat non-numeric volume values as section labels.\n- [ ] Open Shamela/source link when available.\n- [ ] Highlight exact used source text by font color.\n- [ ] Provide translation of source text.\n\n## Acceptance\nEvery citation can be checked quickly and clearly.\n"
+  },
+  {
+    "source_file": "issues/024-add-footnote-quality-rules-by-type.md",
+    "title": "Add footnote quality rules by type",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Add footnote quality rules by type\n\n## Goal\nEach footnote type should have a consistent structure and relevance rules.\n\n## Tasks\n- [ ] Define Scholarly Definition format.\n- [ ] Define Language Detail format.\n- [ ] Define Qur'an/Tafsir format.\n- [ ] Define Fiqh/Usul format.\n- [ ] Define Aqidah/Manhaj format.\n- [ ] Define Ikhtilaf/Ijma format.\n- [ ] Define Hadith Commentary/Grading format.\n- [ ] Define Biography format.\n- [ ] Define Explain Further format.\n\n## Acceptance\nFootnotes look consistent and satisfy the user’s scholarly style.\n"
+  },
+  {
+    "source_file": "issues/025-build-evaluation-set-and-quality-checks.md",
+    "title": "Build evaluation set and quality checks",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Build evaluation set and quality checks\n\n## Goal\nMeasure whether retrieval and footnotes are improving.\n\n## Tasks\n- [ ] Create gold test selections.\n- [ ] Include single words.\n- [ ] Include names.\n- [ ] Include ayat.\n- [ ] Include hadith.\n- [ ] Include full passages.\n- [ ] Score relevance, source quality, and citation accuracy.\n\n## Acceptance\nChanges can be tested instead of judged only by impression.\n"
+  },
+  {
+    "source_file": "issues/026-package-local-run-commands-and-documentation.md",
+    "title": "Package local run commands and documentation",
+    "labels": [
+      "metadata-pipeline"
+    ],
+    "body": "# Package local run commands and documentation\n\n## Goal\nMake the pipeline repeatable.\n\n## Tasks\n- [ ] Document local setup.\n- [ ] Document download commands.\n- [ ] Document metadata commands.\n- [ ] Document validation commands.\n- [ ] Document indexing commands.\n- [ ] Document app integration commands.\n\n## Acceptance\nThe project can be resumed later without confusion.\n"
+  }
+]

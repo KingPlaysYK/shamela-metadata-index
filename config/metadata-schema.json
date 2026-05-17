@@ -1,0 +1,88 @@
+{
+  "version": "0.1.0",
+  "description": "Core enriched metadata schema for grounded Shamela retrieval.",
+  "required": [
+    "id",
+    "source",
+    "book",
+    "location",
+    "claim",
+    "evidence"
+  ],
+  "fields": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique record id."
+    },
+    "source": {
+      "type": "object",
+      "fields": {
+        "dataset": "Source dataset or import pipeline.",
+        "source_type": "shamela | hadith_jsonl | qul_tafsir | translation_memory | manual",
+        "source_url": "URL when available."
+      }
+    },
+    "book": {
+      "type": "object",
+      "fields": {
+        "book_id": "Source book id when available.",
+        "title_ar": "Arabic title.",
+        "title_en": "English title when available.",
+        "author_ar": "Arabic author name.",
+        "author_en": "English author name when available.",
+        "author_death_h": "Hijri death year when available.",
+        "field": "Primary field/category.",
+        "edition": "Edition string.",
+        "editor": "Editor/checker.",
+        "publisher": "Publisher.",
+        "year": "Publication year."
+      }
+    },
+    "location": {
+      "type": "object",
+      "fields": {
+        "volume": "Numeric volume when available.",
+        "section": "Section label, used for non-numeric volume values.",
+        "page": "Page number.",
+        "paragraph_id": "Paragraph id when available.",
+        "chunk_id": "Logical chunk id when available."
+      }
+    },
+    "claim": {
+      "type": "object",
+      "fields": {
+        "claim_type": "Definition, ruling, tafsir note, hadith grading, biography, etc.",
+        "claim_subtype": "More precise subtype.",
+        "term_ar": "Arabic term.",
+        "root_ar": "Arabic root where relevant.",
+        "topic_tags": "Themes/topics.",
+        "function_tags": "definition | ruling | classification | warning | example | explanation | correction | story | principle | exception | consensus | disagreement",
+        "confidence": "high | medium | low",
+        "candidate": "true when not yet scholarly-validated."
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "fields": {
+        "evidence_text_ar": "Exact Arabic evidence copied from source text.",
+        "evidence_start": "Character offset in source text when available.",
+        "evidence_end": "Character end offset in source text when available.",
+        "source_text_hash": "Hash of source text used for validation.",
+        "validation_status": "valid | rejected | needs_review"
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "fields": {
+        "quran_refs": "Ayah references.",
+        "hadith_refs": "Hadith references.",
+        "person_refs": "People mentioned.",
+        "book_refs": "Books mentioned.",
+        "supports": "Claim ids supported by this record.",
+        "expands": "Claim ids this record expands.",
+        "corrects": "Claim ids/books this record corrects or criticizes.",
+        "differs_from": "Claim ids this record disagrees with."
+      }
+    }
+  }
+}

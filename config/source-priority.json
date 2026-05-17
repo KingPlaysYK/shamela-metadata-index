@@ -1,0 +1,54 @@
+{
+  "version": "0.1.0",
+  "principles": [
+    "Prefer exact primary source evidence over broad thematic matches.",
+    "Prefer comprehensive editions over abridgements.",
+    "Prefer earlier specialist sources for lexical, hadith, tafsir, and biographical claims.",
+    "Prefer direct discussion of the selected word/passage over incidental mention.",
+    "Never cite a source unless the exact evidence can be opened and checked."
+  ],
+  "language_sources": {
+    "core_lexicons": [
+      "كتاب العين",
+      "معجم مقاييس اللغة",
+      "تهذيب اللغة",
+      "لسان العرب",
+      "تاج العروس",
+      "القاموس المحيط",
+      "أساس البلاغة",
+      "الفروق اللغوية"
+    ],
+    "supporting_sources": [
+      "غريب القرآن",
+      "غريب الحديث",
+      "كتب النحو والصرف",
+      "كتب البلاغة",
+      "كتب الأمثال والشواهد"
+    ]
+  },
+  "islamic_sources": {
+    "tafsir": [
+      "Tafsir al-Tabari",
+      "Tafsir Ibn Kathir",
+      "Tafsir Ibn al-Jawzi",
+      "Tafsir al-Qurtubi",
+      "Tafsir al-Baghawi",
+      "Tafsir Ibn Taymiyyah collections",
+      "Tafsir Ibn al-Qayyim collections"
+    ],
+    "hadith_commentary": [
+      "Fath al-Bari",
+      "Sharh Sahih Muslim by al-Nawawi",
+      "Tuhfat al-Ahwadhi",
+      "Awn al-Ma'bud",
+      "Ibn Rajab works"
+    ],
+    "biography_history": [
+      "Siyar A'lam al-Nubala",
+      "Tadhkirat al-Huffaz",
+      "Tarikh Dimashq",
+      "Tarikh al-Tabari",
+      "al-Bidayah wa al-Nihayah"
+    ]
+  }
+}

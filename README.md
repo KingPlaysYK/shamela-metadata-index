@@ -13,3 +13,19 @@ This repository is intended to keep:
 - task issues and project documentation
 
 Large raw datasets, generated indexes, model outputs, and secrets should not be committed to GitHub.
+
+## Current local state
+
+Existing app RAG data has been preserved at:
+
+`D:/ShamelaMetadataIndex/data/existing-app-rag-data`
+
+Current copied size: approximately 63.55 GiB.
+
+Useful commands:
+
+```powershell
+node scripts/status.mjs
+node scripts/inventory-existing-data.mjs
+node scripts/export-github-issues.mjs
+```
