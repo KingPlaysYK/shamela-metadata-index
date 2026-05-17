@@ -11,238 +11,238 @@
       "scope_id": "027",
       "request": "Download and process all Ibn al-Jawzi books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/027.json"
     },
     {
       "scope_id": "028",
       "request": "Download and process all Ibn Hajar al-Asqalani books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/028.json"
     },
     {
       "scope_id": "029",
       "request": "Download and process Ibn Qudamah al-Maqdisi books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/029.json"
     },
     {
       "scope_id": "030",
       "request": "Download and process all Imam al-Dhahabi books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/030.json"
     },
     {
       "scope_id": "031",
       "request": "Download and process all Ibn al-Qayyim books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/031.json"
     },
     {
       "scope_id": "032",
       "request": "Download and process Imam al-Albani books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/032.json"
     },
     {
       "scope_id": "033",
       "request": "Download and process Shaykh Ibn Uthaymin books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/033.json"
     },
     {
       "scope_id": "034",
       "request": "Download and process Imam al-Qurtubi books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/034.json"
     },
     {
       "scope_id": "035",
       "request": "Download and process Bidayat al-Mujtahid by Ibn Rushd",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/035.json"
     },
     {
       "scope_id": "036",
       "request": "Download and process Qadi Iyad explanation books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/036.json"
     },
     {
       "scope_id": "037",
       "request": "Download and process al-Muhalla by Ibn Hazm",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/037.json"
     },
     {
       "scope_id": "038",
       "request": "Download and process al-Bahr al-Muhit al-Thajjaj by Muhammad ibn Ali al-Ithyubi",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/038.json"
     },
     {
       "scope_id": "039",
       "request": "Download and process Sharh al-Sunnah by al-Baghawi",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/039.json"
     },
     {
       "scope_id": "040",
       "request": "Download and process al-Umm by Imam al-Shafi'i",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/040.json"
     },
     {
       "scope_id": "041",
       "request": "Download and process al-Bayan wa al-Tahsil",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/041.json"
     },
     {
       "scope_id": "042",
       "request": "Download and process Bada'i al-Sana'i by al-Kasani",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/042.json"
     },
     {
       "scope_id": "043",
       "request": "Download and process all Ibn Kathir books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/043.json"
     },
     {
       "scope_id": "044",
       "request": "Download and process all Imam al-Nawawi books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/044.json"
     },
     {
       "scope_id": "045",
       "request": "Download and process Tarikh al-Tabari",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/045.json"
     },
     {
       "scope_id": "046",
       "request": "Download and process al-Kamil fi al-Tarikh by Ibn al-Athir",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/046.json"
     },
     {
       "scope_id": "047",
       "request": "Download and process Kitab al-Ibar by Ibn Khaldun",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/047.json"
     },
     {
       "scope_id": "048",
       "request": "Download and process Umdat al-Qari by Badr al-Din al-Ayni",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/048.json"
     },
     {
       "scope_id": "049",
       "request": "Download and process all Ibn Abd al-Barr books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/049.json"
     },
     {
       "scope_id": "050",
       "request": "Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition",
       "approval_status": "blocked",
-      "reason": "Not approved for download",
+      "reason": "missing required edition terms: أحمد أمين، أحمد الزين، إبراهيم الأبياري",
       "scope_file": "curation/scopes/050.json"
     },
     {
       "scope_id": "051",
       "request": "Download and process all Arabic language books",
       "approval_status": "collection_curation_required",
-      "reason": "Not approved for download",
+      "reason": "Curate the candidate list into included/excluded books before download.",
       "scope_file": "curation/scopes/051.json"
     },
     {
       "scope_id": "052",
       "request": "Record author madhab and scholarly profile for every book",
       "approval_status": "rule",
-      "reason": "Not approved for download",
+      "reason": "Apply this rule to every selected book record; no standalone download is required.",
       "scope_file": "curation/scopes/052.json"
     },
     {
       "scope_id": "053",
       "request": "Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/053.json"
     },
     {
       "scope_id": "054",
       "request": "Download and process Tanbih al-Ghafileen by Abu Layth al-Samarqandi",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/054.json"
     },
     {
       "scope_id": "055",
       "request": "Download and process al-Adab al-Shar'iyyah by Ibn Muflih",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/055.json"
     },
     {
       "scope_id": "056",
       "request": "Download and process Tarikh Baghdad by al-Khatib al-Baghdadi",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/056.json"
     },
     {
       "scope_id": "057",
       "request": "Download and process al-Burhan fi Ulum al-Quran by al-Zarkashi",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/057.json"
     },
     {
       "scope_id": "058",
       "request": "Download and process Takhrij Ahadith al-Kashshaf by Ibn Hajar",
       "approval_status": "ambiguous",
-      "reason": "Not approved for download",
+      "reason": "Resolver could not safely select a canonical text.",
       "scope_file": "curation/scopes/058.json"
     },
     {
       "scope_id": "059",
       "request": "Download and process Anwar al-Tanzil by al-Baydawi",
       "approval_status": "pending_review",
-      "reason": "Not approved for download",
+      "reason": "Review the top candidate's edition/publisher/editor, then approve for download.",
       "scope_file": "curation/scopes/059.json"
     },
     {
       "scope_id": "060",
       "request": "Final rich metadata and indexing for al-Mawsuah al-Fiqhiyyah al-Kuwaitiyyah",
       "approval_status": "deferred",
-      "reason": "Not approved for download",
+      "reason": "Run after the earlier requested author/source batches.",
       "scope_file": "curation/scopes/060.json"
     }
   ]

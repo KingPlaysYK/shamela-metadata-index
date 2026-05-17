@@ -61,11 +61,12 @@ for (const filename of scopeFiles) {
       });
     }
   } else {
+    const blockerText = asArray(review.blockers).filter(Boolean).join("; ");
     skipped.push({
       scope_id: record.id,
       request: record.request,
       approval_status: approvalStatus,
-      reason: "Not approved for download",
+      reason: blockerText || record.recommended_action || "Not approved for download",
       scope_file: `curation/scopes/${filename}`
     });
   }

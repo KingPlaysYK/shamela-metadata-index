@@ -10,4 +10,6 @@ Build a complete local-first pipeline for selected Shamela books and related Isl
 6. Connect retrieval to the translator/analyzer app for word analysis and footnote generation.
 7. Keep costs controlled by using local deterministic extraction first, AI only where it adds quality.
 
-The project should support short word footnotes, full passage footnotes, tafsir/verse notes, hadith commentary, biography, fiqh/usul, aqidah/manhaj, language detail, and “explain further” notes.
+The project should support short word footnotes, full passage footnotes, tafsir/verse notes, hadith commentary, biography, fiqh/usul, aqidah/manhaj, language detail, and "explain further" notes.
+
+GitHub tracking starts with issue `000-goal-complete-selected-book-metadata-indexing.md`, which is the master goal issue for the selected-book metadata and indexing execution.

@@ -68,6 +68,7 @@ const plan = resolution.map((item) => {
     request: item.title,
     scope: item.scope,
     author: item.author,
+    ...(item.required_edition ? { required_edition: item.required_edition } : {}),
     candidate_count: item.candidate_count,
     status: classification.status,
     recommended_action: classification.action,

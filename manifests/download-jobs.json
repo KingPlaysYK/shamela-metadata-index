@@ -1,0 +1,8 @@
+{
+  "generated_from": [
+    "manifests/approved-downloads.json"
+  ],
+  "rule": "Only jobs generated from approved-downloads.json may be executed by the download runner.",
+  "job_count": 0,
+  "jobs": []
+}

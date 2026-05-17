@@ -74,6 +74,7 @@ for (const scope of asArray(manifest.scopes)) {
   }
 
   const candidateIds = new Set(asArray(record.candidates).map((candidate) => String(candidate.book_id)));
+  const candidateById = new Map(asArray(record.candidates).map((candidate) => [String(candidate.book_id), candidate]));
   const canonicalId = hasValue(review.canonical_book_id) ? String(review.canonical_book_id) : null;
   const includeIds = asArray(review.include_book_ids).map(String).filter(Boolean);
   const fallbackIds = asArray(review.fallback_book_ids).map(String).filter(Boolean);
@@ -120,6 +121,35 @@ for (const scope of asArray(manifest.scopes)) {
       file: scope.file,
       message: "approved_collection scope must set at least one review.include_book_ids entry"
     });
+  }
+
+  if (record.status === "blocked_exact_edition_not_confirmed") {
+    if (approvalStatus !== "blocked" && approvalStatus !== "external_required") {
+      structuralErrors.push({
+        id: scope.id,
+        file: scope.file,
+        message: "exact-edition blocked scope cannot be approved until the requested edition is verified"
+      });
+    }
+
+    if (canonicalId) {
+      structuralErrors.push({
+        id: scope.id,
+        file: scope.file,
+        message: "exact-edition blocked scope must not set a canonical_book_id"
+      });
+    }
+
+    for (const fallbackId of fallbackIds) {
+      const candidate = candidateById.get(fallbackId);
+      if (candidate && candidate.role !== "fallback_context") {
+        warnings.push({
+          id: scope.id,
+          file: scope.file,
+          message: `fallback candidate ${fallbackId} should be labelled role=fallback_context`
+        });
+      }
+    }
   }
 
   if (approvalStatus === "blocked" || approvalStatus === "external_required") {

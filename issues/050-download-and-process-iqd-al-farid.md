@@ -8,6 +8,11 @@ Download, preserve, enrich metadata, validate, and index this requested source s
 - Author/source: Ibn Abd Rabbih
 - Notes: Use the edition described as: شرح وضبط وصحح وعنون موضوعاته ورتب فهارسه أحمد أمين، أحمد الزين، إبراهيم الأبياري. Do not use a generic Iqd al-Farid text as the canonical target. If this exact edition is not present in the current Shamela catalogue, acquire it from an external reliable source before rich metadata or indexing. Extract adab, history, poetry, anecdotes, wisdom, and language benefits.
 
+## Required Edition
+- Description: شرح وضبط وصحح وعنون موضوعاته ورتب فهارسه أحمد أمين، أحمد الزين، إبراهيم الأبياري
+- Required terms: أحمد أمين, أحمد الزين, إبراهيم الأبياري
+- Canonical rule: Only this named edition can be approved as the canonical Iqd al-Farid source. Generic Shamela editions are fallback context only.
+
 ## Tasks
 - [ ] Resolve canonical Arabic names and title variants.
 - [ ] Identify all available Shamela/HF catalogue records.

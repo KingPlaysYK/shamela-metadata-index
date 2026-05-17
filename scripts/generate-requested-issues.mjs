@@ -16,9 +16,21 @@ function slugify(value) {
 const requested = JSON.parse((await fs.readFile(requestedPath, "utf8")).replace(/^\uFEFF/, ""));
 await fs.mkdir(issuesDir, { recursive: true });
 
+function requiredEditionBlock(item) {
+  if (!item.required_edition) return "";
+  const terms = Array.isArray(item.required_edition.required_terms)
+    ? item.required_edition.required_terms.join(", ")
+    : "";
+  return `## Required Edition
+- Description: ${item.required_edition.description || ""}
+- Required terms: ${terms}
+- Canonical rule: ${item.required_edition.canonical_rule || ""}`;
+}
+
 for (const item of requested) {
   const existing = (await fs.readdir(issuesDir)).find((name) => name.startsWith(`${item.id}-`) && name.endsWith(".md"));
   const file = existing || `${item.id}-${slugify(item.title)}.md`;
+  const editionBlock = requiredEditionBlock(item);
   const body = `# ${item.title}
 
 ## Goal
@@ -27,7 +39,7 @@ Download, preserve, enrich metadata, validate, and index this requested source s
 ## Scope
 - Scope type: ${item.scope}
 - Author/source: ${item.author}
-- Notes: ${item.notes}
+- Notes: ${item.notes}${editionBlock ? `\n\n${editionBlock}` : ""}
 
 ## Tasks
 - [ ] Resolve canonical Arabic names and title variants.

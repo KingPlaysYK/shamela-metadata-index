@@ -1,0 +1,14 @@
+{
+  "generated_from": [
+    "manifests/download-jobs.json"
+  ],
+  "mode": "dry-run",
+  "job_count": 0,
+  "executed_count": 0,
+  "skipped_count": 0,
+  "results": [],
+  "notes": [
+    "Dry run only.",
+    "Use this report to confirm that approved jobs resolve to the expected raw-data output paths."
+  ]
+}

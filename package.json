@@ -16,6 +16,8 @@
     "curation:build": "node scripts/build-curation-workspace.mjs",
     "curation:validate": "node scripts/validate-curation.mjs",
     "downloads:manifest": "node scripts/build-approved-download-manifest.mjs",
+    "downloads:jobs": "node scripts/build-download-jobs.mjs",
+    "downloads:dry-run": "node scripts/run-download-jobs.mjs",
     "pipeline:stage": "node scripts/pipeline-stage.mjs",
     "status": "node scripts/status.mjs"
   }

@@ -635,6 +635,15 @@
     "request": "Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition",
     "scope": "single_work",
     "author": "Ibn Abd Rabbih",
+    "required_edition": {
+      "description": "شرح وضبط وصحح وعنون موضوعاته ورتب فهارسه أحمد أمين، أحمد الزين، إبراهيم الأبياري",
+      "required_terms": [
+        "أحمد أمين",
+        "أحمد الزين",
+        "إبراهيم الأبياري"
+      ],
+      "canonical_rule": "Only this named edition can be approved as the canonical Iqd al-Farid source. Generic Shamela editions are fallback context only."
+    },
     "candidate_count": 2,
     "status": "blocked_exact_edition_not_confirmed",
     "recommended_action": "Do not download as canonical. Locate the requested edition or mark this candidate as fallback-only.",

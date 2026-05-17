@@ -15,6 +15,7 @@ This audit records the real project state so the repository does not confuse pla
 - Pipeline scaffolding exists for catalogue, download, baseline metadata, enrichment, validation, and indexing stages.
 - Download curation scaffolding exists so candidate books can be approved, blocked, deferred, or marked fallback before large jobs run.
 - Curation validation and approved-download manifest scaffolding exist so future bulk jobs can be gated on reviewed candidates only.
+- Approved-download job and dry-run scaffolding exist so future raw downloads have auditable job manifests before execution.
 
 ## Not Complete Yet
 

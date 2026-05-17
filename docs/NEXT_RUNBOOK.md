@@ -12,6 +12,8 @@ node scripts/build-download-plan.mjs
 node scripts/build-curation-workspace.mjs
 node scripts/validate-curation.mjs
 node scripts/build-approved-download-manifest.mjs
+node scripts/build-download-jobs.mjs
+node scripts/run-download-jobs.mjs
 ```
 
 Output to inspect:
@@ -24,11 +26,14 @@ Output to inspect:
 - `curation/scopes/{id}.json`
 - `reports/curation-validation.json`
 - `manifests/approved-downloads.json`
+- `manifests/download-jobs.json`
+- `reports/download-run.json`
 
 Special watch item: Iqd al-Farid must be the Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition. A generic Shamela edition should be treated as fallback context only, not the canonical target.
 
 The curation workspace is the approval layer. Do not run large downloads from top candidates alone; approve candidates in `curation/scopes/` first.
 Future download jobs should read only `manifests/approved-downloads.json`, not the raw candidate reports.
+The current download runner is dry-run only unless a source-specific downloader is implemented and explicitly enabled.
 
 ## 2. Download In Batches
 

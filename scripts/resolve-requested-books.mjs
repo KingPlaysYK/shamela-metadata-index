@@ -114,6 +114,12 @@ const requiredEditionTermsById = {
   "050": ["أحمد أمين", "أحمد الزين", "إبراهيم الأبياري"]
 };
 
+function requiredEditionTerms(item) {
+  const fromConfig = item.required_edition?.required_terms;
+  if (Array.isArray(fromConfig) && fromConfig.length) return fromConfig;
+  return requiredEditionTermsById[item.id] || [];
+}
+
 function rowSearchText(row) {
   return normalizeArabic([
     row.book_title,
@@ -171,7 +177,7 @@ function scoreRow(row, item, authorPatterns, titlePatterns) {
 }
 
 function editionStatus(item, candidate) {
-  const terms = requiredEditionTermsById[item.id];
+  const terms = requiredEditionTerms(item);
   if (!terms?.length || !candidate) return "not_required";
   const haystack = normalizeArabic([
     candidate.editor,

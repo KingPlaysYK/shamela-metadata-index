@@ -115,11 +115,35 @@ function mergeReview(defaultReview, existingReview) {
 
 function mergeCandidateReview(candidate, existingCandidate) {
   if (!existingCandidate) return candidate;
+  const existingDecision = existingCandidate.decision || "";
+  const preserveDecision = existingDecision && existingDecision !== "undecided";
   return {
     ...candidate,
-    decision: existingCandidate.decision || candidate.decision,
+    decision: preserveDecision ? existingDecision : candidate.decision,
     role: existingCandidate.role || candidate.role,
     review_notes: existingCandidate.review_notes || candidate.review_notes
+  };
+}
+
+function candidateReviewTemplate(item, candidate) {
+  if (item.status === "blocked_exact_edition_not_confirmed") {
+    const fallbackBookIds = new Set([
+      item.top_candidate?.book_id
+    ].filter(Boolean).map(String));
+
+    if (fallbackBookIds.has(String(candidate.book_id))) {
+      return {
+        decision: "fallback_only",
+        role: "fallback_context",
+        review_notes: "Generic catalogue match only. Do not process as canonical until the requested edition is verified."
+      };
+    }
+  }
+
+  return {
+    decision: "undecided",
+    role: null,
+    review_notes: ""
   };
 }
 
@@ -151,28 +175,32 @@ for (const item of plan) {
     request: item.request,
     scope: item.scope,
     author: item.author,
+    ...(item.required_edition ? { required_edition: item.required_edition } : {}),
     status: item.status,
     recommended_action: item.recommended_action,
     edition_status: item.edition_status,
     review: mergeReview(template, existingScope?.review),
-    candidates: (resolved.top_candidates || []).slice(0, 25).map((candidate) => ({
-      book_id: candidate.book_id,
-      decision: "undecided",
-      role: null,
-      title_ar: candidate.title_ar,
-      author_ar: candidate.author_ar,
-      author_death_h: candidate.author_death_h,
-      category: candidate.category,
-      pages: candidate.pages,
-      volumes: candidate.volumes,
-      edition: candidate.edition,
-      publisher: candidate.publisher,
-      editor: candidate.editor,
-      link: candidate.link,
-      score: candidate.score,
-      reasons: candidate.reasons || [],
-      review_notes: ""
-    })).map((candidate) => mergeCandidateReview(candidate, existingCandidates.get(String(candidate.book_id))))
+    candidates: (resolved.top_candidates || []).slice(0, 25).map((candidate) => {
+      const candidateReview = candidateReviewTemplate(item, candidate);
+      return {
+        book_id: candidate.book_id,
+        decision: candidateReview.decision,
+        role: candidateReview.role,
+        title_ar: candidate.title_ar,
+        author_ar: candidate.author_ar,
+        author_death_h: candidate.author_death_h,
+        category: candidate.category,
+        pages: candidate.pages,
+        volumes: candidate.volumes,
+        edition: candidate.edition,
+        publisher: candidate.publisher,
+        editor: candidate.editor,
+        link: candidate.link,
+        score: candidate.score,
+        reasons: candidate.reasons || [],
+        review_notes: candidateReview.review_notes
+      };
+    }).map((candidate) => mergeCandidateReview(candidate, existingCandidates.get(String(candidate.book_id))))
   };
 
   await fs.writeFile(scopePath, `${JSON.stringify(scopeRecord, null, 2)}\n`, "utf8");

@@ -33,6 +33,8 @@ node scripts/build-download-plan.mjs
 node scripts/build-curation-workspace.mjs
 node scripts/validate-curation.mjs
 node scripts/build-approved-download-manifest.mjs
+node scripts/build-download-jobs.mjs
+node scripts/run-download-jobs.mjs
 ```
 
 Project control docs:

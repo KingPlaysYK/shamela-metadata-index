@@ -3,6 +3,15 @@
   "request": "Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition",
   "scope": "single_work",
   "author": "Ibn Abd Rabbih",
+  "required_edition": {
+    "description": "شرح وضبط وصحح وعنون موضوعاته ورتب فهارسه أحمد أمين، أحمد الزين، إبراهيم الأبياري",
+    "required_terms": [
+      "أحمد أمين",
+      "أحمد الزين",
+      "إبراهيم الأبياري"
+    ],
+    "canonical_rule": "Only this named edition can be approved as the canonical Iqd al-Farid source. Generic Shamela editions are fallback context only."
+  },
   "status": "blocked_exact_edition_not_confirmed",
   "recommended_action": "Do not download as canonical. Locate the requested edition or mark this candidate as fallback-only.",
   "edition_status": "missing required edition terms: أحمد أمين، أحمد الزين، إبراهيم الأبياري",
@@ -24,8 +33,8 @@
   "candidates": [
     {
       "book_id": "23789",
-      "decision": "undecided",
-      "role": null,
+      "decision": "fallback_only",
+      "role": "fallback_context",
       "title_ar": "العقد الفريد",
       "author_ar": "أبو عمر شهاب الدين أحمد بن محمد بن عبد ربه ابن حبيب ابن حدير بن سالم المعروف بابن عبد ربه الأندلسي",
       "author_death_h": "328",
@@ -42,7 +51,7 @@
         "author contains: ابن عبد ربه",
         "author contains: احمد بن محمد بن عبد ربه"
       ],
-      "review_notes": ""
+      "review_notes": "Generic catalogue match only. Do not process as canonical until the requested edition is verified."
     },
     {
       "book_id": "6945",
