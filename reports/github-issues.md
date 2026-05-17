@@ -198,7 +198,7 @@ Source: `issues/048-download-and-process-umdat-al-qari-by-badr-al-din-al-ayni.md
 
 Source: `issues/049-download-and-process-all-ibn-abd-al-barr-books.md`
 
-## 50. Download and process Iqd al-Farid
+## 50. Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition
 
 Source: `issues/050-download-and-process-iqd-al-farid.md`
 

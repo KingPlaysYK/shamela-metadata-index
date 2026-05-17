@@ -53,7 +53,7 @@ These issues are ready to create on GitHub once the repository exists.
 | 047 | Download and process Kitab al-Ibar by Ibn Khaldun |
 | 048 | Download and process Umdat al-Qari by Badr al-Din al-Ayni |
 | 049 | Download and process all Ibn Abd al-Barr books |
-| 050 | Download and process Iqd al-Farid |
+| 050 | Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition |
 | 051 | Download and process all Arabic language books |
 | 052 | Record author madhab and scholarly profile for every book |
 | 053 | Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi |

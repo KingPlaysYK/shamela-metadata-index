@@ -36,7 +36,7 @@ This file records the expanded book and author scope requested for the full meta
 - al-Kamil fi al-Tarikh by Ibn al-Athir
 - Kitab al-Ibar by Ibn Khaldun
 - Umdat al-Qari by Badr al-Din al-Ayni
-- Iqd al-Farid
+- Iqd al-Farid, specifically the edition described as: شرح وضبط وصحح وعنون موضوعاته ورتب فهارسه أحمد أمين، أحمد الزين، إبراهيم الأبياري; do not process a generic edition as the canonical target for this scope
 - al-Jami' li Shu'ab al-Iman by al-Bayhaqi
 - Tanbih al-Ghafileen by Abu Layth al-Samarqandi
 - al-Adab al-Shar'iyyah by Ibn Muflih

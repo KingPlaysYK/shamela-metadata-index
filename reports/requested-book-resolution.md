@@ -28,7 +28,7 @@ Candidate matches are not final download decisions. They must be reviewed to cho
 | 047 | Download and process Kitab al-Ibar by Ibn Khaldun | 17 | الأزمنة في اللغة العربية (بالمقارنة مع اللغات الأجنبية) (3598)<br>الذيل على ذيل العبر (وهو ذيل للعراقي على ذيل العبر للذهبي) (110)<br>تذييل الذيل (تذييل على ذيل العراقي على العبر) (111) |
 | 048 | Download and process Umdat al-Qari by Badr al-Din al-Ayni | 17 | عمدة القاري شرح صحيح البخاري (5756)<br>عِقْد الجُمَان في تاريخ أهل الزمان - العصر الأيوبي [٥٦٥ - ٦٢٨ هـ] (380)<br>البناية شرح الهداية (427) |
 | 049 | Download and process all Ibn Abd al-Barr books | 2 | مقدمة إملاء الاستذكار للحافظ أبي عمر ابن عبد البر القرطبي - سلسلة لقاء العشر الأواخر بالمسجد الحرام (٣١) (17857)<br>البيان والإعراب عما بأرض مصر من الأعراب (9226) |
-| 050 | Download and process Iqd al-Farid | 3 | العقد الفريد (23789)<br>طبائع النساء وما جاء فيها من عجائب وأخبار وأسرار (6945)<br>البيان والإعراب عما بأرض مصر من الأعراب (9226) |
+| 050 | Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition | 21 | العقد الفريد (23789)<br>أزهار الرياض في أخبار القاضي عياض (26350)<br>المطرب من أشعار أهل المغرب (93) |
 | 051 | Download and process all Arabic language books | 577 | اللباب في قواعد اللغة وآلات الأدب النحو والصرف والبلاغة والعروض واللغة والمثل (3538)<br>المحيط في اللغة (83)<br>حاشيتان من حواشي ابن هشام على ألفيَّة ابن مالك، دراسةً وتحقيقًا (560) |
 | 052 | Record author madhab and scholarly profile for every book | 1 | البيان والإعراب عما بأرض مصر من الأعراب (9226) |
 | 053 | Download and process al-Jami' li Shu'ab al-Iman by al-Bayhaqi | 46 | شعب الإيمان (748)<br>ري الظمآن بمجالس «شعب الإيمان، للحافظ أبي بكر أحمد بن الحسين البيهقي» (1128)<br>شعب الإيمان (10660) |

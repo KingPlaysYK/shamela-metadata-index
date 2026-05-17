@@ -17,7 +17,8 @@ const requested = JSON.parse((await fs.readFile(requestedPath, "utf8")).replace(
 await fs.mkdir(issuesDir, { recursive: true });
 
 for (const item of requested) {
-  const file = `${item.id}-${slugify(item.title)}.md`;
+  const existing = (await fs.readdir(issuesDir)).find((name) => name.startsWith(`${item.id}-`) && name.endsWith(".md"));
+  const file = existing || `${item.id}-${slugify(item.title)}.md`;
   const body = `# ${item.title}
 
 ## Goal

@@ -1,4 +1,4 @@
-# Download and process Iqd al-Farid
+# Download and process Iqd al-Farid - Ahmad Amin, Ahmad al-Zayn, and Ibrahim al-Abyari edition
 
 ## Goal
 Download, preserve, enrich metadata, validate, and index this requested source scope.
@@ -6,7 +6,7 @@ Download, preserve, enrich metadata, validate, and index this requested source s
 ## Scope
 - Scope type: single_work
 - Author/source: Ibn Abd Rabbih
-- Notes: Extract adab, history, poetry, anecdotes, wisdom, and language benefits.
+- Notes: Use the edition described as: شرح وضبط وصحح وعنون موضوعاته ورتب فهارسه أحمد أمين، أحمد الزين، إبراهيم الأبياري. Do not use a generic Iqd al-Farid text as the canonical target. If this exact edition is not present in the current Shamela catalogue, acquire it from an external reliable source before rich metadata or indexing. Extract adab, history, poetry, anecdotes, wisdom, and language benefits.
 
 ## Tasks
 - [ ] Resolve canonical Arabic names and title variants.
